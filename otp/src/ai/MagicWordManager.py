@@ -25,6 +25,7 @@ class MagicWordManager(DistributedObject.DistributedObject):
         self.csShown = 0
         self.guiPopupShown = 0
         self.texViewer = None
+return
 
     def generate(self):
         DistributedObject.DistributedObject.generate(self)
@@ -75,7 +76,7 @@ class MagicWordManager(DistributedObject.DistributedObject):
     def doMagicWord(self, word, avId, zoneId):
         wordIs = self.getWordIs(word)
 
-        print word
+        print (word)
         if wordIs("~oobe"):
             base.oobe()
         elif wordIs("~oobeCull"):
