@@ -44,7 +44,7 @@ WhisperFriendComingOnline = "%s está entrando on-line!"
 WhisperFriendLoggedOut = "%s fez logout."
 WhisperPlayerOnline = "%s on-line em %s"
 WhisperPlayerOffline = "%s está off-line."
-WhisperUnavailable = "That player is no longer available for whispers."
+WhisperUnavailable = "Aquele jogador não está disponível para cochichos."
 
 DialogSpecial = "ooo"
 DialogExclamation = "!"
@@ -72,7 +72,7 @@ ChatManagerWhisperTo = "Cochichar com:"
 ChatManagerWhisperToName = "Cochichar com:\n%s"
 ChatManagerCancel = lCancel
 ChatManagerWhisperOffline = "%s está off-line."
-OpenChatWarning = 'Você ainda não tem nenhum "Amigo secreto"! Você não pode conversar com outros Toons a menos que eles sejam seus Amigos secretos.\n\nPara se tornar Amigo secreto de alguém, clique na pessoa e selecione "Segredos" no painel de detalhes. É claro que você sempre poderá conversar com alguém pelo Chat rápido.'
+OpenChatWarning = 'Você ainda não tem nenhum "Amigo secreto"! Você não pode conversar com outros Toons a menos que eles sejam seus Amigos secretos.\n\nPara se tornar Amigo secreto de alguém, clique na pessoa e selecione "Secretos" no painel de detalhes. É claro que você sempre poderá conversar com alguém pelo Chat rápido.'
 OpenChatWarningOK = lOK
 UnpaidChatWarning = 'Depois que você assinar o serviço, poderá ativar este botão para conversar com seus amigos usando o teclado. Até lá, você deve conversar com os outros Toons usando o Chat rápido.'
 UnpaidChatWarningPay = "Assine já!"
@@ -93,7 +93,7 @@ NoSecretChatWarningWrongPassword = 'Esta não é a senha correta. Insira a senha
 NoSecretChatAtAllTitle = "Chat de Amigos secretos"
 # not sure what this should do in the new world order
 NoSecretChatAtAll = 'Para conversar com um amigo, o recurso Amigos secretos deve estar ativado. O recurso Amigos secretos só permite que um membro converse com outro mediante um código secreto que deve ser comunicado fora do jogo.\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown.'
-NoSecretChatAtAllAndNoWhitelistTitle = "Chat button"
+NoSecretChatAtAllAndNoWhitelistTitle = "Botão de Chat"
 # not sure what this should do in the new world order
 NoSecretChatAtAllAndNoWhitelist = 'You can use the blue Chat button to communicate with other Toons by using Speechat Plus or Open Chat with True Friends.\n\nSpeedchat Plus is a form of type chat that allows users to communicate by using the Disney SpeedChat Plus dictionary.\n\nOpen Chat with True Friends is a form of type chat that allows real-life friends to communicate openly with each other by means of a True Friend Code that must be communicated outside of the game.\n\nTo activate either of thse features, or to learn more about them, exit Toontown and then click on "Preferences" under Member Services on the Toontown Web site.'
 NoSecretChatAtAllOK = lOK
@@ -104,6 +104,9 @@ ActivateChatTitle = "Opções de Amigos secretos"
 WhisperToFormat = "Para %s %s"
 WhisperToFormatName = "Para %s"
 WhisperFromFormatName = "%s cochicha"
+
+ThoughtOtherFormatName = "%s pensam"
+ThoughtSelfFormatName = "Você pensa"
 
 from pandac.PandaModules import TextProperties
 from pandac.PandaModules import TextPropertiesManager
