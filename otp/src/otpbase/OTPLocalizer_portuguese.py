@@ -95,7 +95,7 @@ NoSecretChatAtAllTitle = "Chat de Amigos secretos"
 NoSecretChatAtAll = 'Para conversar com um amigo, o recurso Amigos secretos deve estar ativado. O recurso Amigos secretos só permite que um membro converse com outro mediante um código secreto que deve ser comunicado fora do jogo.\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown.'
 NoSecretChatAtAllAndNoWhitelistTitle = "Botão de Chat"
 # not sure what this should do in the new world order
-NoSecretChatAtAllAndNoWhitelist = 'You can use the blue Chat button to communicate with other Toons by using Speechat Plus or Open Chat with True Friends.\n\nSpeedchat Plus is a form of type chat that allows users to communicate by using the Disney SpeedChat Plus dictionary.\n\nOpen Chat with True Friends is a form of type chat that allows real-life friends to communicate openly with each other by means of a True Friend Code that must be communicated outside of the game.\n\nTo activate either of thse features, or to learn more about them, exit Toontown and then click on "Preferences" under Member Services on the Toontown Web site.'
+NoSecretChatAtAllAndNoWhitelist = 'You can use the blue Chat button to communicate with other Toons by using Speechat Plus or Open Chat with True Friends.\n\nSpeedchat Plus is a form of type chat that allows users to communicate by using the Disney SpeedChat Plus dictionary.\n\nOpen Chat with True Friends is a form of type chat that allows real-life friends to communicate openly with each other by means of a True Friend Code that must be communicated outside of the game.\n\nTo activate either of these features, or to learn more about them, exit Toontown and then click on "Preferences" under Member Services on the Toontown Web site.'
 NoSecretChatAtAllOK = lOK
 ChangeSecretFriendsOptions = "Alterar opções de Amigos secretos"
 ChangeSecretFriendsOptionsWarning = "\nInsira a senha de pais para alterar suas opções de Amigos secretos."
@@ -153,7 +153,7 @@ ActivateChat = """O recurso Amigos secretos só permite que um associado convers
 ActivateChatYes = "Ativar"
 ActivateChatNo = lCancel
 ActivateChatMoreInfo = "Mais informações"
-PrivacyPolicyClose = lClose
+
 PrivacyPolicyText_Intro = [
 """ 
 """
@@ -429,64 +429,9 @@ Please be assured that any personal information that you provide in communicatio
 Q8 How will you know if we amend this Privacy Policy? 
 A8 We may amend this Privacy Policy at any time. If we make any material changes in the way we collect, use, and/or share your personal information, we will notify you by sending you an e-mail at the last e-mail address that you provided us, and/or by prominently posting notice of the changes on the Web sites covered by this Privacy Policy. Any material changes to this Privacy Policy will be effective upon the earlier of thirty (30) calendar days following our dispatch of an e-mail notice to you or thirty (30) calendar days following our posting of notice of the changes on the Web sites covered by this Privacy Policy. Please note that, at all times, you are responsible for updating your personal information to provide us your current e-mail address. In the event that the last e-mail address that you have provided us is not valid, or for any other reason is not capable of delivering to you the notice described above, our dispatch of the e-mail containing such notice will nonetheless constitute effective notice of the changes described in the notice. In any event, changes to this Privacy Policy may affect our use of personal information that you provided us prior to our notification to you of the changes. If you do not wish to permit changes in our use of your information, you must notify us prior to the effective date of the changes that you wish to deactivate your account with us.
 
-The Walt Disney Internet Group is a licensee of the TRUSTe Privacy Program. If you believe that we have not responded to your inquiry or your inquiry has not been satisfactorily addressed, please contact TRUSTe at http://www.truste.org/users/users_watchdog.html.
-""",
-]
-PrivacyPolicyText_2K = [
-"""
-Updated: 11/06/2003
-
-For over than 75 years, The Walt Disney Company has taken great pride in the relationships that it has developed with its guests. In keeping with this tradition, we at the Walt Disney Internet Group are dedicated to protecting your privacy and handling any personal information we obtain from you with care and respect. This Kids' Privacy Policy is designed to answer your questions regarding our privacy policies and principles with respect to children under the age of 13.
-
-Building on our general Privacy Policy, we recognize the need to provide additional privacy protections when children visit the sites on which this Kids' Privacy Policy is posted. We explain those additional protections here in this Kids' Privacy Policy. For your convenience, this Kids' Privacy Policy uses terms that are defined in our general Privacy Policy.
-
-The Children's Online Privacy Protection Act ("COPPA") requires that we inform parents and legal guardians about how we collect, use, and disclose personal information from children under 13 years of age; and that we obtain the consent of parents and guardians in order for children under 13 years of age to use certain features of our Web sites. Below we explain how we do that for these "kids." Also, when we use the term "parent" below, we mean to include legal guardians. 
-""","""
-Q1 What types of personal information do we collect about kids? 
-Q2 How do we use and share the personal information that we have collected from kids?  
-Q3 How do we notify and obtain consent from parents for the collection of personal information from their kids? 
-Q4 How can parents access, change or delete personal information about their kids? 
-Q5 How will we notify parents if our Kids' Privacy Policy changes? 
-Q6 Who do guests contact with questions or concerns about our Kids' Privacy Policy? 
-""","""
-Q1 What types of information do we collect about kids? 
-A1 Kids can surf Disney.com and other WDIG sites, view content, and play many games without any personal information being collected. We do not collect personal information from kids unless they register on WDIG sites. Typically, kids will register in order to participate in sweepstakes or contests or to participate in a special activity. The only information we collect from kids during our registration process is a kid's first name, parent's e-mail address, kid's birth date, member name, and password. We collect birth dates to validate the ages of our guests, including kids. We do not collect any other personally identifiable information from kids during our registration process. We also will collect a kid's e-mail address from a parent for the purpose of sending the kid e-mail related to a subscription. For example, we would send Disney's Blast Gazette to a kid directly at the request of the kid's parent. Note that all sites that are directed to children under 13 are prohibited by law from conditioning a kid's participation in an online activity on the kid's providing more personal information than is reasonably necessary. 
-""","""
-We may collect personal information from parents in order to allow kids to participate in certain features located on our Web sites and within our kids' subscription products, such as Disney's Blast and Disney's Toontown Online (see A3 below for details). These features may include instant message chatting (for example, Secret Friends in Disney's Toontown Online), sending e-mail, posting on message boards, interacting with pen-pals, and other similar activities. In the course of a kid's participation in these features, a kid may also provide us additional information about himself or herself, such as the contents of his or her chat or message board postings. If a parent allows us to collect personal information about their kid, we may link certain information collected through technology (see the "Information Collected Through Technology" section of A2 of our general Privacy Policy) to that personal information.
-""","""
-Q2 How do we use and share the personally identifiable information that we have collected about kids? 
-A2 If a kid registers for a sweepstakes or contest, we use the parent's e-mail address to notify the parent of the kid's registration request (as described in detail below in A3). To personalize communications to a kid regarding a specific product (such as Disney's Blast), we may use the kid's first name combined with the parent's last name and a mailing address provided by the parent when signing up for that specific product. We may collect a kid's e-mail address from the parent in order to send the kid a newsletter, such as Disney's Blast Gazette. In addition, personal information regarding a kid may be disclosed in the course of a kid's participation in certain interactive features such as message boards and pen pal services. 
-""","""
-We do not share any information about a kid with any other member of The Walt Disney Family of Companies or with any third parties unless the disclosure is reasonably necessary: to comply with law, including, for example, to comply with a court order or subpoena; to enforce our Terms of Service, or site or game rules; or to protect the safety and security of our Guests and our Web sites.
-""","""
-Q3 How do we notify and obtain consent from parents for the collection of information from their kids? 
-A3 We send parents an e-mail when their kid registers and enters a sweepstakes or contest and we provide parents 48 hours to refuse their kid's registration and entry in the sweepstakes or contest. If the parent refuses to allow the kid's registration and entry, we delete the kid's information from our database. If we don't hear back from the parent, we assume it is acceptable for the kid to be registered and entered in the sweepstakes or contest. Once a parent permits a kid to register, the kid will be able to enter future registration-based sweepstakes or contests without any further notification to the parent. If a kid wins a sweepstakes or contest, we notify the parent at the parent's e-mail address provided to us during the registration process and request that the parent provide their postal address for purposes of delivering the prize. We may publish a winner's first name, first initial of last name, city, and state of residence on our Web sites. 
-""","""
-Before allowing a kid to use a feature of our Web sites that might result in the disclosure of the kid's information to third parties on the Internet, we require a parent's name and credit card information to confirm that the parent has given permission for the kid's participation in such features. The credit card will be charged only if the parent is signing up for a subscription service and has authorized us to charge their credit card. Otherwise the credit card information is used for real-time verification purposes to confirm that an adult is authorizing the kid's participation. The credit card information is archived in a secure manner and retained by us as evidence that we received parental consent.
-""","""
-Q4 How can parents access, change or delete personally identifiable information about their kids? 
-A4 At any time parents can refuse to permit us to collect further personal information from their kid and can request that any personal information we have collected be deleted from our records. We use two methods to allow parents to access, change, or delete the personally identifiable information that we have collected from their kids. 
-""","""
-A parent can access, change, or delete his or her kid's personal information by logging on to the kid's account at the Member Services Home Page located at http://register.go.com/go/memberservices/home. The parent will need to have their kid's member name and password. There are instructions on the Your Account home page explaining how to recover a password if the kid has forgotten it. 
-""","""
-A parent can contact our customer service department to access, change, or delete the personal information that we have collected from his or her kid by sending an e-mail to ms_support@help.go.com. Please include the kid's member name and the parent's e-mail address in the e-mail so that we can better assist you with your inquiry or request. 
-""","""
-Q5 How will we notify parents if our Kids' Privacy Policy changes? 
-A5 We may amend our Kids' Privacy Policy at any time. We will provide parents notice by e-mail of any material changes in the way we intend to collect, use, and/or share kids' personal information. Please note that, at all times, parents should update their personal information to provide us current e-mail addresses. We will apply material changes in our Kids' Privacy Policy only in conformance with applicable law, including any applicable provisions of COPPA that require parental consent.
-""","""
-Q6 Who do guests contact with questions or concerns about our Kids' Privacy Policy? 
-A6 If you need further assistance, please send an e-mail with your questions or comments to ms_support@help.go.com or write us at: 
-
-  Member Services
-  Walt Disney Internet Group
-  500 S. Buena Vista Street
-  Mail Code 7716
-  Burbank, CA 91521-7716, USA
-  You may also telephone us at 1-(877) 466-6669. (If you are not 18 years of age or older, you must have your parent or guardian's permission to call this number.) 
-
-The Walt Disney Internet Group is a licensee of the TRUSTe Privacy Program. If you believe that we have not responded to your inquiry or your inquiry has not been satisfactorily addressed, please contact TRUSTe http://www.truste.org/users/users_watchdog.html. 
-""",
-]
+The Walt Disney Internet Group is a licensee of the TRUSTe Privacy Program. If you believe that we have not responded to your inquiry or your inquiry has not been satisfactorily addressed, please contact TRUSTe at h"""]
+PrivacyPolicyText_2K = [""" """]
+PrivacyPolicyClose = lClose
 
 # SecretFriendsInfoPanel.py
 SecretFriendsInfoPanelOk = lOK
