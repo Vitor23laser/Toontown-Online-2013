@@ -33,7 +33,7 @@ DialogDoNotShowAgain = "Não\nExibir de Novo"
 
 # DistributedAvatar.py
 WhisperNoLongerFriend = "%s saiu da sua lista de amigos."
-WhisperNowSpecialFriend = "%s agora é seu amigo secreto!"
+WhisperNowSpecialFriend = "%s agora é seu amigo verdadeiro!"
 WhisperComingToVisit = "%s está vindo visitar você."
 WhisperFailedVisit = "%s tentou visitar você."
 WhisperTargetLeftVisit = "%s foi para algum outro lugar. Tente novamente!"
@@ -61,7 +61,7 @@ SCEmoteNoAccessMsg = "Você não tem acesso\na esta emoção ainda."
 SCEmoteNoAccessOK = lOK
 
 ParentLogin = "Login de Pais"
-ParentPassword = "Senha de pais"
+ParentPassword = "Senha da Conta de pais"
 
 # ChatGarbler.py
 ChatGarblerDefault = ["blá"]
@@ -72,13 +72,13 @@ ChatManagerWhisperTo = "Cochichar com:"
 ChatManagerWhisperToName = "Cochichar com:\n%s"
 ChatManagerCancel = lCancel
 ChatManagerWhisperOffline = "%s está off-line."
-OpenChatWarning = 'Você ainda não tem nenhum "Amigo secreto"! Você não pode conversar com outros Toons a menos que eles sejam seus Amigos secretos.\n\nPara se tornar Amigo secreto de alguém, clique na pessoa e selecione "Secretos" no painel de detalhes. É claro que você sempre poderá conversar com alguém pelo Chat rápido.'
+OpenChatWarning = 'Para se tornar Amigo secreto de alguém, clique na pessoa e selecione "Secretos" no painel de detalhes. É claro que você sempre poderá conversar com alguém pelo Chat rápido.'
 OpenChatWarningOK = lOK
 UnpaidChatWarning = 'Depois que você assinar o serviço, poderá ativar este botão para conversar com seus amigos usando o teclado. Até lá, você deve conversar com os outros Toons usando o Chat rápido.'
 UnpaidChatWarningPay = "Assine já!"
 UnpaidChatWarningContinue = "Continuar avaliação gratuita"
 PaidNoParentPasswordWarning = 'Depois que você definir a sua senha de pais, poderá ativar este botão para conversar com seus amigos usando o teclado. Até lá, você deve conversar com os outros Toons usando o Chat rápido.'
-UnpaidNoParentPasswordWarning = 'Once you have set your parent password, you can enable this button to chat with your friends using the keyboard. To set your parent password, exit Toontown and then click on "Preferences" under Member Services on the Toontown web page. Until then, you should chat with other Toons using SpeedChat.'
+UnpaidNoParentPasswordWarning = 'Depois de definir a senha de pais, você pode ativar este botão para conversar com seus amigos usando o teclado. Para definir a senha de pais, saia do Toontown e clique em "Preferências" em Serviços para membros na página da web de Toontown. Até lá, você deve conversar com outros Toons usando o Chat Rápido.'
 PaidNoParentPasswordWarningSet = "Definir senha de pais agora!"
 PaidNoParentPasswordWarningContinue = "Continuar jogando"
 PaidParentPasswordUKWarning = 'Depois que o Chat estiver ativado, você poderá usar este botão para conversar com seus amigos usando o teclado. Até lá, você deve conversar com os outros Toons usando o Chat rápido.'
@@ -3220,7 +3220,7 @@ AvatarDetailPanelOffline = "Região: off-line\nLocal: off-line"
 # AvatarPanel.py
 AvatarPanelFriends = "Amigos"
 AvatarPanelWhisper = "Cochichar"
-AvatarPanelSecrets = "Segredos"
+AvatarPanelSecrets = "Amigos Verdadeiros"
 AvatarPanelGoTo = "Ir para"
 AvatarPanelIgnore = "Ignorar"
 AvatarPanelStopIgnore = "Parar de Ignorar"
