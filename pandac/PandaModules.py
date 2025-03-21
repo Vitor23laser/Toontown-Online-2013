@@ -23,13 +23,13 @@ except ImportError, err:
     raise
 
 try:
-  from libdirectModules import *
+  from libp3directModules import *
 except ImportError, err:
   if "DLL loader cannot find" not in str(err):
     raise
 
 try:
-  from libvisionModules import *
+  from libp3visionModules import *
 except ImportError, err:
   if "DLL loader cannot find" not in str(err):
     raise
