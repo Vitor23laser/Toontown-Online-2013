@@ -8,7 +8,7 @@ import sys
 import ihooks
 ihooks.install()
 
-print "Initializing..."
+print ("Initializing...")
     
 from otp.ai.AIBaseGlobal import *
 import UtilityAIRepository
