@@ -163,7 +163,7 @@ class AIBase:
         self.createStats()
 
         self.restart()
-return
+        return
 
        ## ok lets over ride the time yieldFunction
         #self.MaxEpockSpeed = 1.0/60.0;        
