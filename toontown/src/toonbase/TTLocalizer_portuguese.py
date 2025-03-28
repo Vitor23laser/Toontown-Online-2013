@@ -1,10 +1,20 @@
 import string
 import time
 from toontown.toonbase.TTLocalizer_portuguese_Property import *
+from toontown.catalog import CatalogAccessoryItemGlobals
+from otp.otpbase import OTPLocalizer as OL
+OL.SpeedChatStaticText = OL.SpeedChatStaticTextToontown.copy()
+for key in OL.SpeedChatStaticTextCommon.iterkeys():
+    OL.SpeedChatStaticText[key] = OL.SpeedChatStaticTextCommon[key]
 
 # To make sure the language checker is working
 # DO NOT TRANSLATE THIS
 ExtraKeySanityCheck = "Ignore-me"
+# commit strings
+commitmanString = "bugfix! I changed this"
+commitmanSting2 = "another string!"
+
+commitmantst = 'kptmptest - removable'
 
 InterfaceFont = 'phase_3/models/fonts/ImpressBT.ttf'
 ToonFont = 'phase_3/models/fonts/ImpressBT.ttf'
@@ -47,6 +57,12 @@ NametagLabel = "Nome"
 
 UnpaidNameTag = "Basico"
 
+# GM nametags
+GM_1 = "CONSELHO TOON"
+GM_2 = "TROPA TOON"
+GM_3 = "TOON DA RESISTÊNCIA"
+GM_4 = "GC"
+
 BuildingNametagFont = 'phase_3/models/fonts/MickeyFont'
 BuildingNametagShadow = None
 
@@ -68,6 +84,8 @@ WesternPluto = "WesternPluto"
 Flippy = "Flippy"
 Chip   = "Tico"
 Dale   = "Teco"
+JailbirdDale = "JailbirdDale"
+PoliceChip = "PoliceChip"
 
 # common locations
 lTheBrrrgh = 'O Brrrgh'
@@ -77,87 +95,19 @@ lDonaldsDreamland = "Sonholândia do Donald"
 lMinniesMelodyland = "Melodilândia da Minnie"
 lToontownCentral = 'Centro de Toontown'
 lToonHQ = 'Quartel dos Toons'
-lSellbotHQ = 'Sellbot HQ'
+lSellbotHQ = 'Quartel do Robô Vendedor'
 lGoofySpeedway = "Autódromo do Pateta"
 lOutdoorZone = "Bosque de Bolotas de Tico e Teco"
 lGolfZone = "Minigolfe de Tico e Teco"
-lPartyHood = "Party Grounds"
+lPartyHood = "Terra das Festas"
 
 lGagShop = 'Loja de Piadas'
 lClothingShop = 'Loja de Roupas'
 lPetShop = 'Loja de Animais'
 
-# common strings
-lCancel = 'Cancelar'
-lClose = 'Fechar'
-lOK = 'OK'
-lNext = 'Próximo'
-lQuit = 'Sair'
-lYes = 'Sim'
-lNo = 'Não'
-lBack = 'Voltar'
-
-sleep_auto_reply = "%s is sleeping right now"
-lHQ = 'Oficial'
-
-lHQOfficerF = 'Oficial do Quartel'
-lHQOfficerM = 'Oficial do Quartel'
-
-MickeyMouse = "Mickey Mouse"
-
-AIStartDefaultDistrict = "Vila dos Idiotas"
-
-Cog  = "Cog"
-Cogs = "Cogs"
-ACog = "um Cog"
-TheCogs = "os Cogs"
-ASkeleton = "um Esqueletocog"
-Skeleton = "Esqueletocogs"
-SkeletonP = "Esqueletocogs"
-Av2Cog = "um Cog Versão 2.0"
-v2Cog = "Cog Versão 2.0"
-v2CogP = "Cogs Versão 2.0"
-ASkeleton = "um Esqueletocog"
-Foreman = "Supervisor da fábrica"
-ForemanP = "Supervisores da fábrica"
-AForeman = "um Supervisor da fábrica"
-CogVP = Cog + " VP"
-CogVPs = "Cogs VPs"
-ACogVP = ACog + " VP"
-Supervisor = "Supervisor da Casa da Moeda"
-SupervisorP = "Supervisores da Casa da Moeda"
-ASupervisor = "um Supervisor da Casa da Moeda"
-CogCFO = Cog + "Diretor Financeiro"
-CogCFOs = "Diretores Financeiros Cogs"
-ACogCFO = ACog + "Diretor Financeiro"
-
-# AvatarDNA.py
-Bossbot = "Robô-chefe"
-Lawbot = "Robô da Lei"
-Cashbot = "Robô Mercenário"
-Sellbot = "Robô Vendedor"
-BossbotS = "um Robô-chefe"
-LawbotS = "um Robô da Lei"
-CashbotS = "um Robô Mercenário"
-SellbotS = "um Robô Vendedor"
-BossbotP = "Robôs-chefe"
-LawbotP = "Robôs da Lei"
-CashbotP = "Robôs Mercenários"
-SellbotP = "Robôs Vendedores"
-BossbotSkelS = "um Esqueletocog %s" % (Bossbot)
-LawbotSkelS = "um Esqueletocog %s" % (Lawbot)
-CashbotSkelS = "um Esqueletocog %s" % (Cashbot)
-SellbotSkelS = "um Esqueletocog %s" % (Sellbot)
-BossbotSkelP = "Esqueletocogs %s" % (BossbotP)
-LawbotSkelP = "Esqueletocogs %s" % (LawbotP)
-CashbotSkelP = "Esqueletocogs %s" % (CashbotP)
-SellbotSkelP = "Esqueletocogs %s" % (SellbotP)
-SkeleRevivePostFix = " v2.0"
-
 lBossbotHQ = 'Quartel do Robô-chefe'
 lLawbotHQ = 'Quartel do Robô da Lei'
 lCashbotHQ = 'Quartel do Robô Mercenário'
-lSellbotHQ = 'Quartel do Robô Vendedor'
 lTutorial = 'Toon-torial'
 lMyEstate = 'sua casa'
 lWelcomeValley = 'Vale Boas-vindas'
@@ -194,24 +144,24 @@ GlobalStreetNames = {
     9000  : ("para o",  "no", "Parque"),
     9100  : ("para a",  "na", "Travessa da Canção de Ninar"),
     9200  : ("para o",  "no", "Pedaço do Pijama"),
-    10000 : ("","", ""),
+    10000 : ("para o", "no", "Clube de Campo do "+lBossbotHQ),
     10100 : ("para o",  "no", "Salão do "+lBossbotHQ),
     10200 : ("para a", "na", "Sede do Clube"),
     10500 : ("para o", "no", "Três da Frente"),
     10600 : ("para o", "no", "Seis do Meio"),
     10700 : ("para o", "no", "Nove de Trás"),
-    11000 : ("","", ""),
+    11000 : ("para o",  "no", "Pátio do "+lSellbotHQ),
     11100 : ("para o",  "no", "Salão do "+lSellbotHQ),
-    11200 : ("para a",  "na", "Fábrica do "+Sellbot),
-    11500 : ("para a",  "na", "Fábrica do "+Sellbot),
-    12000 : ("","", ""),
+    11200 : ("para a",  "na", "Fábrica do Robô Vendedor"),
+    11500 : ("para a",  "na", "Fábrica do Robô Vendedor"),
+    12000 : ("para a", "no", "Pátio de Tren do "+lCashbotHQ),
     12100 : ("para o",  "no", "Salão do "+lCashbotHQ),
     12500 : ("para a",  "na", "Casa da Moeda"),
     12600 : ("para a",  "na", "Casa da Moeda de Dólar"),
     12700 : ("para a",  "na", "Casa da Moeda de Barras de Ouro"),
-    13000 : ("","", ""),
+    13000 : ("para o", "no", "Pátio de Tribunal do "+lLawbotHQ),
     13100 : ("para o",  "no", "Salão do "+lLawbotHQ),
-    13200 : ("para o", "no", "Lobby do Escritório do Promotor"),
+    13200 : ("para o", "no", "Salão do Escritório do Promotor"),
     13300 : ("para o", "no", "Escritório da Lei A"),
     13400 : ("para o", "no", "Escritório da Lei B"),
     13500 : ("para o", "no", "Escritório da Lei C"),
@@ -246,8 +196,8 @@ Office = 'Escritório'
 
 FactoryNames = {
     0 : 'Molde da fábrica',
-    11500 : 'Fábrica do Cog '+Sellbot,
-    13300 : 'Escritório de Cogs Policiais', #remove me JML
+    11500 : 'Fábrica do Robô Vendedor Cog',
+    13300 : 'Escritório dos Robôs da Lei Cogs', #remove me JML
     }
 
 FactoryTypeLeg = 'Perna'
@@ -759,30 +709,30 @@ QuestDialog_2910 = {
 
 QuestDialogDict = {
     160 : {GREETING : "",
-           QUEST : "Ok, agora acho que você está pronto para um desafio maior.\aDerrote 3 Robôs-chefe.",
-           INCOMPLETE_PROGRESS : "Os "+ Cogs +" estão soltos pelas ruas e pelos túneis.",
-           INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs-chefe. Vá agora para o Quartel dos Toons para receber sua recompensa!",
+           QUEST : "Ok, agora acho que você está pronto para algo mais recompensador.\aSe você pode derrotar 3 Robôs-chefe eu vou dar um pequeno bônus.",
+           INCOMPLETE_PROGRESS : TheCogs+" estão soltos pelas ruas e pelos túneis.",
+           INCOMPLETE_WRONG_NPC : "Bom trabalho derrontando aqueles Cogs. Vá agora para o Quartel dos Toons para próxima etapa",
            COMPLETE : QuestsDefaultComplete,
            LEAVING : QuestsDefaultLeaving,
            },
     161 : {GREETING : "",
-           QUEST : "Ok, agora acho que você está pronto para um desafio maior.\aDerrote 3 Robôs da Lei.",
-           INCOMPLETE_PROGRESS : "Os "+ Cogs +" estão soltos pelas rua e pelos túneis.",
-           INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs da Lei. Vá agora para o Quartel dos Toons para receber sua recompensa!",
+           QUEST : "Ok, agora acho que você está pronto para algo mais recompensador.\aVolta depois você precisa derrotar 3 Robôs da Lei e eu tenho algo para você.",
+           INCOMPLETE_PROGRESS : TheCogs+" estão soltos pelas ruas e pelos túneis.",
+           INCOMPLETE_WRONG_NPC : "Bom trabalho derrontando aqueles Cogs. Vá agora para o Quartel dos Toons para próxima etapa",
            COMPLETE : QuestsDefaultComplete,
            LEAVING : QuestsDefaultLeaving,
            },
     162 : {GREETING : "",
-           QUEST : "Ok, agora acho que você está pronto para um desafio maior.\aDerrote 3 Robôs Mercenários.",
-           INCOMPLETE_PROGRESS : "Os "+ Cogs +" estão soltos pelas ruas e pelos túneis.",
-           INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs Mercenários. Vá agora para o Quartel dos Toons para receber sua recompensa!",
+           QUEST : "Ok, agora acho que você está pronto para algo mais recompensador.\aDerrote 3 Robôs Mercenários e volta aqui para coletar a sua recompensa.",
+           INCOMPLETE_PROGRESS : TheCogs+" estão soltos pelas ruas e pelos túneis.",
+           INCOMPLETE_WRONG_NPC : "Bom trabalho derrontando aqueles Cogs. Vá agora para o Quartel dos Toons para próxima etapa",
            COMPLETE : QuestsDefaultComplete,
            LEAVING : QuestsDefaultLeaving,
            },
     163 : {GREETING : "",
-           QUEST : "Ok, agora acho que você está pronto para um desafio maior.\aDerrote 3 Robôs Vendedores.",
-           INCOMPLETE_PROGRESS : "Os "+ Cogs +" estão soltos pelas ruas e pelos túneis.",
-           INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs Vendedores. Vá agora para o Quartel dos Toons para receber sua recompensa!",
+           QUEST : "Ok, agora acho que você está pronto para algo mais recompensador.\aVenha nos ver depois de você derrotar 3 Robôs Vendedores e vamos decidir ganchar você acima.",
+           INCOMPLETE_PROGRESS : TheCogs+" estão soltos pelas ruas e pelos túneis.",
+           INCOMPLETE_WRONG_NPC : "Bom trabalho derrontando aqueles Cogs. Vá agora para o Quartel dos Toons para próxima etapa",
            COMPLETE : QuestsDefaultComplete,
            LEAVING : QuestsDefaultLeaving,
            },
@@ -2362,7 +2312,7 @@ QuestDialogDict = {
     12032 : { GREETING : "",
               LEAVING : "",
               QUEST : "Você precisa contar ao Flippy sobre isso...",
-              INCOMPLETE_PROGRESS : "Flippy está no Toon Hall",
+              INCOMPLETE_PROGRESS : "Flippy está na Prefeitoona",
               COMPLETE : "Um novo tipo de Cog!\aBom trabalho!\aAqui está sua última peça de disfarce.  ",
               },
  }
@@ -2378,6 +2328,29 @@ ChatGarblerMonkey = ["ooh", "ooo", "ahh"]
 ChatGarblerBear = ["grrrau", "grrr"]
 ChatGarblerPig = ["oinc", "oic", "rrroinc"]
 ChatGarblerDefault = ["blá"]
+
+# AvatarDNA.py
+Bossbot = "Robô-chefe"
+Lawbot = "Robô da Lei"
+Cashbot = "Robô Mercenário"
+Sellbot = "Robô Vendedor"
+BossbotS = "um Robô-chefe"
+LawbotS = "um Robô da Lei"
+CashbotS = "um Robô Mercenário"
+SellbotS = "um Robô Vendedor"
+BossbotP = "Robôs-chefe"
+LawbotP = "Robôs da Lei"
+CashbotP = "Robôs Mercenários"
+SellbotP = "Robôs Vendedores"
+BossbotSkelS = "um Esqueletocog %s" % (Bossbot)
+LawbotSkelS = "um Esqueletocog %s" % (Lawbot)
+CashbotSkelS = "um Esqueletocog %s" % (Cashbot)
+SellbotSkelS = "um Esqueletocog %s" % (Sellbot)
+BossbotSkelP = "Esqueletocogs %s" % (BossbotP)
+LawbotSkelP = "Esqueletocogs %s" % (LawbotP)
+CashbotSkelP = "Esqueletocogs %s" % (CashbotP)
+SellbotSkelP = "Esqueletocogs %s" % (SellbotP)
+SkeleRevivePostFix = " v2.0"
 
 # AvatarDetailPanel.py
 AvatarDetailPanelOK = lOK
@@ -2435,6 +2408,7 @@ ReportPanelCategoryLanguage = "Linguagem Rude"
 ReportPanelCategoryPii = "Compartilhar/Solicitar Informações Pessoais"
 ReportPanelCategoryRude = "Comportamento Rude ou Mau"
 ReportPanelCategoryName = "Nome Ruim"
+ReportPanelCategoryHacking = "Hackeando"
 
 ReportPanelConfirmations = (
     "Você está prestes a denunciar que %s usou linguagem obscena, intolerante, preconceituosa ou sexualmente explícita.",
@@ -6159,7 +6133,7 @@ MakeAToonEnterTutorial = "Acessar Toontorial"
 MakeAToonDone = lOK
 MakeAToonCancel = lCancel
 MakeAToonNext = lNext
-MakeAToonLast = lBack
+MakeAToonLast = Voltar
 CreateYourToon = "Clique nas setas para criar o seu Toon."
 CreateYourToonTitle = "Crie o seu Toon"
 ShapeYourToonTitle = "Selecione o Tipo"
@@ -6542,9 +6516,231 @@ CatalogItemTypeNames = {
     15: GardenStarterTypeName, 
     16: NametagTypeName, 
     17: "TOON_STATUE_ITEM",
-    18: "ANIMATED_FURNITURE_ITEM",    
-}   
+    18: "ANIMATED_FURNITURE_ITEM",
+    19: AccessoryTypeName,
+}
+	
+HatStylesDescriptions = {
+    'hbb1' : "Boné de beisebol Verde",
+    'hbb2' : "Boné de beisebol Azul",
+    'hbb3' : "Boné de beisebol Laranja",
+    'hsf1' : "Beige Safari Chapéu",
+    'hsf2' : "Marrom Safari Chapéu",
+    'hsf3' : "Verde Safari Chapéu",
+    'hrb1' : "Pink Bow",
+    'hrb2' : "Red Bow",
+    'hrb3' : "Purple Bow",
+    'hht1' : "Pink Heart",
+    'hht2' : "Yellow Heart",
+    'htp1' : "Black Top Chapéu",
+    'htp2' : "Blue Top Chapéu",
+    'hav1' : "Anvil Chapéu",
+    'hfp1' : "Flower Chapéu",
+    'hsg1' : "Sandbag Chapéu",
+    'hwt1' : "Weight Chapéu",
+    'hfz1' : "Fez Chapéu",
+    'hgf1' : "Golf Chapéu",
+    'hpt1' : "Party Chapéu",
+    'hpt2' : "Toon Party Chapéu",
+    'hpb1' : "Fancy Chapéu",
+    'hcr1' : "Crown",
+    'hcw1' : "Cowboy Chapéu",
+    'hpr1' : "Pirate Chapéu",
+    'hpp1' : "Propeller Chapéu",
+    'hfs1' : "Fishing Chapéu",
+    'hsb1' : "Sombrero Chapéu",
+    'hst1' : "Straw Chapéu",
+    'hsu1' : "Sun Chapéu",
+    'hrb4' : "Yellow Bow",
+    'hrb5' : "Checker Bow",
+    'hrb6' : "Light Red Bow",
+    'hrb7' : "Rainbow Bow",
+    'hat1' : "Antenna Thingy",
+    'hhd1' : "Beehive Hairdo",
+    'hbw1' : "Bowler Chapéu",
+    'hch1' : "Chef Chapéu",
+    'hdt1' : "Detective Chapéu",
+    'hft1' : "Fancy Feathers Chapéu",
+    'hfd1' : "Fedora",
+    'hmk1' : "Mickey's Band Chapéu",
+    'hft2' : "Feather Headband",
+    'hhd2' : "Pompadour Hairdo",
+    'hpc1' : "Princess Chapéu",
+    'hrh1' : "Archer Chapéu",
+    'hhm1' : "Roman Helmet",
+    'hat2' : "Spider Antenna Thingy",
+    'htr1' : "Tiara",
+    'hhm2' : "Viking Helmet",
+    'hwz1' : "Witch Chapéu",
+    'hwz2' : "Wizard Chapéu",
+    'hhm3' : "Conquistador Helmet",
+    'hhm4' : "Firefighter Helmet",
+    'hfp2' : "Anti-Cog Control Chapéu",
+    'hhm5' : "Miner Chapéu",
+    'hnp1' : "Napoleon Chapéu",
+    'hpc2' : "Pilot Cap",
+    'hph1' : "Cop Chapéu",
+    'hwg1' : "Rainbow Wacky Wig",
+    'hbb4' : "Yellow Boné de beisebol",
+    'hbb5' : "Red Boné de beisebol",
+    'hbb6' : "Aqua Boné de beisebol",
+    'hsl1' : "Sailor Chapéu",
+    'hfr1' : "Samba Chapéu",
+    'hby1' : "Bobby Chapéu",
+    'hrb8' : "Pink Dots Bow",
+    'hjh1' : "Jester Chapéu",
+    'hbb7' : "Purple Boné de beisebol",
+    'hrb9' : "Verde Checker Bow",
+    'hwt2' : "Winter Chapéu",
+    'hhw1' : "Bandana",
+    'hhw2' : "Toonosaur Chapéu",
+    'hob1' : "Jamboree Chapéu",
+    'hbn1' : "Chapéu de passaro por Brianna",
+    }
 
+GlassesStylesDescriptions = {
+    'grd1' : "Round Óculos",
+    'gmb1' : "White Mini Blinds",
+    'gnr1' : "Purple Narrow Óculos",
+    'gst1' : "Yellow Star Óculos",
+    'g3d1' : "Óculos de Filme",
+    'gav1' : "Aviator",
+    'gce1' : "Cateye Óculos",
+    'gdk1' : "Nerd Óculos",
+    'gjo1' : "Celebrity Shades",
+    'gsb1' : "Máscara de Mergulho",
+    'ggl1' : "Óculos top",
+    'ggm1' : "Óculos de Groucho",
+    'ghg1' : "Heart Óculos",
+    'gie1' : "Bug Eye Óculos",
+    'gmt1' : "Black Secret ID Mask",
+    'gmt2' : "Blue Secret ID Mask",
+    'gmt3' : "Blue Carnivale Mask",
+    'gmt4' : "Purple Carnivale Mask",
+    'gmt5' : "Aqua Carnivale Mask",
+    'gmn1' : "Monocle",
+    'gmo1' : "Smooch Óculos",
+    'gsr1' : "Square Frame Óculos",
+    'ghw1' : "Skull Eyepatch",
+    'ghw2' : "Gem Eyepatch",
+    'gag1' : "Alien Eyes by Alexandra",
+    }
+
+BackpackStylesDescriptions = {
+    'bpb1' : "Blue Backpack",
+    'bpb2' : "Orange Backpack",
+    'bpb3' : "Purple BackPack",
+    'bpd1' : "Red Dot Backpack",
+    'bpd2' : "Yellow Dot Backpack",
+    'bwg1' : "Bat Wings",
+    'bwg2' : "Bee Wings",
+    'bwg3' : "DragonFly Wings",
+    'bst1' : "Scuba Tank",
+    'bfn1' : "Shark Fin",
+    'baw1' : "White Angel Wings",
+    'baw2' : "Rainbow Angel Wings",
+    'bwt1' : "Toys Backpack",
+    'bwg4' : "Butterfly Wings",
+    'bwg5' : "Pixie Wings",
+    'bwg6' : "Dragon Wings",
+    'bjp1' : "Jet Pack",
+    'blg1' : "Bug Backpack",
+    'bsa1' : "Plush Bear Pack",
+    'bwg7' : "Bird wings",
+    'bsa2' : "Plush Cat Pack",
+    'bsa3' : "Plush Dog Pack",
+    'bap1' : "Airplane Wings",
+    'bhw1' : "Pirate Sword",
+    'bhw2' : "Super Toon Cape",
+    'bhw3' : "Vampire Cape",
+    'bhw4' : "Toonosaur Backpack",
+    'bob1' : "Jamboree Pack",
+    'bfg1' : "Gag Attack Pack",
+    'bfl1' : "Cog Pack by Savanah",
+    }
+
+ShoesStylesDescriptions = {
+    'sat1' : "Verde Athletic Shoes",
+    'sat2' : "Red Athletic Shoes",
+    'smb1' : "Verde Toon Boots",
+    'scs1' : "Verde Sneakers",
+    'swt1' : "Wingtips",
+    'smj1' : "Black Fancy Shoes",
+    'sdk1' : "Boat Shoes",
+    'sat3' : "Yellow Athletic Shoes",
+    'scs2' : "Black Sneakers",
+    'scs3' : "White Sneakers",
+    'scs4' : "Pink Sneakers",
+    'scb1' : "Cowboy Boots",
+    'sfb1' : "Purple Boots",
+    'sht1' : "Verde Hi Top Sneakers",
+    'smj2' : "Marrom Fancy Shoes",
+    'smj3' : "Red Fancy Shoes",
+    'ssb1' : "Red Super Toon Boots",
+    'sts1' : "Verde Tennis Shoes",
+    'sts2' : "Pink Tennis Shoes",
+    'scs5' : "Red Sneakers",
+    'smb2' : "Aqua Toon Boots",
+    'smb3' : "Marrom Toon Boots",
+    'smb4' : "Yellow Toon Boots",
+    'sfb2' : "Blue Square Boots",
+    'sfb3' : "Verde Hearts Boots",
+    'sfb4' : "Cinza Dots Boots",
+    'sfb5' : "Orange Stars Boots",
+    'sfb6' : "Pink Stars Boots",
+    'slf1' : "Loafers",
+    'smj4' : "Purple Fancy Shoes",
+    'smt1' : "Motorcycle Boots",
+    'sox1' : "Oxfords",
+    'srb1' : "Pink Rain Boots",
+    'sst1' : "Jolly Boots",
+    'swb1' : "Beige Winter Boots",
+    'swb2' : "Pink Winter Boots",
+    'swk1' : "Work Boots",
+    'scs6' : "Yellow Sneakers",
+    'smb5' : "Pink Toon Boots",
+    'sht2' : "Pink Hi Top Sneakers",
+    'srb2' : "Red Dots Rain Boots",
+    'sts3' : "Purple Tennis Shoes",
+    'sts4' : "Violet Tennis Shoes",
+    'sts5' : "Yellow Tennis Shoes",
+    'srb3' : "Blue Rain Boots",
+    'srb4' : "Yellow Rain Boots",
+    'sat4' : "Black Athletic Shoes",
+    'shw1' : "Pirate Shoes",
+    'shw2' : "Toonosaur Feet",
+    }
+
+AccessoryNamePrefix = {
+    0 : "chapéu de unissex ",
+    1 : "óculos de unissex ",
+    2 : "mochila de unissex ",
+    3 : "sapatos de unissex ",
+    4 : "chapéu de menino ",
+    5 : "óculos de menino ",
+    6 : "mochila de menino ",
+    7 : "sapatos de menino ",
+    8 : "chapéu de menina ",
+    9 : "óculos de menina ",
+    10 : "mochila de menina ",
+    11 : "sapatos de menina ",
+    }
+
+AwardManagerAccessoryNames = {}
+AccessoryTypeNames = {}
+for accessoryId in list(CatalogAccessoryItemGlobals.AccessoryTypes.keys()):
+    accessoryInfo = CatalogAccessoryItemGlobals.AccessoryTypes[accessoryId]
+    if accessoryInfo[0] % 4 == 0:
+        accessoryStyleDescription = HatStylesDescriptions
+    elif accessoryInfo[0] % 4 == 1:
+        accessoryStyleDescription = GlassesStylesDescriptions
+    elif accessoryInfo[0] % 4 == 2:
+        accessoryStyleDescription = BackpackStylesDescriptions
+    else:
+        accessoryStyleDescription = ShoesStylesDescriptions
+    if accessoryInfo[3]:
+        AwardManagerAccessoryNames[accessoryId] = AccessoryNamePrefix[accessoryInfo[0]] + accessoryStyleDescription[accessoryInfo[1]]
+    AccessoryTypeNames[accessoryId] = accessoryStyleDescription[accessoryInfo[1]]
 
 # Make sure this is in sync with ToonDNA.ShirtStyles
 ShirtStylesDescriptions = {
