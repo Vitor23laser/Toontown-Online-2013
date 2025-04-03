@@ -26,8 +26,8 @@ textures-power-2 down
 
 # loader settings
 load-file-type toontown
-dc-file phase_3/etc/toon.dc
-dc-file phase_3/etc/otp.dc
+dc-file $TOONTOWN$/src/configfiles/toon.dc
+dc-file $OTP$/src/configfiles/otp.dc
 aux-display pandadx9
 aux-display pandadx8
 aux-display pandadx7
@@ -40,6 +40,13 @@ ssl-certificates phase_3/etc/certificates.txt
 ssl-certificates phase_3/etc/gameserver.txt
 expected-ssl-server /O=Disney Enterprises/OU=WDIG/CN=account.toontown.com
 expected-ssl-server /O=Disney Enterprises/OU=WDIG/CN=gameserver.toontown.com
+expected-ssl-server /O=Disney Enterprises/OU=WDIG/CN=account.qa.toontown.com
+expected-ssl-server /O=Disney Enterprises/OU=WDIG/CN=gameserver.qa.toontown.com
+expected-ssl-server /O=Disney Enterprises/OU=WDIG/CN=account.test.toontown.com
+expected-ssl-server /O=Disney Enterprises/OU=WDIG/CN=gameserver.test.toontown.com
+
+# This is the new toontown.go.com's section
+expected-ssl-server /O=Disney Enterprises/OU=DOS/CN=toontown.go.com
 collect-tcp 1
 collect-tcp-interval 0.2
 
