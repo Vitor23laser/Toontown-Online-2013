@@ -5,7 +5,7 @@
 chan-config-sanity-check #f
 window-title Toontown
 require-window 0
-language english #portuguese #
+language english #portuguese #japanese #spanish #german #france
 icon-filename toontown.ico
 
 cull-bin shadow 15 fixed
