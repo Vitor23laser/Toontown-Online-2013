@@ -61,7 +61,7 @@ SCEmoteNoAccessMsg = "Você não tem acesso\na esta emoção ainda."
 SCEmoteNoAccessOK = lOK
 
 ParentLogin = "Login de Pais"
-ParentPassword = "senha da conta de pais"
+ParentPassword = "Senha da conta de pais"
 
 # ChatGarbler.py
 ChatGarblerDefault = ["blá"]
@@ -234,7 +234,7 @@ LeaveToEnableChatUKNo = lCancel
 ChatMoreInfoOK = lOK
 SecretChatDeactivated = 'O recurso "Amigos secretos" foi desativado.'
 RestrictedSecretChatActivated = 'O recurso "Amigos secretos restritos" foi ativado!'
-SecretChatActivated = 'O sistema "Amigos secretos" foi ativado!'
+SecretChatActivated = 'O recurso "Amigos secretos" foi ativado!'
 SecretChatActivatedOK = lOK
 SecretChatActivatedChange = "Alterar Opções"
 ProblemActivatingChat = 'Ops! Não foi possível ativar o recurso de chat "Amigos secretos".\n\n%s\n\nTente novamente mais tarde.'
@@ -385,7 +385,7 @@ SCMenuBattleStrategy = "ESTRATÉGIA"
 SCMenuBoardingGroup = "ABORDAGEM"
 SCMenuParties = "FESTAS"
 SCMenuAprilToons = "DIA DA MENTIRA DOS TOONS"
-SCMenuSingingGroup = "SINGIG"
+SCMenuSingingGroup = "CANTANDO"
 SCMenuSillyHoliday = "MEDIDOR DE BOBAGEM"
 SCMenuVictoryParties = "FESTAS DAS VITÓRIAS"
 
