@@ -17,9 +17,7 @@ commitmantst = "kptmptest - removable"
 
 InterfaceFont = 'phase_3/models/fonts/ImpressBT.ttf'
 ToonFont = 'phase_3/models/fonts/ImpressBT.ttf'
-#SuitFont = 'phase_3/models/fonts/vtRemingtonPortable.ttf'
-# Not really sure why Brazil changed the suit font that late in the game,
-# for the moment the change will still be included. ~Bob
+#Suit
 SuitFont = 'phase_3/models/fonts/HGHanKointai.ttc'
 SignFont = 'phase_3/models/fonts/MickeyFont'
 MinnieFont = 'phase_3/models/fonts/MinnieFont'
