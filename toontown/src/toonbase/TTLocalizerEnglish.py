@@ -10662,6 +10662,170 @@ FishSpeciesNames = {
     34 : ( "Devil Ray",
            ),
     }
+FishFirstNames = (
+    "",
+    "Angel",
+    "Artic",
+    "Baby",
+    "Bermuda",
+    "Big",
+    "Brooke",
+    "Bubbles",
+    "Buster",
+    "Candy",
+    "Captain",
+    "Chip",
+    "Chub",
+    "Coral",
+    "Doctor",
+    "Dusty",
+    "Emperor",
+    "Fangs",
+    "Fat",
+    "Fishy",
+    "Flipper",
+    "Flounder",
+    "Freckles",
+    "Honey",
+    "Jack",
+    "King",
+    "Little",
+    "Marlin",
+    "Miss",
+    "Mister",
+    "Peaches",
+    "Pinky",
+    "Prince",
+    "Princess",
+    "Professor",
+    "Puffy",
+    "Queen",
+    "Rainbow",
+    "Ray",
+    "Rosy",
+    "Rusty",
+    "Salty",
+    "Sam",
+    "Sandy",
+    "Scales",
+    "Sharky",
+    "Sir",
+    "Skippy",
+    "Slipper",
+    "Snapper",
+    "Speck",
+    "Spike",
+    "Spotty",
+    "Star",
+    "Sugar",
+    "Super",
+    "Tiger",
+    "Tiny",
+    "Whiskers",
+    )
+
+FishLastPrefixNames = (
+    "",
+    "Beach",
+    "Black",
+    "Blue",
+    "Boar",
+    "Bull",
+    "Cat",
+    "Deep",
+    "Double",
+    "East",
+    "Fancy",
+    "Flaky",
+    "Flat",
+    "Fresh",
+    "Giant",
+    "Gold",
+    "Golden",
+    "Gray",
+    "Green",
+    "Hog",
+    "Jabber",
+    "Jelly",
+    "Lady",
+    "Leather",
+    "Lemon",
+    "Long",
+    "Northern",
+    "Ocean",
+    "Octo",
+    "Oil",
+    "Pearl",
+    "Puff",
+    "Red",
+    "Ribbon",
+    "River",
+    "Rock",
+    "Ruby",
+    "Rudder",
+    "Salt",
+    "Sea",
+    "Silver",
+    "Snorkel",
+    "Sole",
+    "Southern",
+    "Spikey",
+    "Surf",
+    "Sword",
+    "Tiger",
+    "Triple",
+    "Tropical",
+    "Tuna",
+    "Wave",
+    "Weak",
+    "West",
+    "White",
+    "Yellow",
+    )
+
+FishLastSuffixNames = (
+    "",
+    "ball",
+    "bass",
+    "belly",
+    "bug",
+    "burglar",
+    "butter",
+    "claw",
+    "cobbler",
+    "crab",
+    "croaker",
+    "drum",
+    "fin",
+    "fish",
+    "flapper",
+    "flipper",
+    "ghost",
+    "grunt",
+    "head",
+    "jacket",
+    "jumper",
+    "mackerel",
+    "moon",
+    "mouth",
+    "mullet",
+    "neck",
+    "nose",
+    "perch",
+    "roughy",
+    "runner",
+    "sail",
+    "shark",
+    "shell",
+    "silk",
+    "slime",
+    "snapper",
+    "stink",
+    "tail",
+    "toad",
+    "trout",
+    "water",
+    )
 
 CogPartNames = (
     "Upper Left Leg", "Lower Left Leg", "Left Foot",
@@ -11660,6 +11824,53 @@ PartyRewardDoubledJellybean = "Double Jellybeans!"
 
 GrandPrixWeekendHolidayStart = "It's Grand Prix Weekend at Goofy Speedway! Free and paid players collect the most points in three consecutive races."
 GrandPrixWeekendHolidayEnd = "That's all for Grand Prix Weekend. See you next year."
+
+KartRace_DoubleTickets = "Double Tickets"
+
+SellbotNerfHolidayStart = "Operation: Storm Sellbot is happening now! Battle the VP today!"
+SellbotNerfHolidayEnd = "Operation: Storm Sellbot has ended. Great work, Toons!"
+
+LawbotNerfHolidayStart = "Operation: Lawbots Lose is happening now! Battle the CJ today!"
+LawbotNerfHolidayEnd = "Operation: Lawbots Lose has ended. Great work, Toons!"
+
+JellybeanTrolleyHolidayStart = "Double Bean Days for Trolley Games have begun!"
+JellybeanTrolleyHolidayEnd = "Double Bean Days for Trolley Games have ended!"
+
+JellybeanFishingHolidayStart = "Double Bean Days for Fishing have begun!"
+JellybeanFishingHolidayEnd = "Double Bean Days for Fishing have ended!"
+
+JellybeanPartiesHolidayStart = "It's Jellybean Week! Get Double Jellybean rewards!"
+JellybeanPartiesHolidayEnd = "That's all for Jellybean Week. See you next year."
+
+JellybeanMonthHolidayStart = "Celebrate Toontown with double beans, Cattlelog items and silly surprises!"
+
+BankUpgradeHolidayStart = "Something Toontastic happened to your Jellybean Bank!"
+
+HalloweenPropsHolidayStart = "It's Halloween in Toontown!"
+HalloweenPropsHolidayEnd = "Halloween has ended. Boo!"
+
+SpookyPropsHolidayStart = "The Silly Meter spins Toontown into spooky mode!"
+
+BlackCatHolidayStart = "Create a Black Cat - Today only!"
+BlackCatHolidayEnd = "Black Cat day has ended!"
+
+SpookyBlackCatHolidayStart = "Friday 13th means a Black Cat blast!"
+
+TopToonsMarathonStart = "The Top Toons New Year's Day Marathon has begun!"
+TopToonsMarathonEnd = "The Top Toons New Year's Day Marathon has ended."
+
+WinterDecorationsStart = "It's Winter Holiday time in Toontown!"
+WinterDecorationsEnd = "Winter Holiday is over - Happy New Year!"
+
+WackyWinterDecorationsStart = "Brrr! The Silly Meter goes from silly to chilly!"
+
+WinterCarolingStart = "Caroling has come to Toontown. Sing for your Snowman Head - see the Blog for details!"
+
+ExpandedClosetsStart = "Attention Toons: For a limited time, Members can purchase the new 50 item Closet from the Cattlelog for the low price of 50 jellybeans!"
+
+KartingTicketsHolidayStart = "Get double tickets from Practice races at Goofy Speedway today!"
+
+IdesOfMarchStart = "Toons go GREEN!"
 
 LogoutForced = "You have done something wrong\n and are being logged out automatically,\n additionally your account may be frozen.\n Try going on a walk outside, it is fun."
 
