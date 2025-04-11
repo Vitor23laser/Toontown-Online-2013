@@ -99,37 +99,6 @@ lOutdoorZone = "Bosque de Bolotats de Tico e Teco"
 lGolfZone = "Minigolfe de Tico e Teco"
 lPartyHood = "Terra das Festas"
 
-# AvatarDNA.py
-Bossbot = "Robô-chefe"
-Lawbot = "Robô da Lei"
-Cashbot = "Robô Mercenário"
-Sellbot = "Robô Vendedor"
-BossbotS = "um Robô-chefe"
-LawbotS = "um Robô da Lei"
-CashbotS = "um Robô Mercenário"
-SellbotS = "um Robô Vendedor"
-BossbotP = "Robôs-chefe"
-LawbotP = "Robôs da Lei"
-CashbotP = "Robôs Mercenários"
-SellbotP = "Robôs Vendedores"
-BossbotSkelS = "um Esqueletocog %s" % (Bossbot)
-LawbotSkelS = "um Esqueletocog %s" % (Lawbot)
-CashbotSkelS = "um Esqueletocog %s" % (Cashbot)
-SellbotSkelS = "um Esqueletocog %s" % (Sellbot)
-BossbotSkelP = "Esqueletocogs %s" % (BossbotP)
-LawbotSkelP = "Esqueletocogs %s" % (LawbotP)
-CashbotSkelP = "Esqueletocogs %s" % (CashbotP)
-SellbotSkelP = "Esqueletocogs %s" % (SellbotP)
-SkeleRevivePostFix = " v2.0"
-
-lBossbotHQ = 'Quartel do Robô-chefe'
-lLawbotHQ = 'Quartel do Robô da Lei'
-lCashbotHQ = 'Quartel do Robô Mercenário'
-lSellbotHQ = 'Quartel do Robô Vendedor'
-lTutorial = 'Toon-torial'
-lMyEstate = 'sua casa'
-lWelcomeValley = 'Vale Boas-vindas'
-
 # ToontownGlobals.py
 
 # (to, in, location)
@@ -162,8 +131,8 @@ GlobalStreetNames = {
     9000  : ("para o",  "no", "Parque"),
     9100  : ("para a",  "na", "Travessa da Canção de Ninar"),
     9200  : ("para o",  "no", "Pedaço do Pijama"),
-    10000 : ("para o",  "no", "Clube de Campo do "+lBossbotHQ),
-    10100 : ("para o",  "no", "Salão do "+lBossbotHQ),
+    10000 : ("para o",  "no", "Clube de Campo do Quartel do Robô-chefe"),
+    10100 : ("para o",  "no", "Salão do Quartel do Robô-chefe"),
     10200 : ("para a", "na", "Sede do Clube"),
     10500 : ("para o", "no", "Três da Frente"),
     10600 : ("para o", "no", "Seis do Meio"),
@@ -172,13 +141,13 @@ GlobalStreetNames = {
     11100 : ("para o",  "no", "Salão do "+lSellbotHQ),
     11200 : ("para a",  "na", "Fábrica do Robô Vendedor"),
     11500 : ("para a",  "na", "Fábrica do Robô Vendedor"),
-    12000 : ("para o",  "no", "Pátio de Trens do " +Cashbot),
-    12100 : ("para o",  "no", "Salão do "+lCashbotHQ),
-    12500 : ("para a",  "na", "Casa da Moeda do " +Cashbot),
-    12600 : ("para a",  "na", "Casa da Moeda de Dólar do " +Cashbot),
-    12700 : ("para a",  "na", "Casa da Moeda de Barras de Ouro do " +Cashbot),
+    12000 : ("para o",  "no", "Pátio de Trens do Robô Mercenário"),
+    12100 : ("para o",  "no", "Salão do Quartel do Robô Mercenário"),
+    12500 : ("para a",  "na", "Casa da Moeda do Robô Mercenário"),
+    12600 : ("para a",  "na", "Casa da Moeda de Dólar do Robô Mercenário"),
+    12700 : ("para a",  "na", "Casa da Moeda de Barras de Ouro do Robô Mercenário"),
     13000 : ("para o",  "no", "Salão do Tribunal"),
-    13100 : ("para o",  "no", "Salão do "+lLawbotHQ),
+    13100 : ("para o",  "no", "Salão do Quartel Robô da Lei"),
     13200 : ("para o", "no", "Lobby do Escritório do Promotor"),
     13300 : ("para o", "no", "Escritório do Robô da Lei A"),
     13400 : ("para o", "no", "Escritório do Robô da Lei B"),
@@ -192,20 +161,19 @@ ToontownCentral   = ("para o",  "no",    lToontownCentral)
 TheBrrrgh         = ("para",    "em",    lTheBrrrgh)
 MinniesMelodyland = ("para a",  "na",    lMinniesMelodyland)
 DaisyGardens      = ("para os", "nos",   lDaisyGardens)
-ConstructionZone = ("para a", "na", "Zona de Construção")
 OutdoorZone       = ("para a",  "na",    lOutdoorZone)
 FunnyFarm         = ("para a",  "na",    "Fazenda Divertida")
 GoofySpeedway     = ("para o",  "no",    lGoofySpeedway)
 DonaldsDreamland  = ("para a",  "na",    lDonaldsDreamland)
-BossbotHQ         = ("para o",  "no",    lBossbotHQ)
+BossbotHQ         = ("para o",  "no",    "Quartel do Robô-chefe")
 SellbotHQ         = ("para o",  "no",    lSellbotHQ)
-CashbotHQ         = ("para o",  "no",    lCashbotHQ)
-LawbotHQ          = ("para o",  "no",    lLawbotHQ)
-Tutorial          = ("para o",  "no",    lTutorial)
-MyEstate          = ("para a",  "na",    lMyEstate)
-WelcomeValley     = ("para o",  "no",    lWelcomeValley)
+CashbotHQ         = ("para o",  "no",    "Quartel do Robô Mercenário")
+LawbotHQ          = ("para o",  "no",    "Quartel do Robô da Lei")
+Tutorial          = ("para o",  "no",    "Toon-torial")
+MyEstate          = ("para a",  "na",    "sua casa")
+WelcomeValley     = ("para o",  "no",    "Vale Boas-vindas")
 GolfZone          = ("para a",  "na",    lGolfZone)
-PartyHood         = ("para a", "na", lPartyHood)
+PartyHood         = ("para a",  "na",    lPartyHood)
 
 Factory = 'Fábrica'
 Headquarters = 'Quartel'
@@ -660,7 +628,6 @@ QuestsItemDict = {
     5009 : ["Saco de ração para pássaros", "Sacos de ração para pássaros", "um "],
     5010 : ["Roda dentada", "Rodas dentadas", "uma "],
     5011 : ["Salada", "Saladas", "uma "],
-    #5012 : ["Chave para os Jardins da Margarida", "Chaves para os Jardins da Margarida", "uma "],
     5012 : ["Chave para os "+lDaisyGardens, "Chaves para os  "+lDaisyGardens, "uma "],
     5013 : ["Mapa do "+lSellbotHQ, "Mapas do "+lSellbotHQ, "alguns "],
     5014 : ["Memorando do "+lSellbotHQ, "Memorandos do "+lSellbotHQ, "um "],
@@ -698,7 +665,7 @@ QuestsItemDict = {
     3027 : ["Termômetro Externo", "Termômetros Externos", "um "],
     
     #Dreamland Quests
-    6001 : ["Plano do "+lCashbotHQ, "Planos do "+lCashbotHQ, "algum "],
+    6001 : ["Plano do Quartel do Robô Mercenário", "Planos do Quartel do Robô Mercenário", "algum "],
     6002 : ["Vara de pescar", "Varas de pescar", "uma "],
     6003 : ["Cinto de segurança", "Cintos de segurança", "um "],
     6004 : ["Par de pinças", "Pares de pinças", "um "],
@@ -771,34 +738,6 @@ QuestDialog_2910 = {
     }
 
 QuestDialogDict = {
-    #160 : {GREETING : "",
-           #QUEST : "Ok, agora acho que você está pronto para um desafio maior.\aDerrote 3 Robôs-chefe.",
-           #INCOMPLETE_PROGRESS : "Os "+ Cogs +" estão soltos pelas ruas e pelos túneis.",
-           #INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs-chefe. Vá agora para o Quartel dos Toons para receber sua recompensa!",
-           #COMPLETE : QuestsDefaultComplete,
-           #LEAVING : QuestsDefaultLeaving,
-           #},
-   #161 : {GREETING : "",
-           #QUEST : "Ok, agora acho que você está pronto para um desafio maior.\aDerrote 3 Robôs da Lei.",
-           #INCOMPLETE_PROGRESS : "Os "+ Cogs +" estão soltos pelas rua e pelos túneis.",
-           #INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs da Lei. Vá agora para o Quartel dos Toons para receber sua recompensa!",
-           #COMPLETE : QuestsDefaultComplete,
-           #LEAVING : QuestsDefaultLeaving,
-           #},
-   #162 : {GREETING : "",
-           #QUEST : "Ok, agora acho que você está pronto para um desafio maior.\aDerrote 3 Robôs Mercenários.",
-           #INCOMPLETE_PROGRESS : "Os "+ Cogs +" estão soltos pelas ruas e pelos túneis.",
-           #INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs Mercenários. Vá agora para o Quartel dos Toons para receber sua recompensa!",
-           #COMPLETE : QuestsDefaultComplete,
-           #LEAVING : QuestsDefaultLeaving,
-           #},
-  #163 : {GREETING : "",
-           #QUEST : "Ok, agora acho que você está pronto para um desafio maior.\aDerrote 3 Robôs Vendedores.",
-          # INCOMPLETE_PROGRESS : "Os "+ Cogs +" estão soltos pelas ruas e pelos túneis.",
-           #INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs Vendedores. Vá agora para o Quartel dos Toons para receber sua recompensa!",
-           #COMPLETE : QuestsDefaultComplete,
-           #LEAVING : QuestsDefaultLeaving,
-           #},
     160 : {GREETING : "",
           QUEST : "Ok, agora acho que você está pronto para um recompensador maior.\aSe você poder derrotar 3 Robôs-chefe eu te darei um pequeno bônus.",
           INCOMPLETE_PROGRESS : TheCogs +" estão soltos pelas ruas e pelos túneis.",
@@ -2429,6 +2368,29 @@ ChatGarblerBear = ["grrrau", "grrr"]
 ChatGarblerPig = ["oinc", "oic", "rrroinc"]
 ChatGarblerDefault = ["blá"]
 
+# AvatarDNA.py
+Bossbot = "Robô-chefe"
+Lawbot = "Robô da Lei"
+Cashbot = "Robô Mercenário"
+Sellbot = "Robô Vendedor"
+BossbotS = "um Robô-chefe"
+LawbotS = "um Robô da Lei"
+CashbotS = "um Robô Mercenário"
+SellbotS = "um Robô Vendedor"
+BossbotP = "Robôs-chefe"
+LawbotP = "Robôs da Lei"
+CashbotP = "Robôs Mercenários"
+SellbotP = "Robôs Vendedores"
+BossbotSkelS = "um Esqueletocog %s" % (Bossbot)
+LawbotSkelS = "um Esqueletocog %s" % (Lawbot)
+CashbotSkelS = "um Esqueletocog %s" % (Cashbot)
+SellbotSkelS = "um Esqueletocog %s" % (Sellbot)
+BossbotSkelP = "Esqueletocogs %s" % (BossbotP)
+LawbotSkelP = "Esqueletocogs %s" % (LawbotP)
+CashbotSkelP = "Esqueletocogs %s" % (CashbotP)
+SellbotSkelP = "Esqueletocogs %s" % (SellbotP)
+SkeleRevivePostFix = " v2.0"
+
 # AvatarDetailPanel.py
 AvatarDetailPanelOK = lOK
 AvatarDetailPanelCancel = lCancel
@@ -2563,13 +2525,11 @@ SpokenMoods = {
      'Você não\ achou que eu entenderia, hein?', 
      'Poderíamos, tipo, FAZER algo já?',
      ],
-   # 'excitement': 'Toontástico!',
    'excitement': ["Uau, é você, é você, é você!",
    "mmm, balinhas, mmm",
    'Tem algo melhor que isso?',
    "Feliz da Semana da Mentira Toons!",
    ],
-    #'sadness': 'Eu quero ser rabisco de qualidade',
     'sadness': ["Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá...",
     "Eu serei bom, eu prometo!",
     "Eu não sei POR QUE que eu estou triste, eu apenas estou!!!",
@@ -2584,7 +2544,6 @@ SpokenMoods = {
       'Quer abraçar?',
       'Quero lutar com os Cogs com você!',
     ],
-    #'fatigue': 'É muito cansativo fazer truques de rabisco! Que\tal dar um tempinho?',
     'fatigue': ['Aquele mergulho na lagoa realmente me cansou!',
     'Ser um Rabisco é exaustivo',
     'Eu tenho que ir para a Sonholândia!',
@@ -2601,7 +2560,6 @@ SpokenMoods = {
     'Toons podem falar?!!',
     'Opa, de onde você surgiu?',
     ],
-    #'affection': 'Você é um ótimo toon',
     'affection': ['Você é o melhor Toon de SEMPRE!!!!!!!!!!',
     'Você ao menos SABE o quão incrível você é?!?',
     'Tenho TANTA sorte de estar com você!!!',
@@ -2649,44 +2607,28 @@ ForcedLeaveCountryClubAckMsg = "O Presidente do Clube foi derrotado antes que vo
 ToonHealJokes = [
     ["O que faz TIQUE-TIQUE-TIQUE-AU?",
      "Um cãonômetro!"],
-    #["Por que o louco toma banho com o chuveiro desligado?",
-     #"Porque ele comprou xampú para cabelos secos!"],
-     ['Por que os cervos machos precisam de aparelho?',
-"Porque eles têm 'dentes salientes'!"],
+    ["Por que o louco toma banho com o chuveiro desligado?",
+     "Porque ele comprou xampú para cabelos secos!"],
     ["Por que é difícil para o fantasma contar mentiras?",
      "Porque seus pensamentos são transparentes."],
     ["Do que a bailarina é chamada quando machuca o pé e se recusa a dançar?",
-     "Ela chama de Pé-nóstica!"],
-   #["O que a vaca foi fazer no espaço?",
-   #  "Foi se encontrar com o vácuo!"],
-   ['O que tem um chifre e dá leite?',
-   'Um caminhão de leite!'],
-    #["Por que o gato mia para a Lua e a Lua não mia para o gato?",
-     #"Porque astro-no-mia!"],
-     ["Por que as bruxas não andam de vassoura quando estão com raiva?",
-"Elas não querem perder o controle!"],
-    #["Por que as tartarugas não ficam bêbadas?",
-     #"Porque elas só têm um casco!"],
-     ['Por que o golfinho atravessou o oceano?',
-'Para chegar à outra maré.'],
-    #["Por que o elefante usa tênis vermelhos?",
-     #"Porque os branquinhos sujam muito."],
-     ['Que tipo de erros os fantasmas cometem?'
-'Buu buus.'],
-    ["Por que a galinha atravessa o pátio?",
-     "Para chegar ao outro slide!"],
-    #["Qual é a maior injustiça do Natal?",
-     #"O peru morre e a missa é do galo."],
-     ["Por que o esqueleto não atravessou a rua?",
-"Ele não teve coragem."],
-    #["Qual é o cúmulo dos trabalhos manuais?",
-     #"Tricotar com a linha do trem."],
-     ["Por que não deixaram a borboleta entrar na dança?",
-     'Porque era uma bola de Mariposa'],
-    #["O que é um vulcão?",
-     #"Uma montanha com soluço."],
-    ["What's gray and squirts jam at you?",
-     'A mouse eating a doughnut.'],
+     "Pé-nóstica!"],
+    ["O que a vaca foi fazer no espaço?",
+     "Foi se encontrar com o vácuo!"],
+    ["Por que o gato mia para a Lua e a Lua não mia para o gato?",
+     "Porque astro-no-mia!"],
+    ["Por que as tartarugas não ficam bêbadas?",
+     "Porque elas só têm um casco!"],
+    ["Por que o elefante usa tênis vermelhos?",
+     "Porque os branquinhos sujam muito."],
+    ["Por que a galinha atravessa a rua?",
+     "Para chegar ao outro lado!"],
+    ["Qual é a maior injustiça do Natal?",
+     "O peru morre e a missa é do galo."],
+    ["Qual é o cúmulo dos trabalhos manuais?",
+     "Tricotar com a linha do trem."],
+    ["O que é um vulcão?",
+     "Uma montanha com soluço."],
     ["O que é um pontinho vermelho, um azul e um rosa em cima de uma árvore?",
      "Um morangotango com urublue num pinkenick."],
     ["Por que o elefante não consegue tirar carteira de motorista?",
@@ -2935,162 +2877,91 @@ ToonHealJokes = [
      "Tomar um ônibus."],
     ["O que que faz ABC...Slurp...DEF...Slurp?",
      "Alguém tomando sopa de letrinhas."],
-    #["O que é que é verde e fica saltando sem parar em cima do sofá?",
-    # "Uma ervilha que saiu do castigo."],
-    ["What's green and jumps up and down?",
-     'Lettuce at a dance.'],
-    #["O que é que o tomate foi fazer no banco?",
-     #"Tirar extrato."],
-    ["What's a cow after she gives birth?",
-     'De-calf-inated.'],
-    #["Por que o médico que trabalha à noite se veste de verde?",
-    # "Porque ele está de plantão."],
-    ['What do you get if you cross a cow and a camel?',
-    'Lumpy milk shakes.'], 
+    ["O que é que é verde e fica saltando sem parar em cima do sofá?",
+     "Uma ervilha que saiu do castigo."],
+    ["O que é que o tomate foi fazer no banco?",
+     "Tirar extrato."],
+    ["Por que o médico que trabalha à noite se veste de verde?",
+     "Porque ele está de plantão."],
     ["O que é que é branco com pontinhos pretos e vermelhos?",
      "Um dálmata com catapora."],
-    #["O que a galinha foi fazer na igreja?",
-     #"Assistir à missa do galo."],
-    ["o que é marrom tem quatros pernas e um tronco?",
-     "Um rato voltando das férias."],
-    #["O que é o que é? Cai em pé e corre deitado?",
-     #"Não é a chuva não! É uma minhoca de paraquedas."],
-    ["O que um gambá faz quando está com raiva?",
-     "Isso levanta um fedor."],
-    #["Por que é que não é bom guardar o quibe no freezer?",
-     #"Porque lá dentro ele esfirra."],
-    ["What's gray, weighs 200 pounds and says, Here Kitty, kitty?",
-     "A 200 pound mouse."], 
-    #["O que o advogado do frango foi fazer na delegacia?",
-     #"Foi soltar a franga"],
-    ["What's the best way to catch a squirrel?", 
-    "Climb a tree and act like a nut."] 
-    #["Por que o galo canta de olhos fechados?",
-     #"Porque ele já sabe a música de cor."],
-    ["What's the best way to catch a rabbit?",
-     'Hide in a bush and make a noise like lettuce.'],
-    #["Um peixe foi jogado de cima de um prédio de vinte andares. Que peixe era esse?",
-     #"Um atum, porque quando ele caiu fez: Aaaaaaaaaaaa Tum!"],
-    ['What do you call a spider that just got married?',
-     'A newly web.'],
-    #["Como se faz omelete de chocolate?",
-    # "Com ovos de Páscoa."],
-    ['What do you call a duck that robs banks?',
-     'A safe quacker.'],
-    #["Para que servem óculos verdes?",
-     #"Para verde perto."],
-    ["What's furry, meows and chases mice underwater?",
-     "A catfish."],
-    #["Para que servem óculos vermelhos?",
-     #"Para 'vermelhor'."],
-    ["O que é um ovo chamado engraçado?",
-    "Uma gema prática."],
+    ["O que a galinha foi fazer na igreja?",
+     "Assistir à missa do galo."],
+    ["O que é o que é? Cai em pé e corre deitado?",
+     "Não é a chuva não! É uma minhoca de paraquedas."],
+    ["Por que é que não é bom guardar o quibe no freezer?",
+     "Porque lá dentro ele esfirra."],
+    ["O que o advogado do frango foi fazer na delegacia?",
+     "Foi soltar a franga"],
+    ["Por que o galo canta de olhos fechados?",
+     "Porque ele já sabe a música de cor."],
+    ["Um peixe foi jogado de cima de um prédio de vinte andares. Que peixe era esse?",
+     "Um atum, porque quando ele caiu fez: Aaaaaaaaaaaa Tum!"],
+    ["Como se faz omelete de chocolate?",
+     "Com ovos de Páscoa."],
+    ["Para que servem óculos verdes?",
+     "Para verde perto."],
+    ["Para que servem óculos vermelhos?",
+     "Para 'vermelhor'."],
     ["O que é verde por fora e amarela por dentro?",
      "Uma banana disfarçada de pepino."],
-    #["Qual é a parte do carro que se originou no Antigo Egito?",
-     #"Os faraóis."],
-    ["o que o elefante diz para o limão?",
-     "Vamos brincar de abóbora."],
-    #["Como é que a bruxa sai na chuva?",
-     #"De rodo."],
-     ["o que pesa 4 toneladas, tem um tronco e é vermelho brilhante?",
-     "Um elefante envergonhado."],
-   # ["Por que o cachorro entrou na igreja?",
-    # "Porque ele é um cão pastor."],
-    ["O que é cinza, pesa 4 toneladas e usa sapatinhos de cristal?", 
-    "Cinderelelefante."],
-    #["Quem é o pai do volante?",
-     #"O painel."],
-     ["Como se chama um elefante na geladeira?",
-      "Um aperto muito apertado."],
-    #["Como chamamos uma mulher que visitou uma plantação de uva?",
-     #"Viúva."],
-     ['O que o elefante disse para sua criança impertinente?',
-     'Tusk! Tusk!']
+    ["Qual é a parte do carro que se originou no Antigo Egito?",
+     "Os faraóis."],
+    ["Como é que a bruxa sai na chuva?",
+     "De rodo."],
+    ["Por que o cachorro entrou na igreja?",
+     "Porque ele é um cão pastor."],
+    ["Quem é o pai do volante?",
+     "O painel."],
+    ["Como chamamos uma mulher que visitou uma plantação de uva?",
+     "Viúva."],
     ["O que o amendoim falou para o elefante?",
      "Nada, o amendoim não fala."],
     ["O que os elefantes falam quando se esbarram?",
      "Mundo pequeno esse, né?"],
     ["O que o caixa falou para a registradora?",
      "Estou contando com você."],
-    #["Por que o caminhão de frigorífico não sobe a ladeira?",
-    # "Porque 'elinguiça'."],
-    ['O que a pulga disse para a outra pulga?',
-        'Vamos andar ou pegar o gato?'],        
-    #["Qual é a comida que liga e desliga?",
-     #"É o strogON-OFF."],
-     ["O que a mão grande disse para a mão pequena?",
-      "Tem um minuto."],
-    ["O que o mar diz para a areia?",
-      "Não muito. Geralmente ondas."],
-    #["O que a vaca foi fazer na Argentina?",
-     #"Foi ver o Boi nos Ares."],
-    #["Qual é o peixe mais salgado que existe?",
-     #"O sal-mão."],
-     ["O que a meia disse ao sapato?",
-     "Vejo você mais tarde, eu tenho que correr."],
-   #["O que é um cão indeciso?",
-     #"É um 'cão-fuso'."],
-     ["O que uma tonsila disse à outra amiga?", "Deve ser primavera, aqui vem uma andorinha."],
-    #["Sabe por que o italiano não come churrasco?",
-    #"Porque o macarrão não cabe no espeto."],
-    ["O que o solo dizia à chuva?" 
-     "Pare ou meu nome é lama."],
-    #["Qual é o cúmulo da rapidez?",
-    # "Ir ao enterro de um parente e ainda encontrá-lo vivo."],
-    ["O que a poça disse à chuva?", 
-    "Queda em algum momento. "],
-    #["Qual é o cúmulo do azar?",
-     #"Ser atropelado por um carro funerário."],
-     ["O que a abelha disse para a rosa?", 
-     "Olá, Botão. "],
-    #["Por que o jacaré tomou o cartão de crédito do jacarezinho?",
-     #"Porque o jacarezinho gastou muito e mandou o jacarepaguá."],
-     ["O que o apêndice disse ao rim?" 
-     "O médico está me tirando esta noite."],
-    #["Qual é o cúmulo da burrice?",
-    # "Olhar pelo buraco da fechadura numa porta de vidro."],
-    #["Qual é o cúmulo da confiança?",
-    # "Jogar par-ou-ímpar pelo telefone?"],
-    ["O que a janela disse para as persianas venezianas?", 
-    "Se não fosse por você, seria cortinas para mim. "],
-    #["Qual é o cúmulo da paciência?",
-     #"Esvaziar uma piscina com conta-gotas."],
-     ["O que o médico disse para a laranja doente?", 
-     "Você está descascando bem? "],
-    #["Qual é o cúmulo da traição?",
-     #"Suicidar-se com uma punhalada nas costas."],
-     ["O que você consegue se você atravessar uma galinha com um banjo?", 
-     "Uma galinha auto-arrancada."],
-    #["O que uma nuvem disse pra outra?",
-    # "'Nu-vem' não."],
-   # ["Qual é o cúmulo da moleza?",
-     #"Correr sozinho e chegar em segundo."],
-     ["O que você consegue se você cruzar uma hiena com um cubo de caldo?", 
-     "Um animal que faz um estoque rindo de si mesmo."],
-     ["O que você consegue se cruzar um coelho com uma aranha?", 
-     "Uma rede de lebre. "],
-    #["Por que o jacaré tirou o jacarezinho da escola?",
-     #"Porque ele 'reptil'."],
-     ["O que você consegue se cruzar um germe com um comediante?", 
-     "Piadas doentes. "],
-    #["Qual é o fim da picada?",
-     #"Quando o mosquito vai embora."],
-     ["O que você consegue se você cruzar uma hiena com um pássaro mynah?", "Um animal que ri de suas próprias piadas."],
-    #["O que o paraquedas disse para o paraquedista?",
-     #"Tô contigo e não abro."],
-     ["O que você consegue se você cruzar um motor ferroviário com um pedaço de goma?", "Um trem mastigável."],
-    #["Qual é a cor mais barulhenta?",
-     #"A corneta."],
-     ["O que você conseguiria se cruzar um elefante com um computador?", "Um grande conhecimento-lhe-tudo. "],
-    #["O que é um pontinho amarelo no céu?",
-     #"Um amarelocóptero."],
-     ["O que você conseguiria se cruzar um elefante com um jaritataca?",
-      "Um grande fedorento. "],
-      ['Por que o ' + MickeyMouse + ' fez uma viagem ao espaço sideral?',
-      'Ele queria encontrar '+ Pluto + '. '],
+    ["Por que o caminhão de frigorífico não sobe a ladeira?",
+     "Porque 'elinguiça'."],
+    ["Qual é a comida que liga e desliga?",
+     "É o strogON-OFF."],
+    ["O que a vaca foi fazer na Argentina?",
+     "Foi ver o Boi nos Ares."],
+    ["Qual é o peixe mais salgado que existe?",
+     "O sal-mão."],
+    ["O que é um cão indeciso?",
+     "É um 'cão-fuso'."],
+    ["Sabe por que o italiano não come churrasco?",
+     "Porque o macarrão não cabe no espeto."],
+    ["Qual é o cúmulo da rapidez?",
+     "Ir ao enterro de um parente e ainda encontrá-lo vivo."],
+    ["Qual é o cúmulo do azar?",
+     "Ser atropelado por um carro funerário."],
+    ["Por que o jacaré tomou o cartão de crédito do jacarezinho?",
+     "Porque o jacarezinho gastou muito e mandou o jacarepaguá."],
+    ["Qual é o cúmulo da burrice?",
+     "Olhar pelo buraco da fechadura numa porta de vidro."],
+    ["Qual é o cúmulo da confiança?",
+     "Jogar par-ou-ímpar pelo telefone?"],
+    ["Qual é o cúmulo da paciência?",
+     "Esvaziar uma piscina com conta-gotas."],
+    ["Qual é o cúmulo da traição?",
+     "Suicidar-se com uma punhalada nas costas."],
+    ["O que uma nuvem disse pra outra?",
+     "'Nu-vem' não."],
+    ["Qual é o cúmulo da moleza?",
+     "Correr sozinho e chegar em segundo."],
+    ["Por que o jacaré tirou o jacarezinho da escola?",
+     "Porque ele 'reptil'."],
+    ["Qual é o fim da picada?",
+     "Quando o mosquito vai embora."],
+    ["O que o paraquedas disse para o paraquedista?",
+     "Tô contigo e não abro."],
+    ["Qual é a cor mais barulhenta?",
+     "A corneta."],
+    ["O que é um pontinho amarelo no céu?",
+     "Um amarelocóptero."],
     ]
-
 # MovieHeal.py
 MovieHealLaughterMisses = ("hmm","hehe","ah","Rá rá")
 MovieHealLaughterHits1= ("Ah ah ah","Ri, ri, ri","Ré, ré","Ah, ah")
@@ -5791,8 +5662,8 @@ QuestPosterTailorBuildingName = "Loja de Roupas"
 QuestPosterTailorStreetName = "Qualquer pátio"
 QuestPosterTailorLocationName = "Qualquer bairro"
 QuestPosterPlayground = "No pátio"
-QuestPosterAtHome = "Na "+lMyEstate
-QuestPosterInHome = "Em "+lMyEstate
+QuestPosterAtHome = "Na sua casa"
+QuestPosterInHome = "Em sua casa"
 QuestPosterOnPhone = "No seu telefone"
 QuestPosterEstate = "Na sua propriedade"
 QuestPosterAnywhere = "Qualquer lugar"
