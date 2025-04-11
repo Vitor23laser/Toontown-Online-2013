@@ -8819,6 +8819,44 @@ FireworksNewYearsEveEnding = lToonHQ+": Gostou dos Fogos? Logo tem mais!"
 FireworksBeginning = lToonHQ+": Bem-vindo à queima de fogos de verão! Divirta-se com o show!"
 FireworksEnding = lToonHQ+": Espero que tenha gostado do show! Um ótimo verão para você!"
 
+# ToontownLoadingBlocker.py
+BlockerTitle = "CARREGANDO TOONTOWN..."
+BlockerLoadingTexts = [
+    "Esfregando latas de torta",
+    "Assando crostas de torta",
+    "Aquecendo recheio de torta",
+    "Carregando comida de Rabisco",
+    "Alinhando cipós da Selva",
+    "Soltando as aranhas que rastejam pelas cipós da Selva",
+    "Plantando sementes de flores que esguicham",
+    "Esticando trampolins",
+    "Reunindo porcos",
+    "Ajustando sons de 'SPLAT'",
+    "Limpando óculos de hipnose",
+    "Desengarrafando tinta para as Novidades do Toon",
+    "Cortando estopins de TNT",
+    "Colocando a placa 'Em construção' no Bosque de Bolotas",
+    "Andando como o Pato Donald",
+    "Ensinando novos passos a hidrantes dançantes",
+    "Amarrando Álbum Toons",
+    "Analisando sons de patos",
+    "Colhendo balinhas",
+    "Esvaziando baldes de peixe",
+    "Encurralando lixo de lixeira",
+    "Espalhando graxa de Cog",
+    "Polindo troféus de kart",
+    "Balança para pesar uma tonelada",
+    "Praticando Danças da Vitória",
+    "Preparando maluquices",
+    "Mostrando a placa de 'cinco minutos' ao Mickey Mouse",
+    "Testando luvas brancas",
+    "Tocando sinos submersos",
+    "Bobinando fita vermelha",
+    "Congelando brrrgh gelado",
+    "Afiando pianos que caem",
+    ]
+
+
 # ToontownLoadingScreen.py
 
 TIP_NONE = 0
@@ -9160,17 +9198,7 @@ FishSpeciesNames = {
            ),
     }
 
-CogPartNames = (
-    "Perna superior esquerda", "Perna inferior esquerda", "Pé esquerdo",
-    "Perna superior direita", "Perna inferior direita", "Pé direito",
-    "Ombro esquerdo",  "Ombro direito", "Peito", "Medidor de saúde", "Quadril",
-    "Braço superior esquerdo",  "Braço inferior esquerdo", "Mão esquerda",
-    "Braço superior direito", "Braço inferior direito", "Mão direita",
-    )
 
-CogPartNamesSimple = (
-    "Busto superior",
-    )
 
 FishFirstNames = (
     "",
@@ -9335,6 +9363,18 @@ FishLastSuffixNames = (
     "sapo",
     "truta",
     "água",
+    )
+
+CogPartNames = (
+    "Perna superior esquerda", "Perna inferior esquerda", "Pé esquerdo",
+    "Perna superior direita", "Perna inferior direita", "Pé direito",
+    "Ombro esquerdo",  "Ombro direito", "Peito", "Medidor de saúde", "Quadril",
+    "Braço superior esquerdo",  "Braço inferior esquerdo", "Mão esquerda",
+    "Braço superior direito", "Braço inferior direito", "Mão direita",
+    )
+
+CogPartNamesSimple = (
+    "Busto superior",
     )
 
 # SellbotLegFactorySpec.py
@@ -9771,6 +9811,7 @@ LawbotBossTaunts = [
     ]
 LawbotBossAreaAttackTaunt = "Vocês todos estão em desacato da corte!"
 
+
 WitnessToonName = "Abel Abelhudo"
 WitnessToonPrepareBattleTwo = "Oh, não! Eles estão colocando apenas Cogs no júri!\aRápido, use os canhões e atire alguns jurados Toons nas cadeiras do júri.\aPrecisamos de %d para ter uma balança justa."
 WitnessToonNoJuror = "Oh-oh, sem jurados Toons. Vai ser um julgamento difícil."
@@ -9989,8 +10030,8 @@ ResultPlantedSomething  = "Parabéns! Você acaba de plantar %s."
 ResultPlantedSomethingAn  = "Parabéns! Você acaba de plantar %s."
 ResultPlantedNothing = "Isso não funcionou.  Por favor, tente uma combinação diferente de balinhas."
 
-GardenGagTree = "TODO??? "
-GardenUberGag = "TODO??? "
+GardenGagTree = " Árvore de Piada"
+GardenUberGag = "Piada Uber"
 
 def getRecipeBeanText(beanTuple):
     """
@@ -10029,7 +10070,7 @@ def getRecipeBeanText(beanTuple):
     return retval
     
 GardenTextMagicBeans = "Balas Mágicas"
-GardenTextMagicBeansB = "Outras Balas"
+GardenTextMagicBeansB = "Algumas Outras Balas"
 GardenSpecialDiscription = "Este texto deveria explicar como usar certo especial do jardim"
 GardenSpecialDiscriptionB = "Este texto deveria explicar como usar certo especial do jardim, podicrê!"
 GardenTrophyAwarded = "Uau! Você tem %s de %s flores. Isso merece um troféu e uma melhora na Risada!"
@@ -10132,10 +10173,10 @@ GolfHoleNames = {
     7: 'Na Tacada das Cinco Horas',
     8: 'Diversão no Gramadão',
     9: 'A Bola Cai e a Gente Vibra',
-    10: 'Nada de Bogey',
+    10: 'Nada de Fantasma',
     11: 'Hora do Taco',
     12: 'Santa Tacada!',
-    13: 'Só um Birdie, Vai',
+    13: 'Só um Passarinho, Vai',
     14: 'Correndo para o Buraco',
     15: 'Hora da Tacada',
     16: 'Buraco ao Alcance',
@@ -10150,10 +10191,10 @@ GolfHoleNames = {
     25: 'Na Tacada das Cinco Horas-2',
     26: 'Diversão no Gramadão-2',
     27: 'A Bola Cai e a Gente Vibra-2',
-    28: 'Nada de Bogey-2',
+    28: 'Nada de Fantasma-2',
     29: 'Hora do Taco-2',
     30: 'Santa Tacada!-2',
-    31: 'Só um Birdie, Vai-2',
+    31: 'Só um Passarinho, Vai-2',
     32: 'Correndo para o Buraco-2',
     33: 'Hora da Tacada-2',
     34: 'Buraco ao Alcance-2',
@@ -10166,9 +10207,9 @@ GolfAlbatross = "Albatroz" # three under par
 GolfEagle = "Águia" # two under par
 GolfBirdie = "Passarinho" # one under par
 GolfPar = "Par"
-GolfBogey = "Bogey" # one over par
-GolfDoubleBogey = "Bogey Duplo" # two over par
-GolfTripleBogey = "Bogey Triplo" # three over par
+GolfBogey = "Fantasma" # one over par
+GolfDoubleBogey = "Fantasma em Duplo" # two over par
+GolfTripleBogey = "Fantasma em Triplo" # three over par
 
 GolfShotDesc = {
     -4: GolfCondor,
@@ -10187,8 +10228,8 @@ from toontown.golf import GolfGlobals
 CoursesCompleted = "Percursos Concluídos"
 CoursesUnderPar = "Percursos Abaixo do Par"
 HoleInOneShots = "Jogadas de Buraco-em-Uma"
-EagleOrBetterShots = "Jogadas de Eagle ou Melhor"
-BirdieOrBetterShots = "Jogadas de Birdie ou Melhor"
+EagleOrBetterShots = "Jogadas de Águia ou Melhor"
+BirdieOrBetterShots = "Jogadas de Passarinho ou Melhor"
 ParOrBetterShots = "Jogadas de Par ou Melhor"
 MultiPlayerCoursesCompleted = "Concursos Multiplayer Concluídos"
 TwoPlayerWins = "Vitórias com Dois Jogadores"
@@ -10298,8 +10339,6 @@ GolfCurrentHistory = "%(historyDesc)s Atual: %(num)s"
 GolfTieBreakWinner = "%(name)s venceu o desempate aleatório!"
 GolfSeconds = " -  %(time).2f segundos"
 GolfTimeTieBreakWinner = "%(name)s venceu o desempate por tempo total de mira!!!"
-
-
 
 
 RoamingTrialerWeekendStart = "Está começando a Tour por Toontown! Jogadores podem entrar em qualquer vizinhança de graça!"
@@ -10489,13 +10528,13 @@ OvertimeAttackTaunts = [ "É hora de reorganizar.",
 #ElevatorDestination Names
 ElevatorBossBotBoss = "Batalha do Presidente."
 ElevatorBossBotCourse = "Campo de Golfe Cog"
-ElevatorBossBotCourse0 = "O Front Three (Três da Frente)"
-ElevatorBossBotCourse1 = "O Middle Six (Seis do Meio)"
-ElevatorBossBotCourse2 = "O Back Nine (Nove dos Fundos)"
+ElevatorBossBotCourse0 = "O Três da Frente"
+ElevatorBossBotCourse1 = "O Seis do Meio"
+ElevatorBossBotCourse2 = "O Nove de Trás"
 ElevatorCashBotBoss = "Batalha do C.F.O"
-ElevatorCashBotMint0 = "Coin Mint (a Mina de Moedas)"
-ElevatorCashBotMint1 = "Dollar Mint (a Mina de Dinheiro)"
-ElevatorCashBotMint2 = "Bullion Mint (a Mina de Ouro)"
+ElevatorCashBotMint0 = "a Mina de Moedas"
+ElevatorCashBotMint1 = "a Mina de Dinheiro"
+ElevatorCashBotMint2 = "a Mina de Ouro"
 ElevatorSellBotBoss = "Batalha do Sênior V.P."
 ElevatorSellBotFactory0 = "Entrada Principal"
 ElevatorSellBotFactory1 = "Entrada dos Fundos"
@@ -10504,6 +10543,8 @@ ElevatorLawBotCourse0 = "Escritório A"
 ElevatorLawBotCourse1 = "Escritório B"
 ElevatorLawBotCourse2 = "Escritório C"
 ElevatorLawBotCourse3 = "Escritório D"
+
+
 
 # CatalogNameTagItem.py
 DaysToGo = "Espere\n%s Dias"
@@ -10570,10 +10611,12 @@ CheckersPage4 = "Uma peça se torna dama quando chegar à última linha do tabul
 CheckersGetUpButton = "Levantar-se"
 CheckersStartButton = "Iniciar Jogo"
 CheckersQuitButton = "Sair do Jogo"
+
 CheckersIts = "É a "
 CheckersYourTurn = "Sua Vez"
 CheckersWhiteTurn = "Vez do Branco"
 CheckersBlackTurn = "Vez do Preto"
+
 CheckersColorWhite = "Você é o Branco"
 CheckersColorBlack = "Você é o Preto"
 CheckersObserver = "Você está Observando"
@@ -10687,9 +10730,7 @@ HolidayNamesInCalendar = {
    98: ("Dias das Balinhas em Dobro - Pescaria", ""),
    99: ("Semana da Balinha", "Comemore a Semana da Balinha como recompensa em Dobro de Balinhas"),
    101: ("Maratona de Ano-Novo dos Toons", "Chances de vencer a toda hora! "),
-   # Translate
-   #105: ("Idos de Março", "Os Idos de Março estão aqui!"),
-   105: ("Toons de Verde!", "Toons faz uma cena verrde com as Balinhas Verdes na Rua do Carvalho nos Jardins Da Margarida !"),
+   105: ("Idos de Março", "Os Idos de Março estão aqui!"),
 
     }
 
