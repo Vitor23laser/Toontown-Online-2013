@@ -1,4 +1,3 @@
-from TTLocalizerEnglish import ReportPanelCategoryHacking
 from toontown.toonbase.TTLocalizerEnglishProperty import *
 from otp.otpbase import OTPLocalizer as OL
 OL.SpeedChatStaticText = OL.SpeedChatStaticTextToontown.copy()
