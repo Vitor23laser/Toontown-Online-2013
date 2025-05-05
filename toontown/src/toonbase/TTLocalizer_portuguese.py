@@ -11,6 +11,9 @@ for key in OL.SpeedChatStaticTextCommon.iterkeys():
 # DO NOT TRANSLATE THIS
 ExtraKeySanityCheck = "Ignore-me"
 
+commitmanString = "bugfix! I changed this"
+commitmanSting2 = "another string!"
+
 commitmantst = "kptmptest - removable"
 
 InterfaceFont = 'phase_3/models/fonts/ImpressBT.ttf'
@@ -55,10 +58,10 @@ NametagLabel = "Nome"
 UnpaidNameTag = "Basico"
 
 #GM nametags
-GM_Names = ('CONSELHO TOON', 
-'TROPA TOONS', 	 
-'TOON DA RESISTÊNCIA',
-'GC')
+GM_Names = ("CONSELHO TOON", 
+"TROPA TOONS", 	 
+"GUARDA FLORESTAL DA RESISTÊNCIA",
+"GC")
 BuildingNametagFont = 'phase_3/models/fonts/MickeyFont'
 BuildingNametagShadow = None
 
@@ -146,8 +149,8 @@ GlobalStreetNames = {
     12500 : ("para a",  "na", "Casa da Moeda do Robô Mercenário"),
     12600 : ("para a",  "na", "Casa da Moeda de Dólar do Robô Mercenário"),
     12700 : ("para a",  "na", "Casa da Moeda de Barras de Ouro do Robô Mercenário"),
-    13000 : ("para o",  "no", "Salão do Tribunal"),
-    13100 : ("para o",  "no", "Salão do Quartel Robô da Lei"),
+    13000 : ("para o",  "no", "Salão do Quartel Robô da Lei"),
+    13100 : ("para o",  "no", "Salão do Tribunal"),
     13200 : ("para o", "no", "Lobby do Escritório do Promotor"),
     13300 : ("para o", "no", "Escritório do Robô da Lei A"),
     13400 : ("para o", "no", "Escritório do Robô da Lei B"),
@@ -796,15 +799,15 @@ QuestDialogDict = {
            },
     1039 : { QUEST : "Visite _toNpcName_ se desejar transitar pela cidade com mais facilidade._where_" },
     1040 : { QUEST : "Visite _toNpcName_ se desejar transitar pela cidade com mais facilidade._where_" },
-    1041 : { QUEST : "Oi! O que o traz aqui?\aTodo mundo usa o buraco portátil para andar por Toontown.\aÉ, você pode se teletransportar até seus amigos, usando a Lista de amigos, ou até qualquer bairro, usando o mapa no Álbum Toon.\aÉ claro que você precisa consegui-lo!\aOlha, eu posso ativar seu acesso por teletransporte até o Centro de Toontown se você ajudar um amigo meu.\aParece que os Cogs estão dando problema na Travessa dos Tontos. Visite _toNpcName_._where_" },
-    1042 : { QUEST : "Oi! O que o traz aqui?\aTodo mundo usa o buraco portátil para andar por Toontown.\aÉ, você pode se teletransportar até seus amigos, usando a Lista de amigos, ou até qualquer bairro, usando o mapa no Álbum Toon.\aÉ claro que você precisa consegui-lo!\aOlha, eu posso ativar seu acesso por teletransporte até o Centro de Toontown se você ajudar um amigo meu.\aParece que os Cogs estão dando problema na Travessa dos Tontos. Visite _toNpcName_._where_" },
-    1043 : { QUEST : "Oi! O que o traz aqui?\aTodo mundo usa o buraco portátil para andar por Toontown.\aÉ, você pode se teletransportar até seus amigos, usando a Lista de amigos, ou até qualquer bairro, usando o mapa no Álbum Toon.\aÉ claro que você precisa consegui-lo!\aOlha, eu posso ativar seu acesso por teletransporte até o Centro de Toontown se você ajudar um amigo meu.\aParece que os Cogs estão dando problema na Travessa dos Tontos. Visite _toNpcName_._where_" },
+    1041 : { QUEST : "Oi! O que o traz aqui?\aTodo mundo usa o buraco portátil para andar por Toontown.\aÉ, você pode se teletransportar até seus amigos, usando a Lista de amigos, ou até qualquer bairro, usando o mapa no Álbum Toon.\aÉ claro que você precisa consegui-lo!\aOlha, eu posso ativar seu acesso por teletransporte até o "+lToontownCentral+" se você ajudar um amigo meu.\aParece que os Cogs estão dando problema na Travessa dos Tontos. Visite _toNpcName_._where_" },
+    1042 : { QUEST : "Oi! O que o traz aqui?\aTodo mundo usa o buraco portátil para andar por Toontown.\aÉ, você pode se teletransportar até seus amigos, usando a Lista de amigos, ou até qualquer bairro, usando o mapa no Álbum Toon.\aÉ claro que você precisa consegui-lo!\aOlha, eu posso ativar seu acesso por teletransporte até o "+lToontownCentral+" se você ajudar um amigo meu.\aParece que os Cogs estão dando problema na Travessa dos Tontos. Visite _toNpcName_._where_" },
+    1043 : { QUEST : "Oi! O que o traz aqui?\aTodo mundo usa o buraco portátil para andar por Toontown.\aÉ, você pode se teletransportar até seus amigos, usando a Lista de amigos, ou até qualquer bairro, usando o mapa no Álbum Toon.\aÉ claro que você precisa consegui-lo!\aOlha, eu posso ativar seu acesso por teletransporte até o "+lToontownCentral+" se você ajudar um amigo meu.\aParece que os Cogs estão dando problema na Travessa dos Tontos. Visite _toNpcName_._where_" },
     1044 : { QUEST : "Puxa, obrigado por passar por aqui. Eu realmente preciso de ajuda.\aComo você pode ver, eu não tenho clientes.\aO meu livro de receitas secreto está perdido e ninguém mais vem ao meu restaurante.\aA última vez que eu o vi foi pouco antes de os Cogs tomarem meu edifício.\aVocê pode me ajudar recuperando quatro de minhas receitas favoritas?",
              LEAVING : "",
              INCOMPLETE_PROGRESS : "Conseguiu recuperar minhas receitas?" },
     1045 : { QUEST : "Valeu mesmo!\aLogo terei de volta minha coleção completa e poderei reabrir meu restaurante.\aAh, há uma nota aqui para você - algo sobre acesso por teletransporte?\aDiz: \"obrigado por ajudar meu amigo e, por favor, entregue isto ao Quartel dos Toons\".\aBem, valeu mesmo - tchau!",
              LEAVING : "",
-             COMPLETE : "Ah, sim, aqui diz que você foi de grande ajuda para alguns dos caras mais legais da Travessa dos Tontos.\aDiz também que você precisa de acesso por teletransporte para o Centro de Toontown.\aBem, considere concedido.\aAgora, você pode se teletransportar de volta para o pátio, de praticamente qualquer lugar de Toontown.\aBasta abrir o seu mapa e clicar em Centro de Toontown." },
+             COMPLETE : "Ah, sim, aqui diz que você foi de grande ajuda para alguns dos caras mais legais da Travessa dos Tontos.\aDiz também que você precisa de acesso por teletransporte para o "+lToontownCentral+".\aBem, considere concedido.\aAgora, você pode se teletransportar de volta para o pátio, de praticamente qualquer lugar de Toontown.\aBasta abrir o seu mapa e clicar em "+lToontownCentral+"." },
     1046 : { QUEST : "Os Robôs Mercenários têm importunado bastante a Financeira Dinheiro Feliz.\aPasse por lá e veja se há algo que você possa fazer._where_" },
     1047 : { QUEST : "Os Robôs Mercenários têm se infiltrado no banco e roubado nossas calculadoras.\aRecupere 5 calculadoras dos Robôs Mercenários.\aPara evitar que você fique indo para lá e para cá, traga-as todas de uma vez.",
              LEAVING : "",
@@ -818,7 +821,7 @@ QuestDialogDict = {
              LEAVING : "",
              COMPLETE : "Calculadoras consertadas?\aBom trabalho. Tenho certeza de que tenho algo por aqui para recompensar você..." },
     1054 : { QUEST : "_toNpcName_ precisa de alguma ajuda com seus carros de palhaço._where_" },
-    1055 : { QUEST : "Oláááá! Eu não consigo encontrar os pneus para este carro de palhaço em lugar nenhum!\aVocê acha que pode me ajudar?\aEu acho que o Tito Tonto pode ter jogado os pneus no lago do pátio do Centro de Toontown.\aSe você ficar em um dos cais de lá, poderá tentar pescar os pneus para mim.",
+    1055 : { QUEST : "Oláááá! Eu não consigo encontrar os pneus para este carro de palhaço em lugar nenhum!\aVocê acha que pode me ajudar?\aEu acho que o Tito Tonto pode ter jogado os pneus no lago do pátio do "+lToontownCentral+".\aSe você ficar em um dos cais de lá, poderá tentar pescar os pneus para mim.",
              GREETING : "Iuhuu!",
              LEAVING : "",
              INCOMPLETE_PROGRESS : "Você está tendo problemas para pescar os 4 pneus?" },
@@ -835,11 +838,11 @@ QuestDialogDict = {
     1060 : { QUEST : "Valeu mesmo por passar aqui!\aOs Cogs roubam sempre a minha tinta e, por isso, ela está quase no fim.\aVocê poderia pescar um pouco de tinta de polvo para mim no lago?\aPara pescar, basta ficar parado em um cais perto do lago.",
              LEAVING : "",
              INCOMPLETE_PROGRESS : "Você está tendo problemas para pescar?" },
-    1061 : { QUEST : "Ótimo, valeu pela tinta!\aSabe de uma coisa, se você eliminasse alguns daqueles Ratos de Escritório...\aAí minha tinta não acabaria tão rápido.\aDerrote 6 Ratos de Escritório no Centro de Toontown para receber sua recompensa.",
+    1061 : { QUEST : "Ótimo, valeu pela tinta!\aSabe de uma coisa, se você eliminasse alguns daqueles Ratos de Escritório...\aAí minha tinta não acabaria tão rápido.\aDerrote 6 Ratos de Escritório no "+lToontownCentral+" para receber sua recompensa.",
              LEAVING : "",
              COMPLETE : "Valeu! Vou recompensar você pela sua ajuda.",
              INCOMPLETE_PROGRESS : "Eu acabei de ver mais alguns Ratos de Escritório." },
-    1062 : { QUEST : "Ótimo, valeu pela tinta!\aSabe de uma coisa? Se você eliminasse alguns daqueles Sanguessugas...\aAí minha tinta não acabaria tão rápido.\aDerrote 6 Sanguessugas no Centro de Toontown para receber sua recompensa.",
+    1062 : { QUEST : "Ótimo, valeu pela tinta!\aSabe de uma coisa? Se você eliminasse alguns daqueles Sanguessugas...\aAí minha tinta não acabaria tão rápido.\aDerrote 6 Sanguessugas no "+lToontownCentral+" para receber sua recompensa.",
              LEAVING : "",
              COMPLETE : "Valeu! Vou recompensar você pela sua ajuda.",
              INCOMPLETE_PROGRESS : "Eu acabei de ver mais alguns Sanguessugas." },
@@ -849,7 +852,7 @@ QuestDialogDict = {
              INCOMPLETE_PROGRESS : "Não teve sorte de encontrar o pacote, né?" },
     1067 : { QUEST : "É ele mesmo, está tudo certo!\aEi, o endereço está borrado...\aTudo o que eu posso ler é que é para um Dr. - o resto está ilegível.\aTalvez seja para _toNpcName_? Você pode levar para ele?_where_",
              LEAVING : "" },
-    1068 : { QUEST : "Eu não estava esperando um pacote. Talvez seja para o Dr. E.U. Fórico.\aMeu assistente ia passar mesmo lá hoje, então pedirei a ele que verifique para você.\aNesse meio tempo, você se importaria de se livrar de alguns dos Cogs que estão na minha rua?\aDerrote 10 Cogs no Centro de Toontown.",
+    1068 : { QUEST : "Eu não estava esperando um pacote. Talvez seja para o Dr. E.U. Fórico.\aMeu assistente ia passar mesmo lá hoje, então pedirei a ele que verifique para você.\aNesse meio tempo, você se importaria de se livrar de alguns dos Cogs que estão na minha rua?\aDerrote 10 Cogs no "+lToontownCentral+".",
              LEAVING : "",
              INCOMPLETE_PROGRESS : "Meu assistente ainda não voltou." },
     1069 : { QUEST : "O Dr. Fórico disse que também não estava esperando nenhum pacote.\aInfelizmente um Robô Mercenário roubou o pacote de meu assistente no caminho de volta.\aVocê poderia tentar pegá-lo de volta?",
@@ -1029,7 +1032,6 @@ QuestDialogDict = {
              COMPLETE : "Ah, valeu! Agora eu posso entregar a correspondência na hora certa! Aqui está a sua recompensa...",
              },
 
-    #3208 : { QUEST : "Ultimamente temos recebido reclamações dos moradores sobre os Reis da Incerta.\aVeja se consegue derrotar 10 Reis da Incerta para ajudar nossos colegas Toons nos Jardins da Margarida." },
     3208 : { QUEST : "Ultimamente temos recebido reclamações dos moradores sobre os Reis da Incerta.\aVeja se consegue derrotar 10 Reis da Incerta para ajudar nossos colegas Toons nos "+lDaisyGardens+"." },
     #3209 : { QUEST : "Valeu mesmo por derrotar os Reis da Incerta!\aMas agora os Operadores de Telemarketing ficaram fora de controle.\aDerrote 10 Operadores de Telemarketing nos Jardins da Margarida e volte aqui para pegar sua recompensa." },
     3209 : { QUEST : "Valeu mesmo por derrotar os Reis da Incerta!\aMas agora os Operadores de Telemarketing ficaram fora de controle.\aDerrote 10 Operadores de Telemarketing nos "+lDaisyGardens+" e volte aqui para pegar sua recompensa." },
@@ -1065,7 +1067,6 @@ QuestDialogDict = {
     3246 : { QUEST : "Demais! Agora precisamos de apenas mais uma roda dentada.\aDesta vez, de um Relações Públicas.\aQuando pegá-la, traga-a aqui para conseguir sua recompensa." },
 
     3220 : { QUEST : "Acabei de saber que _toNpcName_ estava perguntando por você.\aPor que você não passa por lá e vê o que ela quer?_where_" },
-    #3221 : { QUEST : "Oi, _avName_! Aí está você!\aOuvi dizer que você é especialista em ataques com esguicho.\aPreciso de alguém para dar um bom exemplo a todos os Toons nos Jardins da Margarida.\aUse seus ataques com esguicho para derrotar vários Cogs.\aIncentive seus amigos a usarem o esguicho também.\aQuando tiver derrotado 20 Cogs, volte aqui para pegar sua recompensa!" },
     3221 : { QUEST : "Oi, _avName_! Aí está você!\aOuvi dizer que você é especialista em ataques com esguicho.\aPreciso de alguém para dar um bom exemplo a todos os Toons nos "+lDaisyGardens+".\aUse seus ataques com esguicho para derrotar vários Cogs.\aIncentive seus amigos a usarem o esguicho também.\aQuando tiver derrotado 20 Cogs, volte aqui para pegar sua recompensa!" },
 
     3222 : { QUEST : "É hora de demonstrar sua Toonmizade.\aSe você recuperar, com sucesso, um número de edifícios de Cogs, ganhará o direito de fazer três buscas.\aPrimeiramente, derrote dois edifícios de Cogs.\aSinta-se à vontade para chamar seus amigos para ajudá-lo."},
@@ -4384,7 +4385,7 @@ SharedChatterGoodbyes = [
         "Tchau.",
         "Vejo você mais tarde, %!",
         "Acho que vou praticar lançamento de bolinhos.",
-        "\Vou me juntar a um grupo para deter alguns  "+Cogs+".",
+        "Eu vou me juntar a um grupo para deter alguns  "+Cogs+".",
         "Foi legal ver você hoje, %.",
         "Tenho muito a fazer hoje. É melhor começar logo.",
         ]
@@ -4404,13 +4405,93 @@ MickeyChatter = (
         "Ouvi falar que a "+Daisy+" plantou novas flores no jardim."
         ],
        [ # Goodbyes
-        "\Vou para a Melodilândia ver a "+Minnie+"!",
+        "Eu vou para a Melodilândia ver a "+Minnie+"!",
         "Caramba, estou atrasado para meu encontro com a "+ Minnie +"!",
         "Parece que é hora de "+ Pluto +" jantar.",
         "Acho que vou nadar no "+lDonaldsDock+".",
         "É hora de tirar um cochilo. Vou para a Sonholândia.",
         ]
     )
+
+WinterMickeyCChatter = (
+        [ # Greetings specific to Mickey
+        "Oi, eu sou o Mickey Natalino!",  
+        "Bem-vindo ao Cidade do Ouropel... Quero dizer, Toontown!",
+        "Feliz Feriado de Inverno!",
+        "Feliz Feriado de Inverno, %",
+        ],
+        [ # Comments
+        "Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!",
+        "Caramba, esses corredores com certeza estão enfeitados!",
+	"Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!",	
+        "Basta olhar para aquelas luzes das árvores! Que Visão!",
+	"Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!",	
+        "Nenhuma criatura está se mexendo, exceto este rato aqui!",
+	"Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!",	
+        "Eu amo essa época do ano!",
+	"Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!",	
+        "Estou me sentindo alegre, e você?",
+	"Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!",
+        "Conhece todas cantorias boas?",
+	"Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!",
+        "Oh puxa vida! Eu amo Feriado de Inverno!",
+	"Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!",
+        "Acho que troco minhas luvas por luvas de Inverno!",
+        ],
+        [ # Goodbyes
+        "Tenha um Feliz Feriado de Inverno!",
+        "Desejos calorosos para você!",
+        "Caramba, desculpe, você tem que ir. Até mais!",
+        "Vou cantar com a Minnie!",
+        ]
+    )
+
+ValentinesMickeyChatter = (
+    [ # Greetings specific to Mickey
+    "Oi, eu sou o Mickey!",
+    "Bem-vindo ao Centro de Toontown dos namorados!",
+    "Feliz Toon dos namorados!",
+    "Feliz Toon dos namorados, %"
+    ], 
+    [ # Comments
+    "O Amor estar no ar! E borboletas!",
+    "Esses corações são bons para acrescentar a Risada!", 
+    "Espero que a Minnie goste do que eu dei a ela!",
+    "O Catálogo tem muitos presentes do Toon dos namorados!",
+    "Lança uma festa de Toon dos namorados!",
+    "Mostre aos Cogs, com uma torta na cara, que voc\xc3\xaa os ama!",
+    "Vou levar a Minnie para o Café Levado!",
+    "A Minnie vai querer chocolates ou flores?"], 
+   [ # Goodbyes
+   "Adorei sua visita!",
+   "Diga a Minnie que eu vou buscá-la em breve!",
+   ]
+   )
+WinterMickeyDChatter = (
+        [ # Greetings specific to Mickey
+        "Oi, eu sou o Mickey Natalino!",  
+        "Bem-vindo ao Cidade do Ouropel... Quero dizer, Toontown!",
+        "Feliz Feriado de Inverno!",
+        "Feliz Feriado de Inverno, %",
+        ],
+        [ # Comments
+        "Caramba, esses corredores com certeza estão enfeitados!",
+        "Basta olhar para aquelas luzes das árvores! Que Visão!",
+        "Nenhuma criatura está se mexendo, exceto este rato aqui!",	
+        "Eu amo essa época do ano!",
+        "Estou me sentindo alegre, e você?",
+        "Conhece todas cantorias boas?",
+        "Oh puxa vida! Eu amo Feriado de Inverno!",
+        "Acho que troco minhas luvas por luvas de Inverno!",
+        ],
+        [ # Goodbyes
+        "Tenha um Feliz Feriado de Inverno!",
+        "Desejos calorosos para você!",
+        "Caramba, desculpe, você tem que ir. Até mais!",
+        "Vou cantar com a Minnie!",
+        ]
+    )
+
 
 VampireMickeyChatter = (
         [ # Greetings specific to Vampire Mickey
@@ -4421,18 +4502,31 @@ VampireMickeyChatter = (
         "Bem-vindo ao Centro da Cidade Assombrada... quero dizer ao "+lToontownCentral+"!",
         ],
         [ # Comments
+	"Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!",	
         "É divertido se vestir para o Halloween!",
+	"Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!",
         "Gostou da minha fantasia?",
+	"Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!",	
         "%, cuidado com os  Cogs Sanguessugas!",
+	"Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!",
         "As decorações de Halloween não são fantásticas?",
+	"Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!",	
         "Cuidado com os gatos pretos",
+	"Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!",
         "Você viu o Toon com a cabeça de abóbora?",
-        "Buu!  Assustei você?",
+        "Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!",
+	"Buu!  Assustei você?",
+	"Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!",
         "Não se esqueça de escovar suas presas",
-        "Não tenha medo, sou um vampiro amigável",
+	"Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!",
+        "Eu sou o Vampiro, mas o Sanguessuga não!",
+	"Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!",
         "Gostou da minha capa?",
+	"Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!",
         "Assustei você?  Foi a melhor brincadeira da minha vida!",
+	"Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!",
         "Espero que esteja curtindo nossa festa de Halloween!",
+	"Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!",
         "Assombroso, está escuro como a noite!", 
         ],
         [ # Goodbyes
@@ -4443,6 +4537,9 @@ VampireMickeyChatter = (
         "Shhh, vem comigo.",
         ]
     )
+FieldOfficeMickeyChatter = [
+	"Você já ouviu falar do Escrit\xc3\xb3rios de Campo do Agitador?",
+]
 
 MinnieChatter = (
         [ # Greetings
@@ -4475,6 +4572,119 @@ MinnieChatter = (
         "É hora de tirar um cochilo. Vou para a Sonholândia.",
         ]
     )
+WinterMinnieCChatter = (
+        [ # Greetings
+        "Hi, I'm Merry Minnie!",
+        "Welcome to the land of carols!",
+        "Happy Winter Holiday!",
+        "Happy Winter Holiday, %!",
+        ],
+        [ # Comments
+        "You'll get more than a Shave and a Haircut For a Song if you carol to Barbara Seville!",
+        "Belt out a tune, Toon!",
+        "You'll get more than a Shave and a Haircut For a Song if you carol to Barbara Seville!",
+        "Show us how to croon, Toon!",
+        "You'll get more than a Shave and a Haircut For a Song if you carol to Barbara Seville!",
+        "Can you carry a melody here in Melodyland?",
+        "You'll get more than a Shave and a Haircut For a Song if you carol to Barbara Seville!",
+        "Those lamps look warm in their scarves!",
+        "You'll get more than a Shave and a Haircut For a Song if you carol to Barbara Seville!",
+        "The sing's the thing!",
+        "You'll get more than a Shave and a Haircut For a Song if you carol to Barbara Seville!",
+        "I'll always like you, for better or verse!",
+        "You'll get more than a Shave and a Haircut For a Song if you carol to Barbara Seville!",
+        "Everything looks better with a wreath!",
+        ],
+        [ # Goodbyes
+        "Have a fun Winter Holiday!",
+        "Happy Trails!",
+        "Mickey is taking me caroling!",
+        ]
+    )
+
+WinterMinnieDChatter = (
+        [ # Greetings
+        "Hi, I'm Merry Minnie!",
+        "Welcome to the land of carols!",
+        "Happy Winter Holiday!",
+        "Happy Winter Holiday, %!",
+        ],
+        [ # Comments
+        "Belt out a tune, Toon!",
+        "Show us how to croon, Toon!",
+        "Can you carry a melody here in Melodyland?",
+        "Those lamps look warm in their scarves!",
+        "The sing's the thing!",
+        "You can't go wrong with a song!",
+        "I'll always like you, for better or verse!",
+        "Everything looks better with a wreath!",
+        ],
+        [ # Goodbyes
+        "Have a fun Winter Holiday!",
+        "Happy Trails!",
+        "Mickey is taking me caroling!",
+        ]
+    )
+
+ValentinesMinnieChatter = (
+    [
+    "Hello, I'm Minnie!",
+    "Happy ValenToon's Day!",
+    "Happy ValenToon's Day, %",
+    ],
+    [
+    "I hope Mickey got me chocolates or flowers!",
+    "Those hearts are good for Laff boosts!",
+    "I want to go to a ValenToon Party!",
+    "I hope Mickey takes me to the Kooky Cafe!",
+    "Mickey is such a good ValenToon!",
+    "What did you get your ValenToon?",
+    "Mickey has never missed a ValenToon's Day!",
+    ],
+    [
+    "Spread the love out there!",
+    "It was sweet having you visit!",
+    ]
+)
+
+WitchMinnieChatter = (
+        [ # Greetings
+        "Welcome to Magicland... I mean Melodyland!",
+        "Hi, my name is Magic Minnie! What's yours?",
+        "Hello, I think you're enchanting!",
+        "Happy Halloween!",
+        "Happy Halloween, %!",
+        ],
+        [ # Comments
+        "I hear Tabitha has treats for Really Kool Katz who can play tricks!",
+        "It's a magical day, don't you think?",
+        "I hear Tabitha has treats for Really Kool Katz who can play tricks!",
+        "Now where did I put my spell book",
+        "I hear Tabitha has treats for Really Kool Katz who can play tricks!",
+        "Abra-Cadabra!",
+        "I hear Tabitha has treats for Really Kool Katz who can play tricks!",
+        "Toontown looks positively spooky today!",
+        "I hear Tabitha has treats for Really Kool Katz who can play tricks!",
+        "Are you seeing stars too?",
+        "I hear Tabitha has treats for Really Kool Katz who can play tricks!",
+        "Purple is really my color!",
+        "I hear Tabitha has treats for Really Kool Katz who can play tricks!",
+        "I hope your Halloween is bewitching!",
+        "I hear Tabitha has treats for Really Kool Katz who can play tricks!",
+        "Beware of musical spiders!",
+        "I hear Tabitha has treats for Really Kool Katz who can play tricks!",
+        "I hope you are enjoying our Halloween fun!",
+        ],
+        [ # Goodbyes
+        "I'm going to disappear now!",
+        "Time for me to vanish!",
+        "Mickey is taking me Trick-or-Treating!",
+        ]
+    )
+
+FieldOfficeMinnieChatter = [
+        "Everyone is talking about the new Mover & Shaker Field Offices!"
+        ]
 
 DaisyChatter = (
         [ # Greetings
@@ -6721,7 +6931,7 @@ CatalogItemTypeNames = {
     16: NametagTypeName, 
     17: "TOON_STATUE_ITEM",
     18: "ANIMATED_FURNITURE_ITEM",
-    19: AcessoryTypeName
+    19: AcessoryTypeName,
 }   
 
 HatStylesDescriptions = {
