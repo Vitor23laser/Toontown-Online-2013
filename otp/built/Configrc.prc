@@ -36,8 +36,8 @@ compress-channels #t
 text-encoding utf8
 text-never-break-before ,.-:?!;。？！、
 
-ssl-certificates phase_3/etc/certificates.txt
-ssl-certificates phase_3/etc/gameserver.txt
+ssl-certificates $OTP$/src/configfiles/certificates.txt
+ssl-certificates $OTP$/src/configfiles/gameserver.txt
 expected-ssl-server /O=Disney Enterprises/OU=WDIG/CN=account.toontown.com
 expected-ssl-server /O=Disney Enterprises/OU=WDIG/CN=gameserver.toontown.com
 expected-ssl-server /O=Disney Enterprises/OU=WDIG/CN=account.qa.toontown.com
@@ -58,7 +58,29 @@ notify-level-loader warning
 notify-timestamp #t
 
 # Server version
-server-version sv1.0.15.26
+server-version sv1.0.40.25.test #if espanhol sv1.1.40.0.test defined(USE_CASTILLIAN)
+  lang = 1;		// sv1.1.33.0
+  build = 0;
+  loginType = "playToken";
+#elif defined(USE_JAPANESE)
+  lang = 2;		// sv1.2.33.0
+  build = 0;
+  loginType = "playToken";
+#elif defined(USE_GERMAN)
+  lang = 3;		// sv1.3.33.0
+  build = 0;
+  loginType = "playToken";
+#elif defined(USE_PORTUGUESE)
+  lang = 4; 	// sv1.4.33.0
+  build = 0;
+  loginType = "playToken";
+#elif defined(USE_FRENCH)
+  lang = 5;		// sv1.5.33.0
+  build = 0;
+  loginType = "playToken";
+#endif
+  os << "server-version sv1." << lang << ".40." << build << ".test" << endl;
+
 required-login playToken
 server-failover 80 443
 want-fog #t
