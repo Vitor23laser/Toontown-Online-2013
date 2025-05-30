@@ -4511,7 +4511,7 @@ VampireMickeyChatter = (
         "If you think playing tricks is All Fun and Games, go see Lazy Hal for a treat!",
         "Don't forget to brush your fangs!",
         "If you think playing tricks is All Fun and Games, go see Lazy Hal for a treat!",
-        "I'm a vampire, but not a Bloodsucker!",
+        "Don't be scared, I'm a friendly vampire!",
         "If you think playing tricks is All Fun and Games, go see Lazy Hal for a treat!",
         "Do you like my cape?",
         "If you think playing tricks is All Fun and Games, go see Lazy Hal for a treat!",
