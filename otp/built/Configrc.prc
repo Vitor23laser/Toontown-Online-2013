@@ -11,6 +11,7 @@ icon-filename toontown.ico
 cull-bin shadow 15 fixed
 cull-bin ground 14 unsorted
 cull-bin gui-popup 60 unsorted
+
 # downloader settings
 decompressor-buffer-size 32768
 extractor-buffer-size 32768
@@ -44,8 +45,6 @@ expected-ssl-server /O=Disney Enterprises/OU=WDIG/CN=account.qa.toontown.com
 expected-ssl-server /O=Disney Enterprises/OU=WDIG/CN=gameserver.qa.toontown.com
 expected-ssl-server /O=Disney Enterprises/OU=WDIG/CN=account.test.toontown.com
 expected-ssl-server /O=Disney Enterprises/OU=WDIG/CN=gameserver.test.toontown.com
-
-# This is the new toontown.go.com's section
 expected-ssl-server /O=Disney Enterprises/OU=DOS/CN=toontown.go.com
 collect-tcp 1
 collect-tcp-interval 0.2
@@ -58,29 +57,7 @@ notify-level-loader warning
 notify-timestamp #t
 
 # Server version
-server-version sv1.0.40.25.test #if espanhol sv1.1.40.0.test defined(USE_CASTILLIAN)
-  lang = 1;		// sv1.1.33.0
-  build = 0;
-  loginType = "playToken";
-#elif defined(USE_JAPANESE)
-  lang = 2;		// sv1.2.33.0
-  build = 0;
-  loginType = "playToken";
-#elif defined(USE_GERMAN)
-  lang = 3;		// sv1.3.33.0
-  build = 0;
-  loginType = "playToken";
-#elif defined(USE_PORTUGUESE)
-  lang = 4; 	// sv1.4.33.0
-  build = 0;
-  loginType = "playToken";
-#elif defined(USE_FRENCH)
-  lang = 5;		// sv1.5.33.0
-  build = 0;
-  loginType = "playToken";
-#endif
-  os << "server-version sv1." << lang << ".40." << build << ".test" << endl;
-
+server-version sv1.0.47.38 #server-version sv1.1.47.37 #server-version sv1.2.47.36 server-version sv1.3.47.35 #server-version sv1.4.47.34 #server-version sv1.4.40.33
 required-login playToken
 server-failover 80 443
 want-fog #t
@@ -127,9 +104,4 @@ win-size 640 480
 # server type
 #
 
-server-type prod
-
-teleport-all 1
-want-magic-words 1
-verify-ssl 0
-want-otp-server 0
+server-type prod 
