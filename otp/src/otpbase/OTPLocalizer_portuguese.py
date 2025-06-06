@@ -2169,6 +2169,10 @@ SpeedChatStaticText = {
     # PLACES
     50400 : "Let's set sail.",
     50401 : "Let's get out of here.",
+
+    # PLACES
+    50400 : "Let's set sail.",
+    50401 : "Let's get out of here.",
     50402 : "Let's get out of here.",
     50403 : "Let's get out of here.",
     50404 : "Let's get out of here.",
@@ -2191,7 +2195,7 @@ SpeedChatStaticText = {
     # PLACES - LETS HEAD TO...
     51600 : "Let's head into town.",
     51601 : "Let's go to the docks.",
-    51602 : "Let's go to the bar.",    
+    51602 : "Let's head to the tavern.",    
 
     # PLACES - LETS HEAD TO... - PORT ROYAL
     51800 : "Let's go to Fort Charles.",
@@ -2226,6 +2230,12 @@ SpeedChatStaticText = {
     50304 : "We showed them!",
     50305 : "Yer not so bad yerself!",
     50306 : "A fine plunder haul!",
+    50206 : "You need a sharp sword and sharper wits.",
+    50207 : "Ye be one doubloon short of a full hull mate!",
+    50208 : "Watch yer tongue or I'll pickle it with sea salt!",
+    50209 : "Touch me loot and you get the boot!",
+    50210 : "The horizon be as empty as yer head.",
+    50211 : "You're a canvas shy of a full sail, aren't ye mate?",
 
     # Card Games
     52400 : "May luck be my lady.",
@@ -2243,6 +2253,49 @@ SpeedChatStaticText = {
     52600 : "Hit me.",
     52601 : "Can I get another dealer?",
 
+    # Minigames
+    # Minigames - Fishing
+    53101 : "I caught a fish!",
+    53102 : "I saw a Legendary Fish!",
+    53103 : "What did you catch?",
+    53104 : "This will make a whale of a tale!",
+    53105 : "That was a beauty!",
+    53106 : "Arr, the sea is treacherous today.",
+    53107 : "What a bountiful haul of fish!",
+    53110 : "Do you have the Legendary Lure?",
+    53111 : "Have you ever caught a Legendary Fish?",
+    53112 : "Can you sail on a fishing boat?",
+    53113 : "Where is the Fishing Master?",
+    53114 : "Have you completed your fish collection?",
+    # Minigames - Cannon Defense
+    53120 : "Fire at my target!",
+    53121 : "Fire at the ship closest to the shore!",
+    53122 : "There's a ship getting away!",
+    53123 : "Fire at the big ships!",
+    53124 : "Fire at the small ships!",
+    53125 : "More are coming!",
+    53126 : "We're not going to last much longer!",
+    53127 : "Shoot the barrels!",
+    53128 : "We've got new ammo!",
+    53129 : "Sturdy defense, mates!",
+    # Minigames - Potion Brewing
+    53141 : "Look at the potion I made!",
+    53142 : "Have you completed your potion collection?",
+    53143 : "Where is the Gypsy?",
+    53144 : "What potion is that?",
+    53145 : "This potion was easy enough.",
+    53146 : "This potion was hard brewin', I tell ye!",
+    # Minigames - Repair
+    53160 : "We need someone to bilge pump!",
+    53161 : "We need someone to scrub!",
+    53162 : "We need someone to saw!",
+    53163 : "We need someone to brace!",
+    53164 : "We need someone to hammer!",
+    53165 : "We need someone to patch!",
+    53166 : "I'll do it!",
+    53167 : "Keep it up, this ship won't repair itself!",
+    53168 : "Great job repairing the ship!",
+
     # Invitations
     52100 : "Want to group up?",
     52101 : "Join my crew?",
@@ -2257,6 +2310,17 @@ SpeedChatStaticText = {
     52302 : "Want to start a Mayhem game?",
     52303 : "Want to start a team battle game?",
     52304 : "Join my team battle game.",
+
+    # Invitations - Minigames
+    52350 : "Join my Cannon Defense.",
+    52351 : "Want to start a Cannon Defense?",
+    52352 : "Can you lend me a hand with Repair?",
+    52353 : "We need to Repair the ship now!",
+    52354 : "Care to catch some fish?",
+    52355 : "Want to go fishing with me?",
+    52356 : "Join me crew for some fishin'?",
+    52357 : "Time to brew some potions!",
+    52358 : "You should try your hand at brewing potions.",
 
 
     # PLACES - WHERE IS..? - PORT ROYAL (LEGACY)
@@ -2370,9 +2434,9 @@ SpeedChatStaticText = {
     60678 : "Noisemaker",
 
     # Valentines day emote string options
-    60671 : "Hello, Im a Pirate, and Im here to steal your heart.",
-    60672 : "I just found the treasure Ive been searching for.",
-    60673 : "If you were a booger, Id pick you first.",
+    60671 : "Hello, I'm a Pirate, and I'm here to steal your heart.",
+    60672 : "I just found the treasure I've been searching for.",
+    60673 : "If you were a booger, I'd pick you first.",
     60674 : "Come to Tortuga often?",
     60675 : "Do you have a map?  I just keep getting lost in your eyes.",
 
@@ -2491,10 +2555,25 @@ SpeedChatStaticText = {
     60416: "Defeat all four Mover & Shakers to open the exit!",
     60417: "The exit is open!",
     60418: "It's the Boss!",
-
-
+    # Phrases for Ides Of March
+    60450: "It's easy to be green!",
+    60451: "Visit Green Bean Jeans and you can be green too!",
+    60452: "It's on Oak Street in Daisy Gardens.",
+    
+    # Phrases for Singing
+##    9000 : 'Middle ' + 'G1',
+##    9001 : 'Middle ' + 'A',
+##    9002 : 'Middle ' + 'B',
+##    9003 : 'Middle ' + 'C',
+##    9004 : 'Middle ' + 'D',
+##    9005 : 'Middle ' + 'E',
+##    9006 : 'Middle ' + 'F',
+##    9007 : 'Middle ' + 'G2'
     }
-
+# SpeedChatStaticText.py
+# SpeedChatStaticTextCommon.py
+# This file contains the static text for SpeedChat.
+SpeedChatStaticText = SpeedChatStaticTextCommon
 # Emote IDs - These are used in SC to determine if a msg is a animated emote
 Emotes_Root = "EMOTES"
 Emotes_Dances = "Dances"
@@ -2512,6 +2591,10 @@ Emotes = (60505, 60506, 60509, 60510, 60511, 60516, 60519, 60520, 60521, 60522, 
           60676,
           # Yes/No
           65000, 65001
+          # Kneel
+          60517,
+          # New Years Emote
+          60678,
           )
 
 # These indexes, defined above, will construct a submenu in the FACTORY menu
