@@ -33,7 +33,7 @@ DialogDoNotShowAgain = "Do Not\nShow Again"
 
 # DistributedAvatar.py
 WhisperNoLongerFriend = "%s left your friends list."
-WhisperNowSpecialFriend = "%s is now your True Friend!"
+WhisperNowSpecialFriend = "%s is now your Secret!"
 WhisperComingToVisit = "%s is coming to visit you."
 WhisperFailedVisit = "%s tried to visit you."
 WhisperTargetLeftVisit = "%s has gone somewhere else. Try again!"
@@ -61,7 +61,7 @@ SCEmoteNoAccessMsg = "You do not have access\nto this emotion yet."
 SCEmoteNoAccessOK = lOK
 
 ParentLogin = "Parent Login"
-ParentPassword = "Parent Account Password"
+ParentPassword = "Parent Password"
 
 # ChatGarbler.py
 ChatGarblerDefault = ["blah"]
@@ -72,7 +72,7 @@ ChatManagerWhisperTo = "Whisper to:"
 ChatManagerWhisperToName = "Whisper To:\n%s"
 ChatManagerCancel = lCancel
 ChatManagerWhisperOffline = "%s is offline."
-OpenChatWarning = 'To become True Friends with somebody, click on them, and select "True Friends" from the detail panel.\n\nSpeedChat Plus can also be enabled, which allow users to chat by typing words found in the Disney SpeedChat Plus dictionary.\n\nTo activate these features or to learn more, exit Toontown and then click on Membership and select Manage Account.  Log in to edit your "Community Settings."\n\nIf you are under 18, you need a Parent Account to manage these settings.'
+OpenChatWarning = 'To become Secrets with somebody, click on them, and select "Secrets" from the detail panel.\n\nSpeedChat Plus can also be enabled, which allow users to chat by typing words found in the Disney SpeedChat Plus dictionary.\n\nTo activate these features or to learn more, exit Toontown and then click on Membership and select Manage Account.  Log in to edit your "Community Settings."\n\nIf you are under 18, you need a Parent Account to manage these settings.'
 OpenChatWarningOK = lOK
 UnpaidChatWarning = 'Once you have subscribed, you can use this button to chat with your friends using the keyboard.  Until then, you should chat with other Toons using SpeedChat.'
 UnpaidChatWarningPay = "Subscribe"
@@ -85,21 +85,21 @@ PaidParentPasswordUKWarning = 'Once you have Enabled Chat, you can enable this b
 PaidParentPasswordUKWarningSet = "Enable Chat Now!"
 PaidParentPasswordUKWarningContinue = "Continue Playing Game"
 NoSecretChatWarningTitle = "Parental Controls"
-NoSecretChatWarning = 'To chat with a friend, the True Friends feature must first be enabled.  Kids, have your parent visit the Toontown Web site to learn about True Friends.'
-RestrictedSecretChatWarning = 'To get or enter a True Friend Code, log in with the Parent Account. You can disable this prompt by changing your True Friends options.'
+NoSecretChatWarning = 'To chat with a friend, the Secrets feature must first be enabled.  Kids, have your parent visit the Toontown Web site to learn about Secrets.'
+RestrictedSecretChatWarning = 'To get or enter a Secret Code, log in with the Parent Account. You can disable this prompt by changing your Secrets options.'
 NoSecretChatWarningOK = lOK
 NoSecretChatWarningCancel = lCancel
 NoSecretChatWarningWrongPassword = 'That\'s not the correct Parent Account.  Please log in with the Parent Account that is linked to this account.'
-NoSecretChatAtAllTitle = "Open Chat With True Friends"
+NoSecretChatAtAllTitle = "Open Chat With Secrets"
 # not sure what this should do in the new world order
-NoSecretChatAtAll = 'Open Chat with True Friends allows real-life friends to chat openly with each other by means of a True Friend Code that must be shared outside of the game.\n\nTo activate these features or to learn more, exit Toontown and then click on Membership and select Manage Account. Log in to edit your "Community Settings." If you are under 18, you need a Parent Account to manage these settings.'
+NoSecretChatAtAll = 'Open Chat with Secrets allows real-life friends to chat openly with each other by means of a Secret Code that must be shared outside of the game.\n\nTo activate these features or to learn more, exit Toontown and then click on Membership and select Manage Account. Log in to edit your "Community Settings." If you are under 18, you need a Parent Account to manage these settings.'
 NoSecretChatAtAllAndNoWhitelistTitle = "Chat button"
 # not sure what this should do in the new world order
-NoSecretChatAtAllAndNoWhitelist = 'You can use the blue Chat button to communicate with other Toons by using Speechat Plus or Open Chat with True Friends.\n\nSpeedchat Plus is a form of type chat that allows users to communicate by using the Disney SpeedChat Plus dictionary.\n\nOpen Chat with True Friends allows real-life friends to chat openly with each other by means of a True Friend Code that must be shared outside of the game.\n\nTo activate these features or to learn more, exit Toontown and then click on Membership and select Manage Account.  Log in to edit your "Community Settings." If you are under 18, you need a Parent Account to manage these settings.'
+NoSecretChatAtAllAndNoWhitelist = 'You can use the blue Chat button to communicate with other Toons by using Speechat Plus or Open Chat with Secrets.\n\nSpeedchat Plus is a form of type chat that allows users to communicate by using the Disney SpeedChat Plus dictionary.\n\nOpen Chat with Secrets allows real-life friends to chat openly with each other by means of a Secret Code that must be shared outside of the game.\n\nTo activate these features or to learn more, exit Toontown and then click on Membership and select Manage Account.  Log in to edit your "Community Settings." If you are under 18, you need a Parent Account to manage these settings.'
 NoSecretChatAtAllOK = lOK
-ChangeSecretFriendsOptions = "Change True Friends Options"
-ChangeSecretFriendsOptionsWarning = '\nPlease enter the Parent Account Password to change your True Friends options.'
-ActivateChatTitle = "True Friends Options"
+ChangeSecretFriendsOptions = "Change Secrets Options"
+ChangeSecretFriendsOptionsWarning = '\nPlease enter the Parent Password to change your Secrets options.'
+ActivateChatTitle = "Secrets Options"
 
 WhisperToFormat = "To %s %s"
 WhisperToFormatName = "To %s"
@@ -148,26 +148,26 @@ grey = TextProperties()
 grey.setTextColor(0.5, 0.5, 0.5, 1)
 TextPropertiesManager.getGlobalPtr().setProperties('grey', grey)
 
-ActivateChat = """True Friends allows one member to chat with another member only by means of a True Friend Code that must be communicated outside of the game. True Friends is not moderated or supervised.
+ActivateChat = """Secrets allows one member to chat with another member only by means of a Secret Code that must be communicated outside of the game. Secrets is not moderated or supervised.
 
-Please choose one of Toontown's True Friends options:
+Please choose one of Toontown's Secrets options:
 
-      \1shadow\1No True Friends\2 - Ability to make True Friends is disabled.
+      \1shadow\1No Secrets\2 - Ability to make Secrets is disabled.
       This offers the highest level of control.
 
-      \1shadow\1Restricted True Friends\2 - Requires the Parent Account Password to make
-      each new True Friend.
+      \1shadow\1Restricted Secrets\2 - Requires the Parent Password to make
+      each new Secret.
 
-      \1shadow\1Unrestricted True Friends\2 - Once enabled with the Parent Account Password,
-      it is not required to supply the Parent Account Password to make each new
-      True Friend. \1red\1This option is not recommended for children under 13.\2
-
-
+      \1shadow\1Unrestricted Secrets\2 - Once enabled with the Parent Password,
+      it is not required to supply the Parent Password to make each new
+      Secret. \1red\1This option is not recommended for children under 13.\2
 
 
 
 
-By enabling the True Friends feature, you acknowledge that there are some risks inherent in the True Friends feature and that you have been informed of, and agree to accept, any such risks."""
+
+
+By enabling the Secrets feature, you acknowledge that there are some risks inherent in the Secrets feature and that you have been informed of, and agree to accept, any such risks."""
 
 ActivateChatYes = "Update"
 ActivateChatNo = lCancel
@@ -190,33 +190,33 @@ PrivacyPolicyClose = lClose
 SecretFriendsInfoPanelOk = lOK
 SecretFriendsInfoPanelClose = lClose
 SecretFriendsInfoPanelText = ["""
-The Open Chat with True Friends Feature
+The Open Chat with Secrets Feature
 
-The Open Chat with True Friends feature enables a member to chat directly with another member within Disney's Toontown Online (the "Service") once the members establish a True Friends connection.  When your child attempts to use the Open Chat with True Friends feature, we will require that you indicate your consent to your child's use of this feature by entering your Parent Account Password.  Here is a detailed description of the process of creating an Open Chat with True Friends connection between members whom we will call "Sally" and "Mike."
-1. Sally's parent and Mike's parent each enable the Open Chat with True Friends feature by entering their respective Parent Account Passwords either (a) in the Account Options areas within the Service, or (b) when prompted within the game by a Parental Controls pop-up.
-2. Sally requests a True Friend Code (described below) from within the Service.
+The Open Chat with Secrets feature enables a member to chat directly with another member within Disney's Toontown Online (the "Service") once the members establish a Secrets connection.  When your child attempts to use the Open Chat with Secrets feature, we will require that you indicate your consent to your child's use of this feature by entering your Parent Password.  Here is a detailed description of the process of creating an Open Chat with Secrets connection between members whom we will call "Sally" and "Mike."
+1. Sally's parent and Mike's parent each enable the Open Chat with Secrets feature by entering their respective Parent Passwords either (a) in the Account Options areas within the Service, or (b) when prompted within the game by a Parental Controls pop-up.
+2. Sally requests a Secret Code (described below) from within the Service.
 ""","""
-3. Sally's True Friend Code is communicated to Mike outside of the Service. (Sally's True Friend Code may be communicated to Mike either directly by Sally, or indirectly through Sally's disclosure of the True Friend Code to another person.)
-4. Mike submits Sally's True Friend Code to the Service within 48 hours of the time that Sally requested the True Friend Code from the Service.
-5. The Service then notifies Mike that Sally has become Mike's True Friend.  The Service similarly notifies Sally that Mike has become Sally's True Friend.
-6. Sally and Mike can now open chat directly with each other until either one chooses to terminate the other as a True Friend, or until the Open Chat with True Friends feature is disabled for either Sally or Mike by their respective parent.  The True Friends connection can thus be disabled anytime by either: (a) a member removing the True Friend from his or her friends list (as described in the Service); or, (b) the parent of that member disabling the Open Chat with ""","""
-True Friends feature by going to the Account Options area within the Service and following the steps set forth there.
+3. Sally's Secret Code is communicated to Mike outside of the Service. (Sally's Secret Code may be communicated to Mike either directly by Sally, or indirectly through Sally's disclosure of the Secret Code to another person.)
+4. Mike submits Sally's Secret Code to the Service within 48 hours of the time that Sally requested the Secret Code from the Service.
+5. The Service then notifies Mike that Sally has become Mike's Secret.  The Service similarly notifies Sally that Mike has become Sally's Secret.
+6. Sally and Mike can now open chat directly with each other until either one chooses to terminate the other as a Secret, or until the Open Chat with Secrets feature is disabled for either Sally or Mike by their respective parent.  The Secrets connection can thus be disabled anytime by either: (a) a member removing the Secret from his or her friends list (as described in the Service); or, (b) the parent of that member disabling the Open Chat with ""","""
+Secrets feature by going to the Account Options area within the Service and following the steps set forth there.
 
-A True Friend Code is a computer-generated random code assigned to a particular member. The True Friend Code must be used to activate a True Friend connection within 48 hours of the time that the member requests the True Friend Code; otherwise, the True Friend Code expires and cannot be used.  Moreover, a single True Friend Code can only be used to establish one True Friend connection.  To make additional True Friend connections, a member must request an additional True Friend Code for each additional True Friend.
+A Secret Code is a computer-generated random code assigned to a particular member. The Secret Code must be used to activate a Secret connection within 48 hours of the time that the member requests the Secret Code; otherwise, the Secret Code expires and cannot be used.  Moreover, a single Secret Code can only be used to establish one Secret connection.  To make additional Secret connections, a member must request an additional Secret Code for each additional Secret.
 
-True Friendships do not transfer.  For example, if Sally becomes a True Friend of Mike, and Mike becomes a True Friend of Jessica, Sally does not automatically become Jessica's True Friend.  In order for Sally and Jessica to
+Secretships do not transfer.  For example, if Sally becomes a Secret of Mike, and Mike becomes a Secret of Jessica, Sally does not automatically become Jessica's Secret.  In order for Sally and Jessica to
 ""","""
-become True Friends, one of them must request a new True Friend Code from the Service and communicate it to the other.
+become Secrets, one of them must request a new Secret Code from the Service and communicate it to the other.
 
-True Friends communicate with one another in a free-form interactive open chat.  The content of this chat is directly entered by the participating member and is processed through the Service, which is operated by the Walt Disney Internet Group ("WDIG"), 500 S. Buena Vista St., Burbank, CA 91521-7691.  While we advise members not to exchange personal information such as first and last names, e-mail addresses, postal addresses, or phone numbers while using Open Chat with True Friends, we cannot guarantee that such exchanges of personal information will not happen. Although the True Friends chat is automatically filtered for most bad words, Open Chat with True Friends may be moderated, and Disney reserves the right to moderate any part of the Service that Disney,
+Secrets communicate with one another in a free-form interactive open chat.  The content of this chat is directly entered by the participating member and is processed through the Service, which is operated by the Walt Disney Internet Group ("WDIG"), 500 S. Buena Vista St., Burbank, CA 91521-7691.  While we advise members not to exchange personal information such as first and last names, e-mail addresses, postal addresses, or phone numbers while using Open Chat with Secrets, we cannot guarantee that such exchanges of personal information will not happen. Although the Secrets chat is automatically filtered for most bad words, Open Chat with Secrets may be moderated, and Disney reserves the right to moderate any part of the Service that Disney,
 ""","""
-in its sole and absolute discretion, deems necessary. However, because Open Chat with True Friends will not always be moderated, if the Parent Account allows a child to use his or her account with the Open Chat with True Friends feature enabled, we strongly encourage parents to supervise their child or children while they play in the Service. By enabling the Open Chat with True Friends feature, the Parent Account acknowledges that there are some risks inherent in the Open Chat with True Friends feature and that the Parent Account has been informed of, and agrees to accept, any such risks, whether foreseeable or otherwise. 
+in its sole and absolute discretion, deems necessary. However, because Open Chat with Secrets will not always be moderated, if the Parent Account allows a child to use his or her account with the Open Chat with Secrets feature enabled, we strongly encourage parents to supervise their child or children while they play in the Service. By enabling the Open Chat with Secrets feature, the Parent Account acknowledges that there are some risks inherent in the Open Chat with Secrets feature and that the Parent Account has been informed of, and agrees to accept, any such risks, whether foreseeable or otherwise. 
 
-WDIG does not use the content of True Friends chat for any purpose other than communicating that content to the member's true friend, and does not disclose that content to any third party except: (1) if required by law, for example, to comply with a court order or subpoena; (2) to enforce the Terms of Use
+WDIG does not use the content of Secrets chat for any purpose other than communicating that content to the member's Secret, and does not disclose that content to any third party except: (1) if required by law, for example, to comply with a court order or subpoena; (2) to enforce the Terms of Use
 ""","""
-applicable to the Service (which may be accessed on the home page of the Service); or, (3) to protect the safety and security of Members of the Service and the Service itself. In accordance with the Children's Online Privacy Protection Act, we are prohibited from conditioning, and do not condition, a child's participation in any activity (including Open Chat with True Friends) on the child's disclosing more personal information than is reasonably necessary to participate in such activity.
+applicable to the Service (which may be accessed on the home page of the Service); or, (3) to protect the safety and security of Members of the Service and the Service itself. In accordance with the Children's Online Privacy Protection Act, we are prohibited from conditioning, and do not condition, a child's participation in any activity (including Open Chat with Secrets) on the child's disclosing more personal information than is reasonably necessary to participate in such activity.
 
-In addition, as noted above, we recognize the right of a parent to refuse to permit us to continue to allow a child to use the True Friends feature. By enabling the Open Chat with True Friends feature, you acknowledge that there are some risks inherent in the ability of members to open chat with one another through the Open Chat with True Friends feature, and that you have been informed of, and agree to accept, any such risks, whether foreseeable or otherwise.
+In addition, as noted above, we recognize the right of a parent to refuse to permit us to continue to allow a child to use the Secrets feature. By enabling the Open Chat with Secrets feature, you acknowledge that there are some risks inherent in the ability of members to open chat with one another through the Open Chat with Secrets feature, and that you have been informed of, and agree to accept, any such risks, whether foreseeable or otherwise.
 """
 ]
 
@@ -224,7 +224,7 @@ LeaveToPay = """Click Purchase to exit the game and buy a Membership at toontown
 LeaveToPayYes = "Purchase"
 LeaveToPayNo = lCancel
 
-LeaveToSetParentPassword = """In order to set parent account password, the game will exit to the Toontown website."""
+LeaveToSetParentPassword = """In order to set Parent Password, the game will exit to the Toontown website."""
 LeaveToSetParentPasswordYes = "Set Password"
 LeaveToSetParentPasswordNo = lCancel
 
@@ -233,12 +233,12 @@ LeaveToEnableChatUKYes = "Enable Chat"
 LeaveToEnableChatUKNo = lCancel
 
 ChatMoreInfoOK = lOK
-SecretChatDeactivated = 'The "True Friends" feature has been disabled.'
-RestrictedSecretChatActivated = 'The "Restricted True Friends" feature has been enabled!'
-SecretChatActivated = 'The "Unrestricted True Friends" feature has been enabled!'
+SecretChatDeactivated = 'The "Secrets" feature has been disabled.'
+RestrictedSecretChatActivated = 'The "Restricted Secrets" feature has been enabled!'
+SecretChatActivated = 'The "Unrestricted Secrets" feature has been enabled!'
 SecretChatActivatedOK = lOK
 SecretChatActivatedChange = "Change Options"
-ProblemActivatingChat = 'Oops!  We were unable to activate the "True Friends" chat feature.\n\n%s\n\nPlease try again later.'
+ProblemActivatingChat = 'Oops!  We were unable to activate the "Secrets" chat feature.\n\n%s\n\nPlease try again later.'
 ProblemActivatingChatOK = lOK
 
 # MultiPageTextFrame.py
@@ -392,32 +392,32 @@ SCMenuVictoryParties             = "VICTORY PARTIES"
 
 # FriendSecret.py
 FriendSecretNeedsPasswordWarningTitle = "Parental Controls"
-FriendSecretNeedsParentLoginWarning = """To get or enter a True Friend Code, log in with the Parent Account.  You can disable this prompt by changing your True Friend options."""
-FriendSecretNeedsPasswordWarning = """To get or enter a True Friend Code, you must enter the Parent Account Password.  You can disable this prompt by changing your True Friends options."""
+FriendSecretNeedsParentLoginWarning = """To get or enter a Secret Code, log in with the Parent Account.  You can disable this prompt by changing your Secret options."""
+FriendSecretNeedsPasswordWarning = """To get or enter a Secret Code, you must enter the Parent Password.  You can disable this prompt by changing your Secrets options."""
 FriendSecretNeedsPasswordWarningOK = lOK
 FriendSecretNeedsPasswordWarningCancel = lCancel
 FriendSecretNeedsPasswordWarningWrongUsername = """That's not the correct username.  Please enter the username of the parental account.  This is not the same username used to play the game."""
 FriendSecretNeedsPasswordWarningWrongPassword = """That's not the correct password.  Please enter the password of the parental account.  This is not the same password used to play the game."""
-FriendSecretIntro = "If you are playing Disney's Toontown Online with someone you know in the real world, you can become True Friends.  You can chat using the keyboard with your True Friends.  Other Toons won't understand what you're saying.\n\nYou do this by getting a True Friend Code.  Tell the True Friend Code to your friend, but not to anyone else.  When your friend types in your True Friend Code on his or her screen, you'll be True Friends in Toontown!"
-FriendSecretGetSecret = "Get a True Friend Code"
-FriendSecretEnterSecret = "If you have a True Friend Code from someone you know, type it here."
+FriendSecretIntro = "If you are playing Disney's Toontown Online with someone you know in the real world, you can become Secrets.  You can chat using the keyboard with your Secrets.  Other Toons won't understand what you're saying.\n\nYou do this by getting a Secret Code.  Tell the Secret Code to your friend, but not to anyone else.  When your friend types in your Secret Code on his or her screen, you'll be Secrets in Toontown!"
+FriendSecretGetSecret = "Get a Secret Code"
+FriendSecretEnterSecret = "If you have a Secret Code from someone you know, type it here."
 FriendSecretOK = lOK
-FriendSecretEnter = "Enter True Friend Code"
+FriendSecretEnter = "Enter Secret Code"
 FriendSecretCancel = lCancel
-FriendSecretGettingSecret = "Getting True Friend Code. . ."
-FriendSecretGotSecret = "Here is your new True Friend Code.  Be sure to write it down!\n\nYou may give this True Friend Code to one person only.  Once someone types in your True Friend Code, it will not work for anyone else.  If you want to give a True Friend Code to more than one person, get another True Friend Code.\n\nThe True Friend Code will only work for the next two days.  Your friend will have to type it in before it goes away, or it won't work.\n\nYour True Friend Code is:"
-FriendSecretTooMany = "Sorry, you can't have any more True Friend Codes today.  You've already had more than your fair share!\n\nTry again tomorrow."
-FriendSecretTryingSecret = "Trying True Friend Code. . ."
-FriendSecretEnteredSecretSuccess = "You are now True Friends with %s!"
+FriendSecretGettingSecret = "Getting Secret Code. . ."
+FriendSecretGotSecret = "Here is your new Secret Code.  Be sure to write it down!\n\nYou may give this Secret Code to one person only.  Once someone types in your Secret Code, it will not work for anyone else.  If you want to give a Secret Code to more than one person, get another Secret Code.\n\nThe Secret Code will only work for the next two days.  Your friend will have to type it in before it goes away, or it won't work.\n\nYour Secret Code is:"
+FriendSecretTooMany = "Sorry, you can't have any more Secret Codes today.  You've already had more than your fair share!\n\nTry again tomorrow."
+FriendSecretTryingSecret = "Trying Secret Code. . ."
+FriendSecretEnteredSecretSuccess = "You are now Secrets with %s!"
 FriendSecretTimeOut = "Sorry, secrets are not working right now."
-FriendSecretEnteredSecretUnknown = "That's not anyone's True Friend Code.  Are you sure you spelled it correctly?\n\nIf you did type it correctly, it may have expired.  Ask your friend to get a new True Friend Code for you (or get a new one yourself and give it to your friend)."
+FriendSecretEnteredSecretUnknown = "That's not anyone's Secret Code.  Are you sure you spelled it correctly?\n\nIf you did type it correctly, it may have expired.  Ask your friend to get a new Secret Code for you (or get a new one yourself and give it to your friend)."
 FriendSecretEnteredSecretFull = "You can't be friends with %s because one of you has too many friends on your friends list."
 FriendSecretEnteredSecretFullNoName = "You can't be friends because one of you has too many friends on your friends list."
-FriendSecretEnteredSecretSelf = "You just typed in your own True Friend Code!  Now no one else can use that True Friend Code."
-FriendSecretEnteredSecretWrongProduct = "You have entered the wrong type of True Friend Code.\nThis game uses codes that begin with '%s'."
-FriendSecretNowFriends = "You are now True Friends with %s!"
-FriendSecretNowFriendsNoName = "You are now True Friends!"
-FriendSecretDetermineSecret = "What type of True Friend would you like to make?"
+FriendSecretEnteredSecretSelf = "You just typed in your own Secret Code!  Now no one else can use that Secret Code."
+FriendSecretEnteredSecretWrongProduct = "You have entered the wrong type of Secret Code.\nThis game uses codes that begin with '%s'."
+FriendSecretNowFriends = "You are now Secrets with %s!"
+FriendSecretNowFriendsNoName = "You are now Secrets!"
+FriendSecretDetermineSecret = "What type of Secret would you like to make?"
 FriendSecretDetermineSecretAvatar = "Avatar"
 FriendSecretDetermineSecretAvatarRollover = "A friend only in this game"
 FriendSecretDetermineSecretAccount = "Account"
@@ -2081,99 +2081,6 @@ SpeedChatStaticText = {
     21205: 'Dance!',
     21206: 'Speak!',
 
-    # Phrases for April Toon's week
-    30100 : "Happy April Toons' Week!",
-    30101 : "Welcome to my April Toons' Week party!",
-    30110 : "Mickey is in Daisy Gardens.",
-    30111 : "Daisy is in Toontown Central.",
-    30112 : "Minnie is in The Brrrgh.",
-    30113 : "Pluto is in Melodyland.",
-    30114 : "Donald is sleepwalking at the Speedway.",
-    30115 : "Goofy is in Dreamland.",
-    30120 : "Mickey is acting like Daisy!",
-    30121 : "Daisy is acting like Mickey!",
-    30122 : "Minnie is acting like Pluto!",
-    30123 : "Pluto is acting like Minnie!",
-    30124 : "Pluto is talking!",
-    30125 : "Goofy is acting like Donald!",
-    30126 : "Donald is dreaming he is Goofy!",
-    30130 : "Watch how far I can jump.",
-    30131 : "Wow, you jumped really far!",
-    30132 : "Hey, Doodles can talk!",
-    30133 : "Did your Doodle just talk?",
-    30140 : "Things sure are silly around here!",
-    30141 : "How sillier could things get?",
-    
-    # Phrases for caroling
-    30200 : "Deck the halls... ",
-    30201 : "Load some pies...",
-    30202 : "Joyful toons...",
-    30203 : "Snowman heads...",
-    30204 : "Toontown's merry...",
-    30205 : "Lure good cheer...",
-    
-    30220 : "Deck the halls with seltzer spray!\nHappy Winter Holiday!",
-    30221 : "Load some pies into your sleigh!\nHappy Winter Holiday!",
-    30222 : "Joyful toons bring Cogs dismay!\nHappy Winter Holiday!",
-    30223 : "Snowman heads are hot today!\nHappy Winter Holiday!",
-    30224 : "Toontown's merry, come what may!\nHappy Winter Holiday!",
-    30225 : "Lure good cheer the Toontown way!\nHappy Winter Holiday!",
-    
-    # Phrases for Silly Story
-    30301 : "Have you seen the Silly Meter?",
-    30302 : "The Silly Meter is in Toon Hall.",
-    30303 : "Things sure are getting silly around here!",
-    30304 : "I saw a fire hydrant moving!",
-    30305 : "Toontown is coming to life!",
-    30306 : "Have you been to Flippy's new office?",
-    30307 : "I caused a Silly Surge in battle!",
-    30308 : "Let's defeat some Cogs to make Toontown sillier!",
-    
-    30309 : "The Silly Meter is bigger and crazier than ever!",
-    30310 : "Lots of hydrants have come alive!",
-    30311 : "I saw a mail box moving!",
-    30312 : "I watched a trash can wake up!",
-    30313 : "How silly can it get?",
-    30314 : "What\'s going to happen next?",
-    30315 : "Something silly, I bet!",
-    30316 : "Have you caused a Silly Surge yet?",
-    30317 : "Let's defeat some Cogs to make Toontown sillier!",
-    
-    30318 : "Cog Invasion!",
-    30319 : "Incoming!",
-    30320 : "Let\'s stop those Cogs!",
-    30321 : "I miss the Silly Surges!",
-    30322 : "Let\'s go stop an Invasion!",
-    30323 : "Toontown is sillier than ever now!",
-    30324 : "Have you seen something come alive?",
-    30325 : "My favorites are the fire hydrants!",
-    30326 : "My favorites are the mailboxes!",
-    30327 : "My favorites are the trash cans!",
-    
-    30328 : "Hooray! We stopped the Cog invasions!",
-    30329 : "A hydrant helped me in battle!",
-    30330 : "A hydrant boosted my Squirt Gags!",
-    30331 : "A trash can boosted my Toon-Up Gags!",
-    30332 : "A mailbox helped my Throw Gags!",
-    
-    # Phrases for Victory Parties (warning 60400 is in use)
-    30350 : "Welcome to my Victory Party!",
-    30351 : "This is a great Victory Party!",
-    30352 : "We showed those Cogs who's boss!",
-    30353 : "Good job helping end the Cog invasions!",
-    30354 : "I bet this is driving the Cogs crazy!",
-    
-    30355 : "Let's play Cog-O-War!",
-    30356 : "My team won at Cog-O-War!",
-    30357 : "It's nice to have fire hydrants, trash cans, and mailboxes here!",
-    30358 : "I like the balloon of the Doodle biting the Cog!",
-    30359 : "I like the balloon of the Cog covered in ice cream!",
-    30360 : "I like the wavy Cog that flaps his arms!",
-    30361 : "I jumped on a Cog's face!",
-
-    #   
-    
-
     # PIRATES ROOT - TOP LEVEL
     50001 : 'Aye',
     50002 : 'Nay',
@@ -2527,7 +2434,125 @@ SpeedChatStaticText = {
     60675 : "Do you have a map?  I just keep getting lost in your eyes.",
 
     65000 : "Yes",
-    65001 : "No",    
+    65001 : "No",
+
+    65009 : "Check hand",    
+    
+    # Phrases for April Toon's week
+    60100 : "Happy April Toons' Week!",
+    60101 : "Welcome to my April Toons' Week party!",
+    60110 : "Mickey is in Daisy Gardens.",
+    60111 : "Daisy is in Toontown Central.",
+    60112 : "Minnie is in The Brrrgh.",
+    60113 : "Pluto is in Melodyland.",
+    60114 : "Donald is sleepwalking at the Speedway.",
+    60115 : "Goofy is in Dreamland.",
+    60120 : "Mickey is acting like Daisy!",
+    60121 : "Daisy is acting like Mickey!",
+    60122 : "Minnie is acting like Pluto!",
+    60123 : "Pluto is acting like Minnie!",
+    60124 : "Pluto is talking!",
+    60125 : "Goofy is acting like Donald!",
+    60126 : "Donald is dreaming he is Goofy!",
+    60130 : "Watch how far I can jump.",
+    60131 : "Wow, you jumped really far!",
+    60132 : "Hey, Doodles can talk!",
+    60133 : "Did your Doodle just talk?",
+    60140 : "Things sure are silly around here!",
+    60141 : "How sillier could things get?",
+    
+    # Phrases for caroling
+    60200 : "Deck the halls... ",
+    60201 : "Load some pies...",
+    60202 : "Joyful toons...",
+    60203 : "Snowman heads...",
+    60204 : "Toontown's merry...",
+    60205 : "Lure good cheer...",
+    
+    60220 : "Deck the halls with seltzer spray!\nHappy Winter Holiday!",
+    60221 : "Load some pies into your sleigh!\nHappy Winter Holiday!",
+    60222 : "Joyful toons bring Cogs dismay!\nHappy Winter Holiday!",
+    60223 : "Snowman heads are hot today!\nHappy Winter Holiday!",
+    60224 : "Toontown's merry, come what may!\nHappy Winter Holiday!",
+    60225 : "Lure good cheer the Toontown way!\nHappy Winter Holiday!",
+    
+    # Phrases for Silly Story
+    60301 : "Have you seen the Silly Meter?",
+    60302 : "The Silly Meter is in Toon Hall.",
+    60303 : "Things sure are getting silly around here!",
+    60304 : "I saw a fire hydrant moving!",
+    60305 : "Toontown is coming to life!",
+    60306 : "Have you been to Flippy's new office?",
+    60307 : "I caused a Silly Surge in battle!",
+    60308 : "Let's defeat some Cogs to make Toontown sillier!",
+    
+    60309 : "The Silly Meter is bigger and crazier than ever!",
+    60310 : "Lots of hydrants have come alive!",
+    60311 : "I saw a mail box moving!",
+    60312 : "I watched a trash can wake up!",
+    60313 : "How silly can it get?",
+    60314 : "What\'s going to happen next?",
+    60315 : "Something silly, I bet!",
+    60316 : "Have you caused a Silly Surge yet?",
+    60317 : "Let's defeat some Cogs to make Toontown sillier!",
+    
+    60318 : "Cog Invasion!",
+    60319 : "Incoming!",
+    60320 : "Let\'s stop those Cogs!",
+    60321 : "I miss the Silly Surges!",
+    60322 : "Let\'s go stop an Invasion!",
+    60323 : "Toontown is sillier than ever now!",
+    60324 : "Have you seen something come alive?",
+    60325 : "My favorites are the fire hydrants!",
+    60326 : "My favorites are the mailboxes!",
+    60327 : "My favorites are the trash cans!",
+    
+    60328 : "Hooray! We stopped the Cog invasions!",
+    60329 : "A hydrant helped me in battle!",
+    60330 : "A hydrant boosted my Squirt Gags!",
+    60331 : "A trash can boosted my Toon-Up Gags!",
+    60332 : "A mailbox helped my Throw Gags!",
+    
+    # Phrases for Victory Parties (warning 60400 is in use)
+    60350 : "Welcome to my Victory Party!",
+    60351 : "This is a great Victory Party!",
+    60352 : "We showed those Cogs who's boss!",
+    60353 : "Good job helping end the Cog invasions!",
+    60354 : "I bet this is driving the Cogs crazy!",
+    
+    60355 : "Let's play Cog-O-War!",
+    60356 : "My team won at Cog-O-War!",
+    60357 : "It's nice to have fire hydrants, trash cans, and mailboxes here!",
+    60358 : "I like the balloon of the Doodle biting the Cog!",
+    60359 : "I like the balloon of the Cog covered in ice cream!",
+    60360 : "I like the wavy Cog that flaps his arms!",
+    60361 : "I jumped on a Cog's face!",
+
+    # Phrases for Sellbot Field Offices
+    60400: "The Sellbots are invading!",
+    60401: "The V.P. was hopping mad about Operation: Storm Sellbot ...",
+    60402: "He's sending the Sellbots in to invade Toontown!",
+    60403: "Let's go fight some Sellbots!",
+    60404: "There's a new kind of building in Toontown!",
+    60405: "Have you seen the Mover & Shaker Field Offices?",
+    60406: "The V.P. created them as a reward for the Movers & Shakers.",
+    60407: "Let's go defeat a Field Office!",
+    60408: "I got an SOS Card for defeating a Field Office!",
+    60409: "Clear the map by exploring the maze.",
+    60410: "Destroy the Cogs by hitting them with water balloons!",
+    60411: "Movers & Shakers take two balloons to destroy.",
+    60412: "Look out for falling objects!",
+    60413: "Watch out for the Cogs!",
+    60414: "Collect Jokes to get a Toon-up at the end!",
+    60415: "When the room shakes, a Mover & Shaker is nearby.",
+    60416: "Defeat all four Mover & Shakers to open the exit!",
+    60417: "The exit is open!",
+    60418: "It's the Boss!",
+
+    # Phrases for Ides Of March
+    60450: "It's easy to be green!",
+    60451: "Visit Green Bean Jeans and you can be green too!",
+    60452: "It's on Oak Street in Daisy Gardens.",
     
     # Phrases for Singing
 ##    9000 : 'Middle ' + 'G1',
@@ -2539,6 +2564,10 @@ SpeedChatStaticText = {
 ##    9006 : 'Middle ' + 'F',
 ##    9007 : 'Middle ' + 'G2'
     }
+# SpeedChatStaticText.py
+# SpeedChatStaticTextCommon.py
+# This file contains the static text for SpeedChat.
+SpeedChatStaticText = SpeedChatStaticTextCommon
 
 # Emote IDs - These are used in SC to determine if a msg is a animated emote
 Emotes_Root = "EMOTES"
@@ -3192,7 +3221,7 @@ AvatarDetailPanelOffline = "District: offline\nLocation: offline"
 # AvatarPanel.py
 AvatarPanelFriends = "Friends"
 AvatarPanelWhisper = "Whisper"
-AvatarPanelSecrets = "True Friends"
+AvatarPanelSecrets = "Secrets"
 AvatarPanelGoTo = "Go To"
 AvatarPanelIgnore = "Ignore"
 AvatarPanelStopIgnore = "Stop Ignoring"
