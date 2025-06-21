@@ -216,7 +216,7 @@ O WDIG não usa o conteúdo do chat de Amigos secretos para nenhum fim que não 
 """,""" 
 aplicáveis ao Serviço (que podem ser acessados na página principal do Serviço) sejam respeitados; ou (3) para proteger a segurança dos Membros do Serviço e o Serviço propriamente dito. Obedecendo à Children's Online Privacy Protection Act, uma lei americana de proteção à privacidade on-line para as crianças, estamos proibidos de condicionar a participação da criança em qualquer tipo de atividade (inclusive o recurso Abrir chat de Amigos secretos) ao fornecimento, por parte da criança, de mais informações pessoais do que o estritamente necessário para que ela participe de tais atividades.
 
-Além disso, conforme observado acima, reconhecemos o direito do responsável pela criança de não permitir que continuemos a deixar que a criança use o recurso Amigos secretos. Ao ativar o recurso Abrir Chat de Amigos secretos, você reconhece que há alguns riscos inerentes ao chat, no qual os membros podem conversar uns com os outros usando o recurso Amigos secretos, sendo que você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los.
+Além disso, conforme observado acima, reconhecemos o direito do responsável pela criança de não permitir que continuemos a deixar que a criança use o recurso Amigos secretos. Ao ativar o recurso Abrir Chat de Amigos secretos, você reconhece que há alguns riscos inerentes ao chat, no qual os membros podem conversar uns com os outros usando o recurso Amigos secretos, sendo que você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los, se previsível ou de outra forma.
 """
 ]
 
@@ -280,9 +280,10 @@ CRBootedReasons = {
     100: "Você foi desconectado porque outra pessoa acabou de fazer login usando a sua conta em outro computador.",
     120: "Você foi desconectado porque houve um problema com sua autorização para usar o chat de teclado.",
     122: "Houve um problema inesperado quando você fez login na Toontown. Entre em contato com o Suporte ao Cliente da Toontown.",
-    125: "Os arquivos da Toontown que você tem instalados parecem ser inválidos. Use o botão Jogar, no site da web oficial da Toontown, para executar a Toontown.",
+    124: "Os arquivos que você tem instalados parecem ser inválidos. Use o botão Jogar, no site da web oficial da Toontown, para executar o Toontown.",
+    125: "Os arquivos que você tem instalados parecem ser inválidos. Use o botão Jogar, no site da web oficial da Toontown, para executar o Toontown.",
     126: "Você não está autorizado a usar privilégios administrativos.",
-    127: "Um problema está ocorrendo com seu Toon. Entre em contato com o Serviço de Associado via telefone, e-mail ou chat ao vivo e referência ao código de erro 127. Obrigado.",
+    127: "Um problema está ocorrendo com seu Toon. Entre em contato com o Serviço de Associado via telefone, e-mail ou chat ao vivo e o erro de referência no código de erro 127. Obrigado.",
     151: "O administrador responsável pelos servidores de Toontown fez logout na sua conta.",
     152: "Foi relatada uma violação dos nossos termos de uso, com relação a '%(name)s'. Por segurança, colocamos uma restrição temporária na conta. Para obter mais detalhes, leia a mensagem enviada ao endereço de e-mail associado a '%(name)s'.", 
     153: "A região de Toontown em que você estava jogando foi reiniciada. Todas as pessoas que estavam jogando nesta região foram desconectadas. Entretanto, você poderá conectar-se novamente e voltar direto ao jogo.",
