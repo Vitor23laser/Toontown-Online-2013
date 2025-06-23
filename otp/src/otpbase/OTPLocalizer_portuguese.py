@@ -287,6 +287,7 @@ TCRBootedReasons = {
     151: "O administrador responsável pelos servidores de Toontown fez logout na sua conta.",
     152: "Foi relatada uma violação dos nossos termos de uso, com relação a '%(name)s'. Por segurança, colocamos uma restrição temporária na conta. Para obter mais detalhes, leia a mensagem enviada ao endereço de e-mail associado a '%(name)s'.", 
     153: "A região de Toontown em que você estava jogando foi reiniciada. Todas as pessoas que estavam jogando nesta região foram desconectadas. Entretanto, você poderá conectar-se novamente e voltar direto ao jogo.",
+    154: "Toontown está fechado para manutenção. Todo mundo precisam descontectar",
     288: "Sinto muito, mas você usou todos os seus minutos disponíveis deste mês na Toontown.",
     349: "Sinto muito, mas você usou todos os seus minutos disponíveis deste mês na Toontown.",
     }
@@ -382,14 +383,21 @@ SCMenuToontasksMyTasks = "MINHAS TAREFAS"
 SCMenuToontasksYouShouldChoose = "Eu acho que você deveria escolher..."
 SCMenuToontasksINeedMore = "Preciso de mais..."
 SCMenuBattleGags = "PIADAS"
-SCMenuBattleTaunts = "PROVOCAÇÕES"
 SCMenuBattleStrategy = "ESTRATÉGIA"
-SCMenuBoardingGroup = "ABORDAGEM"
+SCMenuBoardingGroup  = "ABORDAGEM"
 SCMenuParties = "FESTAS"
-SCMenuAprilToons = "TOONS DE ABRIL"
-SCMenuSingingGroup = "CANTAR"
+SCMenuAprilToons = "DIA DA MENTIRA TOONS"
+SCMenuSingingGroup = "CANTORIA"
+SCMenuCarol = "CANTANDO"
 SCMenuSillyHoliday = "MEDIDOR DE BOBAGEM"
-SCMenuVictoryParties = "FESTAS DE VITÓRIA"
+SCMenuVictoryParties = "FESTAS DA VITÓRIAS"
+SCMenuSellbotNerf = "TEMPESTADE DOS RÔBOS VENDEDORES"
+SCMenuJellybeanJam = "SEMANA DAS BALINHAS"
+SCMenuHalloween = "DIAS DAS BRUXAS"
+SCMenuWinter = "INVERNO"
+SCMenuSellbotInvasion = "INVASÃO DOS RÔBOS VENDEDORES"
+SCMenuFieldOffice = "ESCRITÓRIO DE CAMPO"
+SCMenuIdesOfMarch = "VERDE"
 
 # FriendSecret.py
 FriendSecretNeedsPasswordWarningTitle = "Controles disponíveis aos pais"
