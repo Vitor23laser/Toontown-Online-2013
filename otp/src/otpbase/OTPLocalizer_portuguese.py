@@ -275,7 +275,7 @@ CRMissingGameRootObject = "Há alguns objetos do jogo raiz ausentes. (A causa po
 CRNoDistrictsTryAgain = "Não há Regiões de Toontown disponíveis. Tentar novamente?"
 CRRejectRemoveAvatar = "O Toon não pôde ser excluído, tente novamente mais tarde."
 CRLostConnection = "A sua conexão de Internet à Toontown foi interrompida inesperadamente."
-CRBootedReasons = {
+TCRBootedReasons = {
     1: "Houve um problema inesperado. A conexão falhou, mas você ainda deve conseguir conectar-se novamente para voltar ao jogo.",
     100: "Você foi desconectado porque outra pessoa acabou de fazer login usando a sua conta em outro computador.",
     120: "Você foi desconectado porque houve um problema com sua autorização para usar o chat de teclado.",
