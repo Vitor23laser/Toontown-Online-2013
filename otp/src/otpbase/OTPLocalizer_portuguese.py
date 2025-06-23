@@ -210,13 +210,13 @@ se tornem Amigas secretas, uma delas terá que solicitar um novo código secreto
 
 Os Amigos secretos se comunicam entre si por meio de uma conversa interativa em formato livre. O conteúdo da conversa é inserido diretamente pelo membro participante e é processado pelo Serviço, cuja operação é realizada pelo Walt Disney Internet Group ("WDIG"), 506 2nd Avenue, Suite 2100, Seattle, WA 98104, EUA (telefone +1 (509) 742-4698; e-mail ms_support@help.go.com). Apesar de recomendarmos aos membros não trocarem com outros membros informações pessoais como nome e sobrenome, e-mails, endereço postal ou números de telefone ao usarem o recurso Abrir Chat de Amigos secretos, não podemos garantir que os membros seguirão a recomendação e que tais informações sejam preservadas. Embora o chat de Amigos secretos seja automaticamente filtrado para evitar o uso da maioria dos palavrões, Abrir Chat de Amigos Secretos não há moderação, e Disney reserva o direito para moderar toda parte no Serviço que a Disney,
 ""","""
-em sua exclusiva e discrição absoleta, considere necessário. No entanto, porque o recurso Abrir Chat de Amigos Secretos nem sempre será moderado, se os pais deixarem seus filhos usarem a conta com o recurso Amigos secretos ativado, aconselhamos que eles mesmos supervisionem os filhos durante a brincadeira no Serviço. Ao ativar o recurso Amigos secretos, a conta de pais reconhece que há alguns riscos inerentes ao recurso abrir chat de amigos secretos, e a conta de pais que foi informadas de todos os riscos mencionados aqui, concordando em aceitá-los, se previsível ou de outra forma
+em sua exclusiva e discrição absoleta, considere necessário. No entanto, porque o recurso Abrir Chat de Amigos Secretos nem sempre será moderado, se os pais deixarem seus filhos usarem a conta com o recurso Abrir Chat de Amigos secretos ativado, aconselhamos que eles mesmos supervisionem os filhos durante a brincadeira no Serviço. Ao ativar o recurso Abrir Chat de Amigos secretos, a conta de pais reconhece que há alguns riscos inerentes ao recurso abrir chat de amigos secretos, e a conta de pais que foi informadas de todos os riscos mencionados aqui, concordando em aceitá-los, se previsível ou de outra forma
 
 O WDIG não usa o conteúdo do chat de Amigos secretos para nenhum fim que não seja a comunicação do conteúdo ao amigo secreto do membro, e não revela tal conteúdo a terceiros, exceto: (1) se exigido por lei; por exemplo, para cumprir uma ordem ou intimação judicial; (2) para fazer com que os Termos de Uso 
 """,""" 
 aplicáveis ao Serviço (que podem ser acessados na página principal do Serviço) sejam respeitados; ou (3) para proteger a segurança dos Membros do Serviço e o Serviço propriamente dito. Obedecendo à Children's Online Privacy Protection Act, uma lei americana de proteção à privacidade on-line para as crianças, estamos proibidos de condicionar a participação da criança em qualquer tipo de atividade (inclusive o recurso Abrir chat de Amigos secretos) ao fornecimento, por parte da criança, de mais informações pessoais do que o estritamente necessário para que ela participe de tais atividades.
 
-Além disso, conforme observado acima, reconhecemos o direito do responsável pela criança de não permitir que continuemos a deixar que a criança use o recurso Amigos secretos. Ao ativar o recurso Abrir Chat de Amigos secretos, você reconhece que há alguns riscos inerentes ao chat, no qual os membros podem conversar uns com os outros usando o recurso Amigos secretos, sendo que você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los, se previsível ou de outra forma.
+Além disso, conforme observado acima, reconhecemos o direito do responsável pela criança de não permitir que continuemos a deixar que a criança use o recurso Amigos secretos. Ao ativar o recurso Abrir Chat de Amigos secretos, você reconhece que há alguns riscos inerentes ao chat, no qual os membros podem conversar uns com os outros usando o recurso Abrir Chat de Amigos secretos, sendo que você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los, se previsível ou de outra forma.
 """
 ]
 
@@ -384,12 +384,12 @@ SCMenuToontasksINeedMore = "Preciso de mais..."
 SCMenuBattleGags = "PIADAS"
 SCMenuBattleTaunts = "PROVOCAÇÕES"
 SCMenuBattleStrategy = "ESTRATÉGIA"
-SCMenuBoardingGroup              = "ABORDAGEM"
-SCMenuParties                    = "FESTAS"
-SCMenuAprilToons                 = "TOONS DE ABRIL"
-SCMenuSingingGroup              = "CANTAR"
-SCMenuSillyHoliday              = "MEDIDOR DE BOBAGEM"
-SCMenuVictoryParties           = "FESTAS DE VITÓRIA"
+SCMenuBoardingGroup = "ABORDAGEM"
+SCMenuParties = "FESTAS"
+SCMenuAprilToons = "TOONS DE ABRIL"
+SCMenuSingingGroup = "CANTAR"
+SCMenuSillyHoliday = "MEDIDOR DE BOBAGEM"
+SCMenuVictoryParties = "FESTAS DE VITÓRIA"
 
 # FriendSecret.py
 FriendSecretNeedsPasswordWarningTitle = "Controles disponíveis aos pais"
@@ -435,6 +435,8 @@ GuildMemberOnline = "entrou on-line."
 GuildMemberOffline = "saiu e está off-line."
 GuildPrefix = "(G):"
 GuildNewMember = "Novo membro da guilda"
+GuildMemberUnkown = "Desconhecido"
+GuildMemberGMMessage = "Aviso! Você gostaria de desistir da liderança da sua guilda e tornar %s seu mestre da guilda?\n\nVocê se tornará um oficial"
 
 # GuildInvitee.py
 GuildInviteeOK = lOK
@@ -463,16 +465,28 @@ GuildInviterYes = lYes
 GuildInviterTooFull = "A guilda atingiu o tamanho máximo."
 GuildInviterNo = lNo
 GuildInviterClickToon = "Clique no pirata que você gostaria de convidar."
-GuildInviterTooMany = "Isto é um bug"
-GuildInviterNotAvailable = "%s está ocupado agora; tente novamente mas tarde."
-GuildInviterGuildSaidNo = "%s does not wish to join."
-GuildInviterAlreadyInvited = "%s has already been invited."
-GuildInviterEndGuildship = "Eject %s from the guild?"
-GuildInviterFriendsNoMore = "%s has left the guild."
-GuildInviterSelf = "You are already in the guild!"
-GuildInviterIgnored = "%s está ignorando você."
-GuildInviterAsking = "Pedindo para o %s se juntar à guilda."
-GuildInviterGuildSaidYes = "%s está se juntou na guilda!"
+GuildInviterTooMany = 'Isto é um bug'
+GuildInviterNotAvailable = '%s está ocupado agora correto; tente novamente mais tarde.'
+GuildInviterGuildSaidNo = '%s não deseja para se juntar.'
+GuildInviterAlreadyInvited = '%s já foi convidado.'
+GuildInviterEndGuildship = 'Ejetar %s da guilda?'
+GuildInviterFriendsNoMore = '%s tenha saído da guilda.'
+GuildInviterSelf = 'Você já está na guilda!'
+GuildInviterIgnored = '%s está ignorando você.'
+GuildInviterAsking = 'Pedindo para %s entrar na guilda.'
+GuildInviterGuildSaidYes = '%s irá participar!'
+GuildInviterFriendKickedOut = '%s tenha expulsado %s da Guilda.'
+GuildInviterFriendKickedOutP = '%s tenham expulsado %s da Guilda.'
+GuildInviterFriendInvited = '%s tenha convidando %s para a Guilda.'
+GuildInviterFriendInvitedP = '%s tenham convidados %s para a Guilda.'
+GuildInviterFriendPromoted = '%s tenha promovido o %s  para o ranque de %s.'
+GuildInviterFriendPromotedP = '%s tenham promovidos o %s para o ranque de %s.'
+GuildInviterFriendDemoted = '%s tenha rebaixado o %s para o rank de %s.'
+GuildInviterFriendDemotedP = '%s tenham rebaixado o %s para o rank de %s.'
+GuildInviterFriendPromotedGM = '%s tenha nomeado o %s como o novo %s'
+GuildInviterFriendPromotedGMP = '%s tenham nomearam o %s como o novo %s'
+GuildInviterFriendDemotedGM = '%s foi nomeado por %s como o novo Mestre da Guilda que se tornou o ranque de %s'
+GuildInviterFriendDemotedGMP = '%s foram nomeados por %s como o novo Mestre da Guilda que alcançou o ranque de %s'
 
 # FriendInviter.py
 FriendOnline = "entrou on-line."
@@ -518,7 +532,7 @@ TalkParty = "P"
 TalkPVP = "PVP"
 
 #Spam Blocked Message
-AntiSpamInChat = "***Spam***"
+AntiSpamInChat = "***Spamm***"
 
 #IgnoreConfirm.py
 IgnoreConfirmOK = lOK
@@ -655,19 +669,19 @@ SuitBrushOffs = {
     }
 
 SuitFaceoffTaunts = {
-    'b':  ["Você tem uma doação para mim?",
-           "Você vai detestar perder a parada.",
-           "Você não vai ter salvação.",
-           "Sou \"A Positivo\", portanto, vou ganhar.",
-           "\"O\"não seja tão \"Negativo\".",
-           "É uma surpresa você ter me achado; não tenho parada.",
-           "Vou precisar fazer uma rápida contagem em você.",
-           "Em breve, você vai precisar comer biscoito e tomar um suco.",
-           "Quando eu terminar, você vai precisar dar uma descansada.",
-           "Só vai doer um pouquinho.",
-           "Vou deixar você tonto.",
-           "Na hora certa, só estou um pouquinho abaixo.",
-           ],
+   'b':  ["Você tem uma doação para mim?",
+          "Você vai detestar perder a parada.",
+          "Você não vai ter salvação.",
+          'Sou "A Positivo", portanto, vou ganhar.',
+          '"O"não seja tão "Negativo".',
+          "É uma surpresa você ter me achado; não tenho parada.",
+          "Vou precisar fazer uma rápida contagem em você.",
+          "Em breve, você vai precisar comer biscoito e tomar um suco.",
+          "Quando eu terminar, você vai precisar dar uma descansada.",
+          "Só vai doer um pouquinho.",
+          "Vou deixar você tonto.",
+          "Na hora certa, só estou um pouquinho abaixo.",
+          ],
     'm':  ["Você não sabe com quem está se metendo.",
            "Nunca se meteu com alguém da minha turma?",
            "Isso é bom, quando um não quer dois não se misturam.",
@@ -1534,12 +1548,9 @@ SpeedChatStaticText = {
     3360 : "Seu kart é maravilhoso!",
 
     #Taunts (commented out taunts are for possible purchase lines)
-    #3400 : "Coma a minha poeira!",
     3400 : "Tá com medo de me enfrentar?",
     3410 : "Vejo você na linha de chegada!",
-    #3420 : "Você é mais devagar que tartaruga!",
     3430 : "Sou rápido como um raio!",
-    #3440 : "Sou mais veloz que a luz!",
     3450 : "Você nunca vai me alcançar!",
     3451 : "Você nunca vai me derrotar!",
     3452 : "Ninguém consegue bater o meu tempo!",
@@ -1548,11 +1559,6 @@ SpeedChatStaticText = {
     3461 : "Foi sorte a sua!",
     3462 : "Uh-huu! Essa foi perto!",
     3470 : "Uau, pensei que você tinha me vencido!",
-    #3500 : "Dá uma olhada na minha máquina!",
-    #3510 : "Olha só as minhas rodas!",
-    #3540 : "Vruum! Vruum!",
-    #3560 : "Eu já vi Cogs mais rápidos que isso!",
-    #3600 : "Sou o mais rápido dos mais rápidos!",
 
     # Golf phrases
 
@@ -1590,79 +1596,79 @@ SpeedChatStaticText = {
     4307 : "Grande jogo!",
 
     # Boarding Group phrases
-
-    5000 : "Let's form a Boarding Group.",
-    5001 : "Join my Boarding Group.",
-    5002 : "Can you invite me to your Boarding Group?",
-    5003 : "I'm already in a Boarding Group.",
-    5004 : "Leave your Boarding Group.",
-    5005 : "We are boarding now.",
-    5006 : "Where are we going?",
-    5007 : "Are we ready?",    
-    5008 : "Let's Go!",
-    5009 : "Don't leave this area or you will leave the Boarding Group.",
+    5000 : "Vamos formar um Grupo de Abordagem.",
+    5001 : "Junte-se ao meu Grupo de Abordagem.",
+    5002 : "Você pode me convidar para o seu Grupo de Abordagem?",
+    5003 : "Já faço parte de um Grupo de Abordagem.",
+    5004 : "Sair do seu Grupo de Abordagem.",
+    5005 : "Estamos abordando agora.",
+    5006 : "Aonde vamos?",
+    5007 : "Preparados?",
+    5008 : "Vamos!",
+    5009 : "Não saia dessa área ou sairá do Grupo de Abordagem.",
 
     # Let's Go to...
-    5100 : "Let's go to the Front Three.",
-    5101 : "Let's go to the Middle Six.",
-    5102 : "Let's go to the Back Nine.",
-    5103 : "Let's go to the C.E.O. Battle.",
-    5104 : "Let's go to the Senior V.P Battle.",
-    5105 : "Let's go to the Front Entrance.",
-    5106 : "Let's go to the Side Entrance.",    
-    5107 : "Let's go to the Coin Mint.",
-    5108 : "Let's go to the Dollar Mint.",
-    5109 : "Let's go to the Bullion Mint.",
-    5110 : "Let's go to the C.F.O. Battle.",
-    5111 : "Let's go to the Chief Justice Battle.",
-    5112 : "Let's go to the Lawbot A Office.",
-    5113 : "Let's go to the Lawbot B Office.",
-    5114 : "Let's go to the Lawbot C Office.",
-    5115 : "Let's go to the Lawbot D Office.",
+    5100 : "Vamos para o Três da Frente.",
+    5101 : "Vamos para o Seis do Meio.",
+    5102 : "Vamos para o Nove dos Fundos.",
+    5103 : "Vamos para a Batalha do Presidente.",
+    5104 : "Vamos para a Batalha do V. P. Sênior.",
+    5105 : "Vamos para a Entrada da Frente.",
+    5106 : "Vamos para a Entrada dos Fundos.",
+    5107 : "Vamos para a Casa da Moeda.",
+    5108 : "Vamos para a Casa da Moeda de Dólar.",
+    5109 : "Vamos para a Casa da Moeda de Barras de Ouro.",
+    5110 : "Vamos para a Batalha do Diretor Financeiro.",
+    5111 : "Vamos para a Batalha do Juiz-Chefe.",
+    5112 : "Vamos para o Escritório da Lei A.",
+    5113 : "Vamos para o Escritório da Lei B.",
+    5114 : "Vamos para o Escritório da Lei C.",
+    5115 : "Vamos para o Escritório da Lei D.",
 
     # We're going to...
-    5200 : "We're going to the Front Three.",
-    5201 : "We're going to the Middle Six.",
-    5202 : "We're going to the Back Nine.",
-    5203 : "We're going to the C.E.O. Battle.",
-    5204 : "We're going to the Senior V.P Battle.",
-    5205 : "We're going to the Front Entrance.",
-    5206 : "We're going to the Side Entrance.",    
-    5207 : "We're going to the Coin Mint.",
-    5208 : "We're going to the Dollar Mint.",
-    5209 : "We're going to the Bullion Mint.",
-    5210 : "We're going to the C.F.O. Battle.",
-    5211 : "We're going to the Chief Justice Battle.",
-    5212 : "We're going to the Lawbot A Office.",
-    5213 : "We're going to the Lawbot B Office.",
-    5214 : "We're going to the Lawbot C Office.",
-    5215 : "We're going to the Lawbot D Office.",
+    5200 : "Estamos indo para o Três da Frente.",
+    5201 : "Estamos indo para o Seis do Meio.",
+    5202 : "Estamos indo para o Nove dos Fundos.",
+    5203 : "Estamos indo para a Batalha do Presidente.",
+    5204 : "Estamos indo para a Batalha do V. P. Sênior.",
+    5205 : "Estamos indo para a Entrada da Frente.",
+    5206 : "Estamos indo para a Entrada dos Fundos.",
+    5207 : "Estamos indo para a Casa da Moeda.",
+    5208 : "Estamos indo para a Casa da Moeda de Dólar.",
+    5209 : "Estamos indo para a Casa da Moeda de Barras de Ouro.",
+    5210 : "Estamos indo para a Batalha do Diretor Financeiro.",
+    5211 : "Estamos indo para a Batalha do Juiz-Chefe.",
+    5212 : "Estamos indo para o Escritório da Lei A.",
+    5213 : "Estamos indo para o Escritório da Lei B.",
+    5214 : "Estamos indo para o Escritório da Lei C.",
+    5215 : "Estamos indo para o Escritório da Lei D.",
 
     # Parties General Phrases
-    5300 : "Let's go to a party.",
-    5301 : "See you at the party!",
-    5302 : "My party has started!",
-    5303 : "Come to my party!",
+    5300 : "Vamos para uma festa.",
+    5301 : "Vejo você na festa!",
+    5302 : "Minha festa começou!",
+    5303 : "Venha para minha festa!",
+
     # Parties Phrases when inside a party
-    5304 : "Welcome to my party!",
-    5305 : "This party rules!",
-    5306 : "Your party is fun!",
-    5307 : "It's party time!",
-    5308 : "Time is running out!",
-    5309 : "No cogs allowed!",
-    5310 : "I like this song!",
-    5311 : "This music is great!",
-    5312 : "Cannons are a blast!",
-    5313 : "Watch me jump!",
-    5314 : "Trampolines are fun!",
-    5315 : "Let's play Catch!",
-    5316 : "Let's dance!",
-    5317 : "To the dance floor!",
-    5318 : "Let's play Tug of War!",    
-    5319 : "Start the fireworks!",
-    5320 : "These fireworks are beautiful!",
-    5321 : "Nice decorations.",
-    5322 : "I wish I could eat this cake!",
+    5304 : "Vamos brincar de Cabo de Guerra!",
+    5305 : "Vamos brincar de Pega-pega!",
+    5306 : "Vamos dançar!",
+    5307 : "Para a pista de dança!",
+    5308 : "Lançar fogos de artifício!",
+    5309 : "Veja como eu pulo!",
+    5310 : "Gosto dessa música!",
+    5311 : "Essa música é legal!",
+    5312 : "Esta festa é maneira!",
+    5313 : "Sua festa é animada!",
+    5314 : "Trampolins são divertidos!",
+    5315 : "É hora da diversão!",
+    5316 : "Canhões são uma curtição!",
+    5317 : "O tempo está acabando!",
+    5318 : "Decoração bacana.",
+    5319 : "Eu queria comer esse bolo!",
+    5320 : "Esses fogos de artifício são lindos!",
+    5321 : "Cogs não entram!",
+    5322 : "Queria comer este bolo!",
         
     # Promotional Considerations
     10000 : "A escolha é sua!",
@@ -1695,7 +1701,6 @@ SpeedChatStaticText = {
     20012: SuitFaceoffTaunts['bf'][7],
     20013: SuitFaceoffTaunts['bf'][8],
     20014: SuitFaceoffTaunts['bf'][9],
-
     20015: SuitFaceoffTaunts['nc'][0],
     20016: SuitFaceoffTaunts['nc'][1],
     20017: SuitFaceoffTaunts['nc'][2],
@@ -1706,7 +1711,6 @@ SpeedChatStaticText = {
     20022: SuitFaceoffTaunts['nc'][7],
     20023: SuitFaceoffTaunts['nc'][8],
     20024: SuitFaceoffTaunts['nc'][9],
-
     20025: SuitFaceoffTaunts['ym'][0],
     20026: SuitFaceoffTaunts['ym'][1],
     20027: SuitFaceoffTaunts['ym'][2],
@@ -1718,7 +1722,6 @@ SpeedChatStaticText = {
     20033: SuitFaceoffTaunts['ym'][8],
     20034: SuitFaceoffTaunts['ym'][9],
     20035: SuitFaceoffTaunts['ym'][10],
-
     20036: SuitFaceoffTaunts['ms'][0],
     20037: SuitFaceoffTaunts['ms'][1],
     20038: SuitFaceoffTaunts['ms'][2],
@@ -1730,7 +1733,6 @@ SpeedChatStaticText = {
     20044: SuitFaceoffTaunts['ms'][8],
     20045: SuitFaceoffTaunts['ms'][9],
     20046: SuitFaceoffTaunts['ms'][10],
-
     20047: SuitFaceoffTaunts['bc'][0],
     20048: SuitFaceoffTaunts['bc'][1],
     20049: SuitFaceoffTaunts['bc'][2],
@@ -1742,7 +1744,6 @@ SpeedChatStaticText = {
     20055: SuitFaceoffTaunts['bc'][8],
     20056: SuitFaceoffTaunts['bc'][9],
     20057: SuitFaceoffTaunts['bc'][10],
-
     20058: SuitFaceoffTaunts['cc'][0],
     20059: SuitFaceoffTaunts['cc'][1],
     20060: SuitFaceoffTaunts['cc'][2],
@@ -1756,7 +1757,6 @@ SpeedChatStaticText = {
     20068: SuitFaceoffTaunts['cc'][10],
     20069: SuitFaceoffTaunts['cc'][11],
     20070: SuitFaceoffTaunts['cc'][12],
-
     20071: SuitFaceoffTaunts['nd'][0],
     20072: SuitFaceoffTaunts['nd'][1],
     20073: SuitFaceoffTaunts['nd'][2],
@@ -1767,7 +1767,6 @@ SpeedChatStaticText = {
     20078: SuitFaceoffTaunts['nd'][7],
     20079: SuitFaceoffTaunts['nd'][8],
     20080: SuitFaceoffTaunts['nd'][9],
-
     20081: SuitFaceoffTaunts['ac'][0],
     20082: SuitFaceoffTaunts['ac'][1],
     20083: SuitFaceoffTaunts['ac'][2],
@@ -1780,7 +1779,6 @@ SpeedChatStaticText = {
     20090: SuitFaceoffTaunts['ac'][9],
     20091: SuitFaceoffTaunts['ac'][10],
     20092: SuitFaceoffTaunts['ac'][11],
-
     20093: SuitFaceoffTaunts['tf'][0],
     20094: SuitFaceoffTaunts['tf'][1],
     20095: SuitFaceoffTaunts['tf'][2],
@@ -1792,7 +1790,6 @@ SpeedChatStaticText = {
     20101: SuitFaceoffTaunts['tf'][8],
     20102: SuitFaceoffTaunts['tf'][9],
     20103: SuitFaceoffTaunts['tf'][10],
-
     20104: SuitFaceoffTaunts['hh'][0],
     20105: SuitFaceoffTaunts['hh'][1],
     20106: SuitFaceoffTaunts['hh'][2],
@@ -1804,7 +1801,6 @@ SpeedChatStaticText = {
     20112: SuitFaceoffTaunts['hh'][8],
     20113: SuitFaceoffTaunts['hh'][9],
     20114: SuitFaceoffTaunts['hh'][10],
-
     20115: SuitFaceoffTaunts['le'][0],
     20116: SuitFaceoffTaunts['le'][1],
     20117: SuitFaceoffTaunts['le'][2],
@@ -1815,7 +1811,6 @@ SpeedChatStaticText = {
     20122: SuitFaceoffTaunts['le'][7],
     20123: SuitFaceoffTaunts['le'][8],
     20124: SuitFaceoffTaunts['le'][9],
-
     20125: SuitFaceoffTaunts['bs'][0],
     20126: SuitFaceoffTaunts['bs'][1],
     20127: SuitFaceoffTaunts['bs'][2],
@@ -1827,7 +1822,6 @@ SpeedChatStaticText = {
     20133: SuitFaceoffTaunts['bs'][8],
     20134: SuitFaceoffTaunts['bs'][9],
     20135: SuitFaceoffTaunts['bs'][10],
-
     20136: SuitFaceoffTaunts['cr'][0],
     20137: SuitFaceoffTaunts['cr'][1],
     20138: SuitFaceoffTaunts['cr'][2],
@@ -1838,7 +1832,6 @@ SpeedChatStaticText = {
     20143: SuitFaceoffTaunts['cr'][7],
     20144: SuitFaceoffTaunts['cr'][8],
     20145: SuitFaceoffTaunts['cr'][9],
-
     20146: SuitFaceoffTaunts['tbc'][0],
     20147: SuitFaceoffTaunts['tbc'][1],
     20148: SuitFaceoffTaunts['tbc'][2],
@@ -1850,7 +1843,6 @@ SpeedChatStaticText = {
     20154: SuitFaceoffTaunts['tbc'][8],
     20155: SuitFaceoffTaunts['tbc'][9],
     20156: SuitFaceoffTaunts['tbc'][10],
-
     20157: SuitFaceoffTaunts['ds'][0],
     20158: SuitFaceoffTaunts['ds'][1],
     20159: SuitFaceoffTaunts['ds'][2],
@@ -1859,7 +1851,6 @@ SpeedChatStaticText = {
     20162: SuitFaceoffTaunts['ds'][5],
     20163: SuitFaceoffTaunts['ds'][6],
     20164: SuitFaceoffTaunts['ds'][7],
-
     20165: SuitFaceoffTaunts['gh'][0],
     20166: SuitFaceoffTaunts['gh'][1],
     20167: SuitFaceoffTaunts['gh'][2],
@@ -1873,7 +1864,6 @@ SpeedChatStaticText = {
     20175: SuitFaceoffTaunts['gh'][10],
     20176: SuitFaceoffTaunts['gh'][11],
     20177: SuitFaceoffTaunts['gh'][12],
-
     20178: SuitFaceoffTaunts['pp'][0],
     20179: SuitFaceoffTaunts['pp'][1],
     20180: SuitFaceoffTaunts['pp'][2],
@@ -1884,7 +1874,6 @@ SpeedChatStaticText = {
     20185: SuitFaceoffTaunts['pp'][7],
     20186: SuitFaceoffTaunts['pp'][8],
     20187: SuitFaceoffTaunts['pp'][9],
-
     20188: SuitFaceoffTaunts['b'][0],
     20189: SuitFaceoffTaunts['b'][1],
     20190: SuitFaceoffTaunts['b'][2],
@@ -1897,7 +1886,6 @@ SpeedChatStaticText = {
     20197: SuitFaceoffTaunts['b'][9],
     20198: SuitFaceoffTaunts['b'][10],
     20199: SuitFaceoffTaunts['b'][11],
-
     20200: SuitFaceoffTaunts['f'][0],
     20201: SuitFaceoffTaunts['f'][1],
     20202: SuitFaceoffTaunts['f'][2],
@@ -1909,7 +1897,6 @@ SpeedChatStaticText = {
     20208: SuitFaceoffTaunts['f'][8],
     20209: SuitFaceoffTaunts['f'][9],
     20210: SuitFaceoffTaunts['f'][10],
-
     20211: SuitFaceoffTaunts['mm'][0],
     20212: SuitFaceoffTaunts['mm'][1],
     20213: SuitFaceoffTaunts['mm'][2],
@@ -1924,7 +1911,6 @@ SpeedChatStaticText = {
     20222: SuitFaceoffTaunts['mm'][11],
     20223: SuitFaceoffTaunts['mm'][12],
     20224: SuitFaceoffTaunts['mm'][13],
-
     20225: SuitFaceoffTaunts['tw'][0],
     20226: SuitFaceoffTaunts['tw'][1],
     20227: SuitFaceoffTaunts['tw'][2],
@@ -1936,7 +1922,6 @@ SpeedChatStaticText = {
     20233: SuitFaceoffTaunts['tw'][8],
     20234: SuitFaceoffTaunts['tw'][9],
     20235: SuitFaceoffTaunts['tw'][10],
-
     20236: SuitFaceoffTaunts['mb'][0],
     20237: SuitFaceoffTaunts['mb'][1],
     20238: SuitFaceoffTaunts['mb'][2],
@@ -1947,7 +1932,6 @@ SpeedChatStaticText = {
     20243: SuitFaceoffTaunts['mb'][7],
     20244: SuitFaceoffTaunts['mb'][8],
     20245: SuitFaceoffTaunts['mb'][9],
-
     20246: SuitFaceoffTaunts['m'][0],
     20247: SuitFaceoffTaunts['m'][1],
     20248: SuitFaceoffTaunts['m'][2],
@@ -1957,7 +1941,6 @@ SpeedChatStaticText = {
     20252: SuitFaceoffTaunts['m'][6],
     20253: SuitFaceoffTaunts['m'][7],
     20254: SuitFaceoffTaunts['m'][8],
-
     20255: SuitFaceoffTaunts['mh'][0],
     20256: SuitFaceoffTaunts['mh'][1],
     20257: SuitFaceoffTaunts['mh'][2],
@@ -1970,7 +1953,6 @@ SpeedChatStaticText = {
     20264: SuitFaceoffTaunts['mh'][9],
     20265: SuitFaceoffTaunts['mh'][10],
     20266: SuitFaceoffTaunts['mh'][11],
-
     20267: SuitFaceoffTaunts['dt'][0],
     20268: SuitFaceoffTaunts['dt'][1],
     20269: SuitFaceoffTaunts['dt'][2],
@@ -1981,7 +1963,6 @@ SpeedChatStaticText = {
     20274: SuitFaceoffTaunts['dt'][7],
     20275: SuitFaceoffTaunts['dt'][8],
     20276: SuitFaceoffTaunts['dt'][9],
-
     20277: SuitFaceoffTaunts['p'][0],
     20278: SuitFaceoffTaunts['p'][1],
     20279: SuitFaceoffTaunts['p'][2],
@@ -1993,7 +1974,6 @@ SpeedChatStaticText = {
     20285: SuitFaceoffTaunts['p'][8],
     20286: SuitFaceoffTaunts['p'][9],
     20287: SuitFaceoffTaunts['p'][10],
-
     20288: SuitFaceoffTaunts['tm'][0],
     20289: SuitFaceoffTaunts['tm'][1],
     20290: SuitFaceoffTaunts['tm'][2],
@@ -2005,7 +1985,6 @@ SpeedChatStaticText = {
     20296: SuitFaceoffTaunts['tm'][8],
     20297: SuitFaceoffTaunts['tm'][9],
     20298: SuitFaceoffTaunts['tm'][10],
-
     20299: SuitFaceoffTaunts['bw'][0],
     20300: SuitFaceoffTaunts['bw'][1],
     20301: SuitFaceoffTaunts['bw'][2],
@@ -2016,7 +1995,6 @@ SpeedChatStaticText = {
     20306: SuitFaceoffTaunts['bw'][7],
     20307: SuitFaceoffTaunts['bw'][8],
     20308: SuitFaceoffTaunts['bw'][9],
-
     20309: SuitFaceoffTaunts['ls'][0],
     20310: SuitFaceoffTaunts['ls'][1],
     20311: SuitFaceoffTaunts['ls'][2],
@@ -2028,7 +2006,6 @@ SpeedChatStaticText = {
     20317: SuitFaceoffTaunts['ls'][8],
     20318: SuitFaceoffTaunts['ls'][9],
     20319: SuitFaceoffTaunts['ls'][10],
-
     20320: SuitFaceoffTaunts['rb'][0],
     20321: SuitFaceoffTaunts['rb'][1],
     20322: SuitFaceoffTaunts['rb'][2],
@@ -2039,7 +2016,6 @@ SpeedChatStaticText = {
     20327: SuitFaceoffTaunts['rb'][7],
     20328: SuitFaceoffTaunts['rb'][8],
     20329: SuitFaceoffTaunts['rb'][9],
-
     20330: SuitFaceoffTaunts['sc'][0],
     20331: SuitFaceoffTaunts['sc'][1],
     20332: SuitFaceoffTaunts['sc'][2],
@@ -2051,7 +2027,6 @@ SpeedChatStaticText = {
     20338: SuitFaceoffTaunts['sc'][8],
     20339: SuitFaceoffTaunts['sc'][9],
     20340: SuitFaceoffTaunts['sc'][10],
-
     20341: SuitFaceoffTaunts['sd'][0],
     20342: SuitFaceoffTaunts['sd'][1],
     20343: SuitFaceoffTaunts['sd'][2],
@@ -2081,14 +2056,184 @@ SpeedChatStaticText = {
     21205: 'Dança!',
     21206: 'Fala!',
 
-    # PIRATES ROOT - TOP LEVEL
+    # Phrases for April Toon's week
+    30100: "Feliz Dia da Semana dos Toons de Abril!",
+    30101: "Bem-vindo à minha festa da Semana dos Toons de Abril!",
+    30102: "O Medidor de Bobagem está de volta ao Prefeitoona!",
+    30110: "Mickey está no Jardim da Margarida.",
+    30111: "Margarida está em Centro de Toontown.",
+    30112: "Minnie está no Brrrgh.",
+    30113: "Pluto está na Melodilândia.",
+    30114: "Donald está sonâmbulo no autódromo.",
+    30115: "O Pateta está na Sonholândia.",
+    30120: "Mickey está agindo como Margarida!",
+    30121: "Margarida está agindo como Mickey!",
+    30122: "Minnie está agindo como Pluto!",
+    30123: "Pluto está agindo como Minnie!",
+    30124: "Pluto está falando!",
+    30125: "Pateta está agindo como Donald!",
+    30126: "Donald está sonhando que é o Pateta!",
+    30130: "Observe até onde consigo pular.",
+    30131: "Nossa, você pulou muito longe!",
+    30132: "Ei, Rabiscos podem, falar!",
+    30133: "Seu Rabisco acabou de falar?",
+    30140: "As coisas com certeza são bobas por aqui!",
+    30141: "Como mais bobas as coisas poderiam ficar?",
+
+    # Phrases for Sellbot Nerf Event
+    30150: "Operação: Tempestade dos Robôs Vendedores está aqui!",
+    30151: "Torres dos Robôs Vendedores teve sua energia drenada por Rabiscos!",
+    30152: "O Sênior VP teve seu poder drenado por Rabiscos!",
+    30153: "Todos podem lutar contra o  Sênior VP agora mesmo!",
+    30154: "Você não precisa de um disfarce de Robô Vendedores para lutar contra o VP!",
+    30155: "Você ganha um Terno Alugado quando entra nas Torres dos Robôs Vendedores.",
+    30156: "Você gostou do meu traje de aluguel? Desculpe pelos alfinetes de segurança!",
+    30157: "É melhor ter oito Toons para lutar contra o sênior VP.",
+    30158: "Você vai me ajudar a lutar contra o sênior VP?",
+    30159: "Você quer lutar contra o sênior VP comigo?",
+    30160: "Você gostaria de se juntar ao meu grupo Robôs Vendedores sênior VP?",
+    30161: "Estou procurando um Toon com Traje Alugado para lutar contra o sênior VP.",
+    30162: "Eu tenho um traje de aluguel e estou querendo lutar contra o  sênior VP.",
+    30163: "Basta passar pelas portas para pegar seu traje de aluguel.",
+    30164: "Guarde suas piadas para os Cogs lá dentro!",
+    30165: "Temos que derrotar esses Cogs primeiro!",
+    30166: "Bata nos barris para piada subir.",
+    30167: "Bata no cano para conseguir um Toonar.",
+    30168: "Agora temos que lutar contra alguns EsqueletosCogs!",
+    30169: "Salte e toque na gaiola do Toon para pegar tortas!",
+    30170: "Agora lutamos contra o sênior VP!",
+    30171: "Mire suas tortas pressionando o botão Delete.",
+    30172: "Dois Toons deveriam jogar tortas pelas portas abertas do VP!",
+    30173: "Vou atordoar o sênior VP pela frente.",
+    30174: "Vou atordoar o sênior VP pelas costas.",
+    30175: "Pule quando o sênior VP pular!",
+
+    # Phrases for Jellybean Jam
+    30180: "Tenho balinhas duplas no bondinho!",
+    30181: "Tenho balinhas duplas na pesca!",
+    30182: "Tenho Balinhas duplas em uma festa!",
+    30183: "Balinhas balinhas balinhas!",
+    30184: "Estou com muita vontade de ganhar uma bala!",
+    30185: "Não seja fedorento, pegue balinha!",
+    30186: "Vou adotar um Rasbico com todas essas balinhas!",
+    30187: "Em que vou gastar todas essas balinhas?",
+    30188: "Vou dar uma grande festa!",
+    30189: "Vou decorar toda a minha propriedade!",
+    30190: "Vou comprar um guarda-roupa totalmente novo!",
+    30191: "Balinhas, por favor!",
+    30192: "Não seja mau, dê um feijão!",
+    30193: "Quem quer balinhas?",
+    30194: "Dance para balinhas!",
+
+    # Phrases for caroling
+    30200: "Hoje é dia de Alegria...",
+    30201: "Coloque algumas tortas...",
+    30202: "Toons alegres...",
+    30203: "Cabeças de boneco de neve...",
+    30204: "Toontown é alegre...",
+    30205: "Isca bom ânimo...",
+
+    30220: "Hoje é dia de Alegria com spray de água com gás!\nBoas festas de inverno!",
+    30221: "Coloque algumas tortas em seu trenó!\nBoas festas de inverno!",
+    30222: "Toons alegres trazem consternação aos Cogs!\nBoas festas de inverno!",
+    30223: "As cabeças dos bonecos de neve estão quentes hoje!\nBoas férias de inverno!",
+    30224: "Toontown é alegre, aconteça o que acontecer!\nBoas festas de inverno!",
+    30225: "Isca a alegria do jeito Toontown!\nBoas férias de inverno!",
+
+    # Phrases for Halloween
+    30250: "Bu!",
+    30251: "Feliz Halloween!",
+    30252: "Assustador!",
+
+    # Phrases for Christmas
+    30250: "Buu!",
+    30251: "Feliz Dia das Bruxas!",
+    30252: "Assustador!",
+
+    # Phrases for Silly Story
+    30301: "Você viu o Medidor de Bobagem?",
+    30302: "O medidor de bobagem está na Prefeitoona.",
+    30303: "As coisas com certeza estão ficando bobas por aqui!",
+    30304: "Eu vi um hidrante se mexendo!",
+    30305: "Toontown está ganhando vida!",
+    30306: "Você já esteve no novo escritório do Flippy?",
+    30307: "Eu causei um Surto Bobo em batalha!",
+    30308: "Vamos derrotar alguns Cogs para deixar Toontown mais boba!",
+    30309: "O Medidor de Bobagem está maior e mais louco do que nunca!",
+    30310: "Muitos hidrantes ganharam vida!",
+    30311: "Vi uma caixa de correio se mexendo!",
+    30312: "Eu vi uma lata de lixo acordar!",
+    30313: "Quão bobo isso pode ser?",
+    30314: "O que vai acontecer a seguir?",
+    30315: "Algo bobo, aposto!",
+    30316: "Você já causou um Surto Bobo?",
+    30317: "Vamos derrotar alguns Cogs para deixar Toontown mais boba!",
+    30318: "Invasão da cog!",
+    30319: "Chegando!",
+    30320: "Vamos parar esses cogs!",
+    30321: "Sinto falta dos Surtos Bobos!",
+    30322: "Vamos impedir uma invasão!",
+    30323: "Toontown está mais bobo do que nunca!",
+    30324: "Você viu algo ganhar vida?",
+    30325: "Meus favoritos são os hidrantes!",
+    30326: "Minhas favoritas são as caixas de correio!",
+    30327: "Meus favoritos são as latas de lixo!",
+    30328: "Viva! Paramos as invasões dos Cogs!",
+    30329: "Um hidrante me ajudou na batalha!",
+    30330: "Um hidrante impulsionou minhas Piadas de Esguicho!",
+    30331: "Uma lata de lixo impulsionou minhas Piadas de Toonar!",
+    30332: "Uma caixa de correio ajudou minhas Piadas de Lançamento!",
+
+    # Phrases for Victory Parties (warning 30400 is in use)
+    30350: "Bem-vindo à minha Festa da Vitória!",
+    30351: "Esta é uma grande Festa da Vitória!",
+    30352: "Mostramos àqueles Cogs quem manda!",
+    30353: "Bom trabalho ajudando a acabar com as invasões Cog!",
+    30354: "Aposto que isso está deixando os Cogs loucos!",
+    30355: "Vamos jogar Cog-de-Guerra!",
+    30356: "Meu time venceu o Cog-de-Guerra!",
+    30357: "É bom ter hidrantes, latas de lixo e caixas de correio aqui!",
+    30358: "Gosto do balão do Rabisco mordendo o cog!",
+    30359: "Gosto do balão do Cog coberto de sorvete!",
+    30360: "Gosto do cog ondulado que bate os braços!",
+    30361: "Eu pulei na cara de um Cog!",
+
+    # Phrases for Sellbot Field Offices
+    30400: "Os Robôs Vendedores estão invadindo!",
+    30401: "O sênior VP estava louco com a Operação: Storm Sellbot ...",
+    30402: "Ele está enviando os Robôs Vendedores para invadir Toontown!",
+    30403: "Vamos lutar contra alguns Robôs Vendedores!",
+    30404: "Há um novo tipo de construção em Toontown!",
+    30405: "Você viu os escritórios de campo dos Agitadores?",
+    30406: "O sênior VP os criou como uma recompensa para os Agitadores.",
+    30407: "Vamos derrotar um Escritório de Campo!",
+    30408: "Recebi um cartão SOS por derrotar um Escritório de Campo!",
+    30409: "Limpe o mapa explorando o labirinto.",
+    30410: "Destrua os cogs acertando-as com balões de água!",
+    30411: "Agitadores levam dois balões para destruir.",
+    30412: "Cuidado com a queda de objetos!",
+    30413: "Cuidado com as cogs!",
+    30414: "Colete piadas para obter um Toonar no final!",
+    30415: "Quando a sala treme, um Agitador está por perto.",
+    30416: "Derrote todos os quatros Agitadores para abrir a saída!",
+    30417: "A saída está aberta!",
+    30418: "É o chefe!",
+
+    # Phrases for Ides Of March
+    30450: "É fácil ser verde!",
+    30451: "Visite Jeans Feijão Verde e você também pode ser verde!",
+    30452: "Fica na Rua dos Carvalhos em Jardins da Margarida.",
+   
+    }
+
+SpeedChatStaticTextPirates = {
     50001 : 'Sim',
     50002 : 'Não',
     50003 : 'Arrr!',
     50004 : "Sim, sim, Capitão!",
     50005 : 'Ok',
 
-    # Common Expressions
+    # EXPRESSIONS
     50100 : "Todos a bordo!",
     50101 : "Ei, marujo!",
     50102 : "Alto lá!",
@@ -2098,122 +2243,118 @@ SpeedChatStaticText = {
     50106 : "Ei, você!",
     50107 : "Claro, claro, Capitão!",
     50108 : "Ande na prancha!",
-    50109 : "Continue!",
-    50110 : "Não vai sobrar ninguém para contar a história....",
+    50109 : "Ah, bem, alguns dias você vence, alguns dias você nada.",
+    50110 : 'Não vai sobrar ninguém para contar a história....',
+    50111 : "Seus olhos nunca viram um bando de canalhas melhor!",
+    50112 : "Se me enganar uma vez, a vergonha é minha. Se me enganar duas vezes, boa sorte no armário de Davy Jones.",
+    50113 : "Prepare sua bravura, içe as velas, um pirata do caribe nunca falha!",
 
-    # EXPRESSIONS - GREETINGS
-    50700 : "Ahoy!",
-    50701 : "Ahoy, matey!",
+# EXPRESSIONS - GREETINGS
+    50700 : "Ah!",
+    50701 : "Ah, amigo!",
     50702 : "Yo-Ho-Ho",
     50703 : "Avast!",
-    50704 : "Hey Bucko.",
+    50704 : "Ei, Bucko.",
 
     # EXPRESSIONS - GOODBYES
-    50800 : "Until next time.",
-    50801 : "May fair winds find you.",
-    50802 : "Godspeed.",
+    50800 : "Até a próxima.",
+    50801 : "Que bons ventos encontrem você.",
+    50802 : "Boa velocidade.",
 
 
     # EXPRESSIONS - FRIENDLY
-    50900 : "How are ya, matey?",
+    50900 : "Como vai, amigo?",
     50901 : "",
 
     # EXPRESSIONS - HAPPY
-    51000 : "It's like the sky is raining gold doubloons!",
-    51001 : "",
+    51000 : "É como se o céu estivesse chovendo dobrões de ouro!",
+    51001 : "Que o vento sopre forte, o sol aqueça nossas faces e os canhões disparem certeiros!",
 
     # EXPRESSIONS - SAD
-    51100 : "I've been sailing some rough waters this day.",
+    51100 : "Eu estive navegando em águas agitadas neste dia.",
 
-    # EXPRESSIONS - SORRY
-    51200 : "My apologies, mate.",
-    51201 : "Sorry.",
-    51202 : "Sorry, I was busy before.",
-    51203 : "Sorry, I already have plans.",
-    51204 : "Sorry, I don't need to do that.",
+    # EXPRESSIONS - Sorry
+    51200 : "Minhas desculpas, cara.",
+    51201 : "Desculpe.",
+    51202 : "Desculpe, eu estava ocupado antes.",
+    51203 : "Desculpe, já tenho planos.",
+    51204 : "Desculpe, não preciso fazer isso.",
 
     # COMBAT
-    51300 : "Attack the weakest one!",
-    51301 : "Attack the strongest one!",
-    51302 : "Attack my target!",
-    51303 : "I need help!",
-    51304 : "I can't do any damage!",
-    51305 : "I think we're in trouble.",
-    51306 : "Surround the most powerful one.",
-    51307 : "We should retreat.",
-    51308 : "Run for it!",
+    51300 : "Ataque o mais fraco!",
+    51301 : "Ataque o mais forte!",
+    51302 : "Ataque meu alvo!",
+    51303 : "Preciso de ajuda!",
+    51304 : "Não posso causar nenhum dano!",
+    51305 : "Acho que estamos com problemas.",
+    51306 : "Cerque o mais poderoso.",
+    51307 : "Devíamos recuar.",
+    51308 : "Corra!",
 
     # SEA COMBAT
-    51400 : "Fire a Broadside!",
-    51401 : "Port Side! (left)",
-    51402 : "Starboard Side! (right)",
-    51403 : "Incoming!",
-    51404 : "Come about!",
-    51405 : "Broadside! Take Cover!",
-    51406 : "To the Cannons!",
-    51407 : "Open fire!",
-    51408 : "Hold your fire!",
-    51409 : "Aim for the masts!",
-    51410 : "Aim for the hull!",
-    51411 : "Prepare to board!",
-    51412 : "She's coming about.",
-    51413 : "Ramming speed!",
-    51414 : "We've got her on the run.",
-    51415 : "We're taking on water.",
-    51416 : "We can't take anymore.",
-    51417 : "I don't have a shot!",
-    51418 : "Let's find port for repair.",
-    51419 : "Man overboard!",
-    51420 : "Enemy spotted.",
-    51421 : "Handsomely now, men!",
-
+    51400 : "Dispare um Broadside!",
+    51401 : "Bombordo! (esquerda)",
+    51402 : "Lado de estibordo! (direita)",
+    51403 : "Chegando!",
+    51404 : "Vamos lá!",
+    51405 : "Broadside! Proteja-se!",
+    51406 : "Para os Canhões!",
+    51407 : "Abra fogo!",
+    51408 : "Segure o fogo!",
+    51409 : "Mire nos mastros!",
+    51410 : "Mire no casco!",
+    51411 : "Prepare-se para embarcar!",
+    51412 : "Ela está chegando.",
+    51413 : "Velocidade de força!",
+    51414 : "Nós a temos em fuga.",
+    51415 : "Estamos entrando na água.",
+    51416 : "Não aguentamos mais.",
+    51417 : "Não tenho chance!",
+    51418 : "Vamos encontrar uma porta para reparo.",
+    51419 : "Homem ao mar!",
+    51420 : "Inimigo avistado.",
+    51421 : "Bonito agora, homens!",
+      
     # PLACES
-    50400 : "Let's set sail.",
-    50401 : "Let's get out of here.",
-
-    # PLACES
-    50400 : "Let's set sail.",
-    50401 : "Let's get out of here.",
-    50402 : "Let's get out of here.",
-    50403 : "Let's get out of here.",
-    50404 : "Let's get out of here.",
+    50400 : "Vamos zarpar.",
+    50401 : "Vamos sair daqui.",
 
     # PLACES - LETS SAIL...
-    51500 : "Let's sail to Port Royal.",
-    51501 : "Let's sail to Tortuga.",
-    51502 : "Let's sail to Padres Del Fuego.",
-    51503 : "Let's sail to Devil's Anvil.",
-    51504 : "Let's sail to Kingshead.",
-    51505 : "Let's sail to Isla Perdida.",
-    51506 : "Let's sail to Cuba.",
-    51507 : "Let's sail to Tormenta.",
-    51508 : "Let's sail to Outcast Isle.",
-    51509 : "Let's sail to Driftwood.",
-    51510 : "Let's sail to Cutthroat.",
-    51511 : "Let's sail to Rumrunner's Isle.",
-    51512 : "Let's sail to Isla Cangrejos.",
-    
+    51500 : "Vamos navegar para Port Royal.",
+    51501 : "Vamos navegar para Tortuga.",
+    51502 : "Vamos navegar para Padres Del Fuego.",
+    51503 : "Vamos navegar para Devil's Anvil.",
+    51504 : "Vamos navegar para Kingshead.",
+    51505 : "Vamos navegar para Isla Perdida.",
+    51506 : "Vamos navegar para Cuba.",
+    51507 : "Vamos navegar para Tormenta.",
+    51508 : "Vamos navegar para Outcast Isle.",
+    51509 : "Vamos navegar para Driftwood.",
+    51510 : "Vamos navegar para Cutthroat.",
+    51511 : "Vamos navegar para Rumrunner's Isle.",
+    51512 : "Vamos navegar para Isla Cangrejos.",
+      
     # PLACES - LETS HEAD TO...
-    51600 : "Let's head into town.",
-    51601 : "Let's go to the docks.",
-    51602 : "Let's head to the tavern.",    
+    51600 : "Vamos para a cidade.",
+    51601 : "Vamos para as docas.",
+    51602 : "Vamos para o bar.",
 
     # PLACES - LETS HEAD TO... - PORT ROYAL
-    51800 : "Let's go to Fort Charles.",
-    51801 : "Let's go to the Governor's Mansion.",
+    51800 : "Vamos para o Forte Charles.",
+    51801 : "Vamos para o Palácio do Governador.",
 
     # PLACES - WHERE IS ..?
-    52500 : "Where am I?",
+    52500 : "Onde estou, companheiro?",
 
     # DIRECTIONS
-    51700 : "You're already there.",
-    51701 : "I don't know.",
-    51702 : "You're on the wrong island.",
-    51703 : "That's in town.",
-    51704 : "Look just outside of town.",
-    51705 : "You'll have to search through the jungle.",
-    51706 : "Deeper inland.",
-    51707 : "Oh, that's by the coast.",
+    51700 : "Você já está lá.",
+    51701 : "Não sei.",
+    51702 : "Você está na ilha errada.",
+    51703 : "Isso é na cidade.",
+    51704 : "Olhe fora da cidade.",
+    51705 : "Você terá que procurar na selva.",
+    51706 : "Mais fundo no interior.",
+    51707 : "Ah, isso é perto da costa.",
 
     # Insults
     50200 : "Seu rato de porão!",
@@ -2221,108 +2362,110 @@ SpeedChatStaticText = {
     50202 : "Te vejo no fundo do mar!",
     50203 : "Patife!",
     50204 : "Marujo de terra firme!",
-    50205 : "Addle-minded fool!",
+    50205 : "Tolo confuso!",
+    50206 : "Você precisa de uma espada afiada e inteligência mais afiada."
+    50207 : "Você está a um dobrão de um companheiro de casco completo!"
+    50208 : "Cuidado com sua língua ou vou conservá-la com sal marinho!",
+    50209 : "Toca-me e saqueie e você ganha a bota!",
+    50210 : "O horizonte está tão vazio quanto sua cabeça.",
+    50211 : "Você é uma lona tímida de uma vela cheia, não é, companheiro?",
 
     # Compliments
-    50300 : "Nice shootin' matey!",
-    50301 : "A well placed blow!",
-    50302 : "Nice shot!",
-    50303 : "Well met!",
-    50304 : "We showed them!",
-    50305 : "Yer not so bad yerself!",
-    50306 : "A fine plunder haul!",
-    50206 : "You need a sharp sword and sharper wits.",
-    50207 : "Ye be one doubloon short of a full hull mate!",
-    50208 : "Watch yer tongue or I'll pickle it with sea salt!",
-    50209 : "Touch me loot and you get the boot!",
-    50210 : "The horizon be as empty as yer head.",
-    50211 : "You're a canvas shy of a full sail, aren't ye mate?",
+    50300 : "Belo disparo, colega!",
+    50301 : "Um golpe bem dado!",
+    50302 : "Boa tentativa!",
+    50303 : "Que bom ver você!",
+    50304 : "Mostramos a eles!",
+    50305 : "Vocês não são tão ruins assim!",
+    50306 : "Que bela pilhagem fizemos!",
+    
+    # Jogos de Cartas
+    52400 : "Que a sorte esteja comigo.",
+    52401 : "Acho que essas cartas estão marcadas!",
+    52402 : "Caramba, trapaceiro!",
+    
+    # Jogos de Cartas - Pôquer
+    51900 : "Que flop terrível!",
+    51901 : "Tentando comprar a mão, é?",
+    51902 : "Você está blefando.",
+    51903 : "Acho que você não tinha.",
+    51904 : "Salvo pelo river.",
 
-    # Card Games
-    52400 : "May luck be my lady.",
-    52401 : "I think these cards are marked!",
-    52402 : "Blimey cheater!",
+    # Jogos de Cartas - Blackjack
+    52600 : "Me dá uma carta.",
+    52601 : "Posso chamar outro dealer?",
 
-    # Card Games - Poker
-    51900 : "That's a terrible flop!",
-    51901 : "Trying to buy the hand, are you?",
-    51902 : "You're bluffing.",
-    51903 : "I don't think you had it.",
-    51904 : "Saved by the river.",
+    # Minijogos
+    # Minijogos - Pesca
+    53101 : "Peguei um peixe!",
+    53102 : "Vi um Lendário Peixe!",
+    53103 : "O que você pescou?",
+    53104 : "Isso vai virar história de baleia!",
+    53105 : "Que beleza!",
+    53106 : "Arr, o mar está traiçoeiro hoje.",
+    53107 : "Que farta pescaria!",
+    53110 : "Você tem a Isca Lendária?",
+    53111 : "Você já pescou um Peixe Lendário?",
+    53112 : "Você sabe velejar em um barco de pesca?",
+    53113 : "Onde está o Mestre da Pesca?",
+    53114 : "Você completou sua coleção de peixes?",
 
-    # Card Games - Blackjack
-    52600 : "Hit me.",
-    52601 : "Can I get another dealer?",
+    # Minijogos - Defesa de Canhão
+    53120 : "Atire no meu alvo!",
+    53121 : "Atire no navio mais próximo da costa!",
+    53122 : "Um navio está fugindo!",
+    53123 : "Atirem nos navios grandes!",
+    53124 : "Atirem nos navios pequenos!",
+    53125 : "Mais estão chegando!",
+    53126 : "Não vamos durar muito mais tempo!",
+    53127 : "Atirem nos barris!",
+    53128 : "Temos munição nova!",
+    53129 : "Defesa robusta, companheiros!",
 
-    # Minigames
-    # Minigames - Fishing
-    53101 : "I caught a fish!",
-    53102 : "I saw a Legendary Fish!",
-    53103 : "What did you catch?",
-    53104 : "This will make a whale of a tale!",
-    53105 : "That was a beauty!",
-    53106 : "Arr, the sea is treacherous today.",
-    53107 : "What a bountiful haul of fish!",
-    53110 : "Do you have the Legendary Lure?",
-    53111 : "Have you ever caught a Legendary Fish?",
-    53112 : "Can you sail on a fishing boat?",
-    53113 : "Where is the Fishing Master?",
-    53114 : "Have you completed your fish collection?",
-    # Minigames - Cannon Defense
-    53120 : "Fire at my target!",
-    53121 : "Fire at the ship closest to the shore!",
-    53122 : "There's a ship getting away!",
-    53123 : "Fire at the big ships!",
-    53124 : "Fire at the small ships!",
-    53125 : "More are coming!",
-    53126 : "We're not going to last much longer!",
-    53127 : "Shoot the barrels!",
-    53128 : "We've got new ammo!",
-    53129 : "Sturdy defense, mates!",
-    # Minigames - Potion Brewing
-    53141 : "Look at the potion I made!",
-    53142 : "Have you completed your potion collection?",
-    53143 : "Where is the Gypsy?",
-    53144 : "What potion is that?",
-    53145 : "This potion was easy enough.",
-    53146 : "This potion was hard brewin', I tell ye!",
-    # Minigames - Repair
-    53160 : "We need someone to bilge pump!",
-    53161 : "We need someone to scrub!",
-    53162 : "We need someone to saw!",
-    53163 : "We need someone to brace!",
-    53164 : "We need someone to hammer!",
-    53165 : "We need someone to patch!",
-    53166 : "I'll do it!",
-    53167 : "Keep it up, this ship won't repair itself!",
-    53168 : "Great job repairing the ship!",
+    # Minijogos - Preparação de Poções
+    53141 : "Olha a poção que eu fiz!",
+    53142 : "Você completou sua coleção de poções?",
+    53143 : "Onde está a Cigana?",
+    53144 : "Que poção é essa?",
+    53145 : "Esta poção foi fácil Chega.",
+    53146 : "Esta poção estava dura, eu te digo!",
 
-    # Invitations
-    52100 : "Want to group up?",
-    52101 : "Join my crew?",
+    # Minijogos - Conserto
+    53160 : "Precisamos de alguém para bombear o porão!",
+    53161 : "Precisamos de alguém para esfregar!",
+    53162 : "Precisamos de alguém para serrar!",
+    53163 : "Precisamos de alguém para escorar!",
+    53164 : "Precisamos de alguém para martelar!",
+    53165 : "Precisamos de alguém para remendar!",
+    53166 : "Eu faço isso!",
+    53167 : "Continue assim, este navio não se conserta sozinho!",
+    53168 : "Ótimo trabalho consertando o navio!",
 
-    # Invitations - Hunting
-    52200 : "Fight some skeletons?",
-    52201 : "Fight some crabs?",
+    # Convites
+    52100 : "Quer formar um grupo?",
+    52101 : "Quer se juntar à minha tripulação?",
 
-    # Invitations - Versus
-    52300 : "How about a game of Mayhem?",
-    52301 : "Join my Mayhem game.",
-    52302 : "Want to start a Mayhem game?",
-    52303 : "Want to start a team battle game?",
-    52304 : "Join my team battle game.",
+    # Convites - Caça
+    52200 : "Lutar contra alguns esqueletos?",
+    52201 : "Lutar contra alguns caranguejos?",
 
-    # Invitations - Minigames
-    52350 : "Join my Cannon Defense.",
-    52351 : "Want to start a Cannon Defense?",
-    52352 : "Can you lend me a hand with Repair?",
-    52353 : "We need to Repair the ship now!",
-    52354 : "Care to catch some fish?",
-    52355 : "Want to go fishing with me?",
-    52356 : "Join me crew for some fishin'?",
-    52357 : "Time to brew some potions!",
-    52358 : "You should try your hand at brewing potions.",
+    # Convites - Versus
+    52300 : "Que tal uma partida de Mayhem?",
+    52301 : "Junte-se a mim na partida de Mayhem.",
+    52302 : "Quer começar uma partida de Mayhem?",
+    52303 : "Quer começar uma partida de batalha em equipe?",
+    52304 : "Junte-se a mim na partida de batalha em equipe.",
 
+    # Convites - Minijogos
+    52350 : "Junte-se à minha Defesa de Canhão.",
+    52351 : "Quer começar uma Defesa de Canhão?",
+    52352 : "Você pode me ajudar com o Reparo?",
+    52353 : "Precisamos consertar o navio agora!",
+    52354 : "Quer pescar?",
+    52355 : "Quer ir pescar comigo?",
+    52356 : "Quer se juntar à minha tripulação para pescar?",
+    52357 : "Hora de preparar algumas poções!",
+    52358 : "Você deveria tentar preparar poções.",
 
     # PLACES - WHERE IS..? - PORT ROYAL (LEGACY)
     52000 : "",
@@ -2353,14 +2496,14 @@ SpeedChatStaticText = {
     60101 : "Olá!",
     60102 : "Oi!",
     60103 : "Ei!",
-    60104 : "Oi pessoal!",
-    60105 : "Como é que tá?",
+    60104 : "Oi, pessoal!",
+    60105 : "Como é que está?",
     60106 : "Qual é?",
 
     # Bye
     60200 : "Tchau!",
     60201 : "Até mais!",
-    60202 : "Te vejo por aí!",
+    60202 : "Vejo você por aí!",
     60203 : "Volto já!",
     60204 : "Tenho que ir.",
 
@@ -2379,9 +2522,9 @@ SpeedChatStaticText = {
     # Sad
     60400 : ":-(",
     60401 : "Aahh!",
-    60402 : "Pôxa, cara!",
+    60402 : "Poxa, cara!",
     60403 : "Ai!",
-    60404 : "Pôxa!",
+    60404 : "Poxa!",
 
     # Places
     60500 : "Cadê você?",
@@ -2391,190 +2534,63 @@ SpeedChatStaticText = {
     60504 : "Vamos para os Piratas do Caribe!",
 
     # Animated Emotes
-    60505 : "Flip coin",
-    60506 : "Dance",
-    60507 : "Chant 1",
-    60508 : "Chant 2",
-    60509 : "Dance a jig",
-    60510 : "Sleep",
-    60511 : "Flex",
-    60512 : "Play Lute",
-    60513 : "Play Flute",
-    60514 : "Frustrated",
-    60515 : "Searching",
-    60516 : "Yawn",
-    60517 : "Kneel",
-    60518 : "Sweep",
-    60519 : "Primp",
-    60520 : "Yawn",
-    60521 : "Dance",
-    60522 : "No",
-    60523 : "Yes",
-    60524 : "Laugh",
-    60525 : "Clap",
-    60526 : "Smile",
-    60527 : "Anger",
-    60528 : "Fear",
-    60529 : "Sad",
-    60530 : "Celebrate",
-    60668 : "Celebrate",
-    60669 : "Sleep",
-    60602 : "Angry",
-    60614 : "Clap",
-    60622 : "Scared",
-    60640 : "Laugh",
-    60652 : "Sad",
-    60657 : "Smile",
-    60664 : "Wave",
-    60665 : "Wink",
-    60666 : "Yawn",
-    60669 : "Sleep",
-    60670 : "Dance",
-    60676 : "Flirt",
-    60677 : "Zombie dance",
-    60678 : "Noisemaker",
+    60505 : "Girar moeda",
+    60506 : "Dançar",
+    60507 : "Canto 1",
+    60508 : "Canto 2",
+    60509 : "Dançar animado",
+    60510 : "Dormir",
+    60511 : "Flexionar",
+    60512 : "Tocar Alaúde",
+    60513 : "Tocar Flauta",
+    60514 : "Frustração",
+    60515 : "Procurando",
+    60516 : "Bocejar",
+    60517 : "Ajoelhar",
+    60518 : "Varrer",
+    60519 : "Enfeitar",
+    60520 : "Bocejar",
+    60521 : "Dançar",
+    60522 : "Não",
+    60523 : "Sim",
+    60524 : "Rir",
+    60525 : "Aplaudir",
+    60526 : "Sorrir",
+    60527 : "Raiva",
+    60528 : "Medo",
+    60529 : "Triste",
+    60530 : "Comemorar",
+    60668 : "Comemorar",
+    60669 : "Dormir",
+    60602 : "Furioso",
+    60614 : "Aplaudir",
+    60622 : "Assustado",
+    60640 : "Rir",
+    60652 : "Triste",
+    60657 : "Sorrir",
+    60664 : "Acenar",
+    60665 : "Piscar",
+    60666 : "Bocejar",
+    60669 : "Dormir",
+    60670 : "Dançar",
+    60676 : "Flertar",
+    60677 : "Dança do Zumbi",
+    60678 : "Barulhento",
 
     # Valentines day emote string options
-    60671 : "Hello, I'm a Pirate, and I'm here to steal your heart.",
-    60672 : "I just found the treasure I've been searching for.",
-    60673 : "If you were a booger, I'd pick you first.",
-    60674 : "Come to Tortuga often?",
-    60675 : "Do you have a map?  I just keep getting lost in your eyes.",
-
-    65000 : "Yes",
-    65001 : "No",
-
-    65009 : "Check hand",
+    60671 : "Olá, sou um Pirata e estou aqui para roubar seu coração.",
+    60672 : "Acabo de encontrar o tesouro que procurava.",
+    60673 : "Se você fosse uma meleca te pegava primeiro.",
+    60674 : "Vem sempre aqui em Tortuga?",
+    60675 : "Você tem um mapa? Acabo de me perder em seu olhar.",
+    65000 : "Sim",
+    65001 : "Não",
+    60909 : "Verificar Mão",
     
-    # Phrases for April Toon's week    
-    60100 : "Happy April Toons' Week!",
-    60101 : "Welcome to my April Toons' Week party!",
-    60110 : "Mickey is in Daisy Gardens.",
-    60111 : "Daisy is in Toontown Central.",
-    60112 : "Minnie is in The Brrrgh.",
-    60113 : "Pluto is in Melodyland.",
-    60114 : "Donald is sleepwalking at the Speedway.",
-    60115 : "Goofy is in Dreamland.",
-    60120 : "Mickey is acting like Daisy!",
-    60121 : "Daisy is acting like Mickey!",
-    60122 : "Minnie is acting like Pluto!",
-    60123 : "Pluto is acting like Minnie!",
-    60124 : "Pluto is talking!",
-    60125 : "Goofy is acting like Donald!",
-    60126 : "Donald is dreaming he is Goofy!",
-    60130 : "Watch how far I can jump.",
-    60131 : "Wow, you jumped really far!",
-    60132 : "Hey, Doodles can talk!",
-    60133 : "Did your Doodle just talk?",
-    60140 : "Things sure are silly around here!",
-    60141 : "How sillier could things get?",
-
- # Phrases for caroling
-    60200 : "Deck the halls... ",
-    60201 : "Load some pies...",
-    60202 : "Joyful toons...",
-    60203 : "Snowman heads...",
-    60204 : "Toontown's merry...",
-    60205 : "Lure good cheer...",
-    
-    60220 : "Deck the halls with seltzer spray!\nHappy Winter Holiday!",
-    60221 : "Load some pies into your sleigh!\nHappy Winter Holiday!",
-    60222 : "Joyful toons bring Cogs dismay!\nHappy Winter Holiday!",
-    60223 : "Snowman heads are hot today!\nHappy Winter Holiday!",
-    60224 : "Toontown's merry, come what may!\nHappy Winter Holiday!",
-    60225 : "Lure good cheer the Toontown way!\nHappy Winter Holiday!",
-    
-    # Phrases for Silly Story
-    60301 : "Have you seen the Silly Meter?",
-    60302 : "The Silly Meter is in Toon Hall.",
-    60303 : "Things sure are getting silly around here!",
-    60304 : "I saw a fire hydrant moving!",
-    60305 : "Toontown is coming to life!",
-    60306 : "Have you been to Flippy's new office?",
-    60307 : "I caused a Silly Surge in battle!",
-    60308 : "Let's defeat some Cogs to make Toontown sillier!",
-    
-    60309 : "The Silly Meter is bigger and crazier than ever!",
-    60310 : "Lots of hydrants have come alive!",
-    60311 : "I saw a mail box moving!",
-    60312 : "I watched a trash can wake up!",
-    60313 : "How silly can it get?",
-    60314 : "What\'s going to happen next?",
-    60315 : "Something silly, I bet!",
-    60316 : "Have you caused a Silly Surge yet?",
-    60317 : "Let's defeat some Cogs to make Toontown sillier!",
-    
-    60318 : "Cog Invasion!",
-    60319 : "Incoming!",
-    60320 : "Let\'s stop those Cogs!",
-    60321 : "I miss the Silly Surges!",
-    60322 : "Let\'s go stop an Invasion!",
-    60323 : "Toontown is sillier than ever now!",
-    60324 : "Have you seen something come alive?",
-    60325 : "My favorites are the fire hydrants!",
-    60326 : "My favorites are the mailboxes!",
-    60327 : "My favorites are the trash cans!",
-    
-    60328 : "Hooray! We stopped the Cog invasions!",
-    60329 : "A hydrant helped me in battle!",
-    60330 : "A hydrant boosted my Squirt Gags!",
-    60331 : "A trash can boosted my Toon-Up Gags!",
-    60332 : "A mailbox helped my Throw Gags!",
-    
-    # Phrases for Victory Parties (warning 60400 is in use)
-    60350 : "Welcome to my Victory Party!",
-    60351 : "This is a great Victory Party!",
-    60352 : "We showed those Cogs who's boss!",
-    60353 : "Good job helping end the Cog invasions!",
-    60354 : "I bet this is driving the Cogs crazy!",
-    
-    60355 : "Let's play Cog-O-War!",
-    60356 : "My team won at Cog-O-War!",
-    60357 : "It's nice to have fire hydrants, trash cans, and mailboxes here!",
-    60358 : "I like the balloon of the Doodle biting the Cog!",
-    60359 : "I like the balloon of the Cog covered in ice cream!",
-    60360 : "I like the wavy Cog that flaps his arms!",
-    60361 : "I jumped on a Cog's face!",
-    
-    # Phrases for Sellbot Field Offices
-    60400: "The Sellbots are invading!",
-    60401: "The V.P. was hopping mad about Operation: Storm Sellbot ...",
-    60402: "He's sending the Sellbots in to invade Toontown!",
-    60403: "Let's go fight some Sellbots!",
-    60404: "There's a new kind of building in Toontown!",
-    60405: "Have you seen the Mover & Shaker Field Offices?",
-    60406: "The V.P. created them as a reward for the Movers & Shakers.",
-    60407: "Let's go defeat a Field Office!",
-    60408: "I got an SOS Card for defeating a Field Office!",
-    60409: "Clear the map by exploring the maze.",
-    60410: "Destroy the Cogs by hitting them with water balloons!",
-    60411: "Movers & Shakers take two balloons to destroy.",
-    60412: "Look out for falling objects!",
-    60413: "Watch out for the Cogs!",
-    60414: "Collect Jokes to get a Toon-up at the end!",
-    60415: "When the room shakes, a Mover & Shaker is nearby.",
-    60416: "Defeat all four Mover & Shakers to open the exit!",
-    60417: "The exit is open!",
-    60418: "It's the Boss!",
-    # Phrases for Ides Of March
-    60450: "It's easy to be green!",
-    60451: "Visit Green Bean Jeans and you can be green too!",
-    60452: "It's on Oak Street in Daisy Gardens.",
-    
-    # Phrases for Singing
-##    9000 : 'Middle ' + 'G1',
-##    9001 : 'Middle ' + 'A',
-##    9002 : 'Middle ' + 'B',
-##    9003 : 'Middle ' + 'C',
-##    9004 : 'Middle ' + 'D',
-##    9005 : 'Middle ' + 'E',
-##    9006 : 'Middle ' + 'F',
-##    9007 : 'Middle ' + 'G2'
     }
-# SpeedChatStaticText.py
-# SpeedChatStaticTextCommon.py
-# This file contains the static text for SpeedChat.
+
 SpeedChatStaticText = SpeedChatStaticTextCommon
+
 # Emote IDs - These are used in SC to determine if a msg is a animated emote
 Emotes_Root = "EMOTES"
 Emotes_Dances = "Dances"
@@ -2591,11 +2607,11 @@ Emotes = (60505, 60506, 60509, 60510, 60511, 60516, 60519, 60520, 60521, 60522, 
           # Valentines Day Emote
           60676,
           # Yes/No
-          65000, 65001
+          65000, 65001,
           # Kneel
           60517,
           # New Years Emote
-          60678,
+          60678, 60909
           )
 
 # These indexes, defined above, will construct a submenu in the FACTORY menu
@@ -2861,7 +2877,7 @@ CustomSCStrings = {
     3530 : "Você é demais!",
 
     # Series 4
- 4000 : "Os Tonns mandam na área!",
+    4000 : "Os Tonns mandam na área!",
     4010 : "Besteirol de Cog!",
     4020 : "Toons de todo o mundo, uni-vos!",
     4030 : "E aí, parceiro!",
@@ -3003,11 +3019,14 @@ CustomSCStrings = {
     11017 : "Com \"nataleza\"!",
     11018 : "Até o Natal, tudo bem!",
     11019 : "Você vai se \"arrenapender\"!",
+    11020 : "Tenha um inverno maravilhoso!",
+    11021 : 'As decorações da Festa de Natal estão Toontásticas!',
+    11022 : 'Tropas de Toons estão promovendo as Festas de Natal!',
 
     # Valentines
     12000 : "Fica comigo!",
     12001 : "Vem ser meu amorzinho!",
-    12002 : "Feliz Dia dos Namorados!",
+    12002 : "Feliz Dia dos Toons dos Namorados!",
     12003 : "Ahhh, que bonitinho.",
     12004 : "Estou apaixonado por você.",
     12005 : "Amor de pombinhos.",
@@ -3022,6 +3041,11 @@ CustomSCStrings = {
     12014 : "Batatinha quando nasce...",
     12015 : "Esparrama pelo chão...",
     12016 : "Que gracinha!",
+    12050 : "EU AMO acabar com Cogs!",
+    12051 : "Você é um estouro!",
+    12052 : "Só tenho olhos para você!",
+    12053 : "Você é mais doce do que uma bala!",
+    12054 : "Eu ADORARIA ter você em minha Festa Dia dos Toons dos Namorados!",
 
     # St. Patricks Day
     13000 : "Tenho você no coração!",
@@ -3047,13 +3071,9 @@ CustomSCStrings = {
     14010 : "Seu Jardim é legal!",
     14011 : "Sua Propriedade é legal!",
 
-
-
-
     #Potential racing phrases for purchase
 
     }
-
 
 # indices into cog phrase arrays
 SCMenuCommonCogIndices = (20000, 20004)
@@ -3094,35 +3114,41 @@ SCMenuCustomCogIndices = {
 
 
 # Pirates Speedchat
-PSCMenuExpressions = "EXPRESSÕES"
-PSCMenuGreetings = "GREETINGS"
-PSCMenuGoodbyes = "GOODBYES"
-PSCMenuFriendly = "FRIENDLY"
-PSCMenuHappy = "HAPPY"
-PSCMenuSad = "SAD"
-PSCMenuSorry = "SORRY"
-PSCMenuCombat = "COMBAT"
-PSCMenuSeaCombat     = "SEA COMBAT"
+PSCMenuExpressions  = "EXPRESSÕES"
+PSCMenuGreetings = "CUMPRIMENTOS"
+PSCMenuGoodbyes = "DESPEDIDAS"
+PSCMenuFriendly = "AMIGÁVEL"
+PSCMenuHappy = "FELIZ"
+PSCMenuSad = "TRISTE"
+PSCMenuSorry = "DESCULPA"
+PSCMenuCombat = "COMBATE"
+PSCMenuSeaCombat = "COMBATE NO MAR"
 PSCMenuPlaces = "LUGARES"
-PSCMenuLetsSail = "LET\'S SAIL..."
-PSCMenuLetsHeadTo = "LET\'S HEAD TO..."
+PSCMenuLetsSail = "VAMOS\\NAVEGAR..."
+PSCMenuLetsHeadTo = "VAMOS\\PARA..."
 PSCMenuHeadToPortRoyal = "PORT ROYAL"
-PSCMenuWhereIs = "WHERE IS ..?"
+PSCMenuWhereIs = "ONDE ESTÁ ..?"
 PSCMenuWhereIsPortRoyal = "PORT ROYAL"
 PSCMenuWhereIsTortuga = "TORTUGA"
 PSCMenuWhereIsPadresDelFuego = "PADRES DEL FUEGO"
 PSCMenuWhereIsLasPulgas = "LAS PULGAS"
 PSCMenuWhereIsLosPadres = "LOS PADRES"
-PSCMenuDirections = "DIRECTIONS"
+PSCMenuDirections = "DIREÇÕES"
 PSCMenuInsults = "INSULTOS"
-PSCMenuCompliments = "COMPLIMENTS" # TODO
-PSCMenuCardGames  = "CARD GAMES"
-PSCMenuPoker = "POKER"
-PSCMenuBlackjack = "BLACKJACK"
-PSCMenuInvitations = "INVITATIONS"
+PSCMenuCompliments = "ELOGIOS"
+PSCMenuCardGames = "JOGOS DE CARTAS"
+PSCMenuPoker = "PÔQUER"
+PSCMenuBlackjack = "VINTE E UM"
+PSCMenuMinigames = "MINIGAMES"
+PSCMenuFishing = "FISHING"
+PSCMenuCannonDefense = "CANNON DEFENSE"
+PSCMenuPotions = "POTION BREWING"
+PSCMenuRepair = "REPAROS"
+PSCMenuInvitations = "CONVITES"
 PSCMenuVersusPlayer = "VERSUS"
-PSCMenuHunting = "HUNTING"
-PSCMenuQuests = "QUESTS"
+PSCMenuHunting = "PERSEGUIÇÃO"
+PSCMenuQuests = "MISSÕES"
+PSCMenuGM = "GM"
 
 
 
@@ -3188,11 +3214,15 @@ NCBadCharacter = "O seu nome não pode conter o caractere '%s'"
 NCRepeatedChar = "Your name has too many of the character '%s'"
 NCGeneric = 'Sinto muito, este nome não vai funcionar.'
 NCTooManyWords = 'O seu nome não pode ter mais de quatro palavras.'
-NCDashUsage = ("Hífens podem ser usados apenas para ligar duas palavras (como em 'Bu-Bu').")
+NCDashUsage = ("Hífens podem ser usados apenas para ligar duas palavras" 
+               "(como em 'Bu-Bu').")
 NCCommaEdge = "O seu nome não pode começar ou terminar com vírgula."
 NCCommaAfterWord = "Você não pode começar uma palavra com vírgula."
-NCCommaUsage = ('Este nome não usa vírgulas corretamente. As vírgulas devem juntar duas palavras, como no nome "Dr. Quack, MD". As vírgulas devem também ser seguidas por um espaço.')
-NCPeriodUsage = ('Este nome não usa pontos corretamente. Os pontos são permitidos somente em palavras como "Sr.", "Sra.", "J.P." etc.')
+NCCommaUsage = ('Este nome não usa vírgulas corretamente. As vírgulas devem' 
+                'juntar duas palavras, como no nome "Dr. Quack, MD".' 
+                'As vírgulas devem também ser seguidas por um espaço.')
+NCPeriodUsage = ('Este nome não usa pontos corretamente. Os pontos são permitidos' 
+                 'somente em palavras como "Sr.", "Sra.", "J.P." etc.')
 NCApostrophes = 'Este nome tem muitos apóstrofos.'
 
 # AvatarDetailPanel.py
@@ -3244,10 +3274,26 @@ KartRacingMenuSections = [
 
 AprilToonsMenuSections = [
  -1,
- "GREETINGS",
- "ESTATE",
- "QUESTIONS",
- "ANSWERS"
+ "CUMPRIMENTOS",
+ "PROPRIEDADE",
+ "PERGUNTAS",
+ "RESPOSTAS"
+]
+
+SillyHolidayMenuSections = [
+ -1,
+ "Mundo",
+ "Batalha",
+]
+
+CarolMenuSections = [
+ -1
+]
+
+VictoryPartiesMenuSections = [
+ -1,
+ "PARTY",
+ "ITEMS",
 ]
 
 GolfMenuSections = [
@@ -3258,10 +3304,40 @@ GolfMenuSections = [
 ]
 
 BoardingMenuSections = [
-"GROUP",
-"Let's go to...",
-"We're going to...",
+"GRUPO",
+"Vamos para...",
+"Estamos indo para...",
 -1,
+]
+
+SellbotNerfMenuSections = [
+ -1,
+ 'REUNINDO',
+ 'TORRES/VP Robô Vendedor',
+]
+
+LawbotNerfMenuSections = [
+ -1,
+ 'REUNINDO',
+ 'COURTHOUSE/CJ',
+]
+
+JellybeanJamMenuSections = [
+ 'OBTER BALINHAS',
+ 'GASTAR BALINHAS',
+]
+
+WinterMenuSections = [
+ 'CANÇÕES NATALINAS',
+ -1,
+]
+
+HalloweenMenuSections = [
+ -1
+]
+
+SingingMenuSections = [
+ -1
 ]
 
 WhiteListMenu = [
@@ -3269,6 +3345,18 @@ WhiteListMenu = [
 "LISTA DE PERMISSÕES"
 ]
 
+SellbotInvasionMenuSections = [
+ -1,
+]
+
+SellbotFieldOfficeMenuSections = [
+ -1,
+ 'ESTRATÉGIA',
+]
+
+IdesOfMarchMenuSections = [
+ -1,
+]
 
 # TTAccount.py
 # Fill in %s with phone number from account server
@@ -3276,3 +3364,24 @@ TTAccountCallCustomerService = "Favor entrar em contato com o Atendimento ao Con
 # Fill in %s with phone number from account server
 TTAccountCustomerServiceHelp = "\nSe precisar de ajuda, favor entrar em contato com o Atendimento ao Comsumidor em %s."
 TTAccountIntractibleError = "Um erro ocorreu."
+
+
+def timeElapsedString(timeDelta):
+    timeDelta = abs(timeDelta)
+    if timeDelta.days > 0:
+        if timeDelta.days == 1:
+            return "1 dia atrás"
+        else:
+            return "%s dias atrás" % timeDelta.days
+
+    elif timeDelta.seconds / 3600 > 0:
+        if timeDelta.seconds / 3600 == 1:
+            return "1 hora atrás"
+        else:
+            return "%s horas atrás" % (timeDelta.seconds / 3600)
+
+    else:
+        if timeDelta.seconds / 60 < 2:
+            return "1 minuto atrás"
+        else:
+            return "%s minutos atrás" % (timeDelta.seconds / 60)
