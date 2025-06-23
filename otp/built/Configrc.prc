@@ -57,7 +57,7 @@ notify-level-loader warning
 notify-timestamp #t
 
 # Server version
-server-version sv1.0.47.38 #server-version sv1.1.47.37 #server-version sv1.2.47.36 server-version sv1.3.47.35 #server-version sv1.4.47.34 #server-version sv1.4.40.33
+server-version sv1.0.47.38 #server-version sv1.1.47.37 #server-version sv1.2.47.36 server-version sv1.3.47.35 #server-version sv1.4.47.34 #2011 server-version sv1.4.40.32
 required-login playToken
 server-failover 80 443
 want-fog #t
@@ -105,3 +105,6 @@ win-size 640 480
 #
 
 server-type prod 
+server-type dev
+
+want-magic-word #t
