@@ -1,6 +1,6 @@
 @echo off
 title Toontown Online #_BR #JP #FR #ES - AI Server
-cd ../..
+cd ..
 
 :main 
 $WINTOOLS/bin/python.exe -m toontown.ai.AIStart #-m toontown.ai.ServiceStart #-m toontown.ai.UlityStart --base-channel 401000000 ^
