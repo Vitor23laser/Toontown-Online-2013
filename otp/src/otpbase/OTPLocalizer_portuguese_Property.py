@@ -13,8 +13,5 @@ LTPDdirectButtonYesText = 0.04
 LTPDdirectButtonNoText = 0.05
 LTPDdirectFrameText = 0.06
 
-#otpgui/OTPDialog.py
-ODbuttonTextScale = 0.4
-
 #speedchat/SCObject.py
 SCOsubmenuOverlap = 2.5/3
