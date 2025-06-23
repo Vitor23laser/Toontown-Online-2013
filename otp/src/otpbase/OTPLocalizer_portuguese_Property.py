@@ -1,14 +1,3 @@
-#avatar/AvatarDetailPanel.py
-ADPtrackLabel = 0.042
-ADPcancelButton = 0.035
-
-#avatar/AvatarPanel.py
-APfriendButton = 0.042
-APwhisperButton = 0.042
-APsecretsButton = 0.042
-APgoToButton = 0.042
-APignoreButton = 0.042
-
 #friends/FriendSecret.py
 FSenterSecretTextPos = (0, 0, -0.22)
 FSgotSecretPos = (0, 0, 0.42)
@@ -29,4 +18,3 @@ ODbuttonTextScale = 0.4
 
 #speedchat/SCObject.py
 SCOsubmenuOverlap = 2.5/3
-
