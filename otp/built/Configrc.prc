@@ -106,5 +106,3 @@ win-size 640 480
 
 server-type prod 
 server-type dev
-
-want-magic-word #t
