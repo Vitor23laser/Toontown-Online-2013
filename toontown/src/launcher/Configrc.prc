@@ -40,7 +40,7 @@ collect-tcp 1
 collect-tcp-interval 0.2
 
 # The ID of the server that we are compatible with
-server-version sv1.0.40.25
+server-version sv1.0.40.25 #BR sv1.4.40.32
 server-version-suffix 
 
 cull-bin shadow 15 fixed
@@ -81,7 +81,7 @@ expected-ssl-server /O=Disney Enterprises/OU=DOS/CN=toontown.go.com
 
 chan-config-sanity-check #f
 require-window 0
-language english
+language english #portuguese
 icon-filename toontown.ico
 
 # DirectX 9: DirectX will manage textures, but not vertex and index buffers
