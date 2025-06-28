@@ -2,24 +2,24 @@ import string
 from otp.otpbase.OTPLocalizer_portuguese_Property import *
 
 # common locations
-lTheBrrrgh = 'O Brrrgh'
-lDaisyGardens = 'Jardim da Margarida'
+lTheBrrrgh = "O Brrrgh"
+lDaisyGardens = "Jardim da Margarida"
 lDonaldsDock = "Porto do Donald"
 lDonaldsDreamland = "Sonholândia do Donald"
 lMinniesMelodyland = "Melodilândia da Minnie"
-lToontownCentral = 'Centro de Toontown'
+lToontownCentral = "Centro de Toontown"
 lGoofySpeedway = "Autódromo do Pateta"
 lOutdoorZone = "Bosque de Bolotas de Tico e Teco"
 lGolfZone = "Minigolfe de Tico e Teco"
 
 # common strings
-lCancel = 'Cancelar'
-lClose = 'Fechar'
-lOK = 'OK'
-lNext = 'Próximo'
-lNo = 'Não'
-lQuit = 'Sair'
-lYes = 'Sim'
+lCancel = "Cancelar"
+lClose = "Fechar"
+lOK = "OK"
+lNext = "Próximo"
+lNo = "Não"
+lQuit = "Sair"
+lYes = "Sim"
 
 Cog = "Cog"
 Cogs = "Cogs"
@@ -72,30 +72,30 @@ ChatManagerWhisperTo = "Cochichar com:"
 ChatManagerWhisperToName = "Cochichar com:\n%s"
 ChatManagerCancel = lCancel
 ChatManagerWhisperOffline = "%s está off-line."
-OpenChatWarning = 'Para se tornar Amigo secreto de alguém, clique na pessoa e selecione "Secretos" no painel de detalhes.\n\nO recurso Chat rápido Plus pode ser ativado por permitir que os usuários conversem por digitar palavras encontradas no Dicionário Disney do Chat rápido Plus.\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown.\n\nSe você é menor de 18 anos, você precisa pedir aos seus pais ou responsáveis para usar a conta de pais para ativar esses recursos.'
+OpenChatWarning = "Para se tornar Amigo secreto de alguém, clique na pessoa e selecione "Secretos" no painel de detalhes.\n\nO recurso Chat rápido Plus pode ser ativado por permitir que os usuários conversem por digitar palavras encontradas no Dicionário Disney do Chat rápido Plus.\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown.\n\nSe você é menor de 18 anos, você precisa pedir aos seus pais ou responsáveis para usar a conta de pais para ativar esses recursos."
 OpenChatWarningOK = lOK
-UnpaidChatWarning = 'Depois que você assinar o serviço, poderá ativar este botão para conversar com seus amigos usando o teclado. Até lá, você deve conversar com os outros Toons usando o Chat rápido.'
+UnpaidChatWarning = "Depois que você assinar o serviço, poderá ativar este botão para conversar com seus amigos usando o teclado. Até lá, você deve conversar com os outros Toons usando o Chat rápido."
 UnpaidChatWarningPay = "Assine já!"
 UnpaidChatWarningContinue = "Continuar avaliação gratuita"
-PaidNoParentPasswordWarning = 'Use este botão para conversar com seus amigos usando o teclado, habilite-o através das contas dos pais na página da web de Toontown. Até lá, você deve conversar com os outros Toons usando o Chat rápido.'
-UnpaidNoParentPasswordWarning = 'Este é o recurso Chat rápido Plus, que permite usuários para conversar por digitar palavras encontradas no Dicionário Disney do Chat rápido Plus. Para ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown. Se você é menor de 18 anos, você precisa pedir aos seus pais ou responsáveis para usar a conta de pais para ativar esses recursos.'
+PaidNoParentPasswordWarning = "Use este botão para conversar com seus amigos usando o teclado, habilite-o através das contas dos pais na página da web de Toontown. Até lá, você deve conversar com os outros Toons usando o Chat rápido."
+UnpaidNoParentPasswordWarning = "Este é o recurso Chat rápido Plus, que permite usuários para conversar por digitar palavras encontradas no Dicionário Disney do Chat rápido Plus. Para ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown. Se você é menor de 18 anos, você precisa pedir aos seus pais ou responsáveis para usar a conta de pais para ativar esses recursos."
 PaidNoParentPasswordWarningSet = "Definir senha de pais agora!"
 PaidNoParentPasswordWarningContinue = "Continuar jogando"
-PaidParentPasswordUKWarning = 'Depois que o Chat estiver ativado, você poderá usar este botão para conversar com seus amigos usando o teclado. Até lá, você deve conversar com os outros Toons usando o Chat rápido.'
+PaidParentPasswordUKWarning = "Depois que o Chat estiver ativado, você poderá usar este botão para conversar com seus amigos usando o teclado. Até lá, você deve conversar com os outros Toons usando o Chat rápido."
 PaidParentPasswordUKWarningSet = "Ativar Chat agora!"
 PaidParentPasswordUKWarningContinue = "Continuar jogando"
 NoSecretChatWarningTitle = "Controles disponíveis aos pais"
-NoSecretChatWarning = 'Para conversar com um amigo, o recurso Amigos secretos deve estar ativado. As crianças precisam que seus pais façam login e insiram a senha de pais para conhecer o recurso Amigos secretos.'
-RestrictedSecretChatWarning = 'Para pegar ou digitar um código secreto, você deve inserir a Senha de pais. Você pode desativar esta solicitação alterando as suas opções de Amigos secretos.'
+NoSecretChatWarning = "Para conversar com um amigo, o recurso Amigos secretos deve estar ativado. As crianças precisam que seus pais façam login e insiram a senha de pais para conhecer o recurso Amigos secretos."
+RestrictedSecretChatWarning = "Para pegar ou digitar um código secreto, você deve inserir a Senha de pais. Você pode desativar esta solicitação alterando as suas opções de Amigos secretos."
 NoSecretChatWarningOK = lOK
 NoSecretChatWarningCancel = lCancel
-NoSecretChatWarningWrongPassword = 'Esta não é a conta correta. Por favor faça login com a conta dos pais que está vinculada a esta conta.'
+NoSecretChatWarningWrongPassword = "Esta não é a conta correta. Por favor faça login com a conta dos pais que está vinculada a esta conta."
 NoSecretChatAtAllTitle = "Abrir Chat de Amigos secretos"
 # not sure what this should do in the new world order
-NoSecretChatAtAll = 'O recurso Abrir chat de Amigos Secretos permite que amigos da vida-real para conversar abertamente com cada código secreto que deve ser compartilhado fora do jogo.\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown. Se você é menor de 18 anos, você precisa pedir aos seus pais ou responsáveis para usar a conta de pais para ativar esses recursos.'
+NoSecretChatAtAll = "O recurso Abrir chat de Amigos Secretos permite que amigos da vida-real para conversar abertamente com cada código secreto que deve ser compartilhado fora do jogo.\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown. Se você é menor de 18 anos, você precisa pedir aos seus pais ou responsáveis para usar a conta de pais para ativar esses recursos."
 NoSecretChatAtAllAndNoWhitelistTitle = "Botão de Chat"
 # not sure what this should do in the new world order
-NoSecretChatAtAllAndNoWhitelist = 'Você pode usar o botão de Chat azul para comunicar-se com outros Toons por usar o recurso Chat rápido Plus ou o recurso Abrir Chat de Amigos secretos. Para usar o recurso Abrir Chat de Amigos secretos\n\nO recurso Chat Rápido Plus é uma forma de tipo de chat que permite que os usuários para comunicar-se por usar o Dicionário Disney do Chat Rápido Plus.\n\nO Recurso Abrir chat de Amigos Secretos permite que amigos da vida-real para conversar abertamente com cada código secreto que deve ser compartilhado fora do jogo.\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown. Se você é menor de 18 anos, você precisa pedir aos seus pais ou responsáveis para usar a conta de pais para ativar esses recursos.'
+NoSecretChatAtAllAndNoWhitelist = "Você pode usar o botão de Chat azul para comunicar-se com outros Toons por usar o recurso Chat rápido Plus ou o recurso Abrir Chat de Amigos secretos. Para usar o recurso Abrir Chat de Amigos secretos\n\nO recurso Chat Rápido Plus é uma forma de tipo de chat que permite que os usuários para comunicar-se por usar o Dicionário Disney do Chat Rápido Plus.\n\nO Recurso Abrir chat de Amigos Secretos permite que amigos da vida-real para conversar abertamente com cada código secreto que deve ser compartilhado fora do jogo.\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown. Se você é menor de 18 anos, você precisa pedir aos seus pais ou responsáveis para usar a conta de pais para ativar esses recursos."
 NoSecretChatAtAllOK = lOK
 ChangeSecretFriendsOptions = "Alterar opções de Amigos secretos"
 ChangeSecretFriendsOptionsWarning = "\nInsira a senha de pais para alterar suas opções de Amigos secretos."
@@ -114,39 +114,39 @@ from pandac.PandaModules import TextPropertiesManager
 shadow = TextProperties()
 shadow.setShadow(-0.025, -0.025)
 shadow.setShadowColor(0,0,0,1)
-TextPropertiesManager.getGlobalPtr().setProperties('sombra', shadow)
+TextPropertiesManager.getGlobalPtr().setProperties("sombra", shadow)
 
 red = TextProperties()
 red.setTextColor(1,0,0,1)
-TextPropertiesManager.getGlobalPtr().setProperties('vermelho', red)
+TextPropertiesManager.getGlobalPtr().setProperties("vermelho", red)
 
 green = TextProperties()
 green.setTextColor(0,1,0,1)
-TextPropertiesManager.getGlobalPtr().setProperties('verde', green)
+TextPropertiesManager.getGlobalPtr().setProperties("verde", green)
 
 yellow = TextProperties()
 yellow.setTextColor(1,1,0,1)
-TextPropertiesManager.getGlobalPtr().setProperties('amarelo', yellow)
+TextPropertiesManager.getGlobalPtr().setProperties("amarelo", yellow)
 
 midgreen = TextProperties()
 midgreen.setTextColor(0.2,1,0.2,1)
-TextPropertiesManager.getGlobalPtr().setProperties('verde-água', midgreen)
+TextPropertiesManager.getGlobalPtr().setProperties("verde-água", midgreen)
 
 blue = TextProperties()
 blue.setTextColor(0,0,1,1)
-TextPropertiesManager.getGlobalPtr().setProperties('azul', blue)
+TextPropertiesManager.getGlobalPtr().setProperties("azul", blue)
 
 white = TextProperties()
 white.setTextColor(1,1,1,1)
-TextPropertiesManager.getGlobalPtr().setProperties('branco', white)
+TextPropertiesManager.getGlobalPtr().setProperties("branco", white)
 
 black = TextProperties()
 black.setTextColor(0,0,0,1)
-TextPropertiesManager.getGlobalPtr().setProperties('preto', black)
+TextPropertiesManager.getGlobalPtr().setProperties("preto", black)
 
 grey = TextProperties()
 grey.setTextColor(0.5, 0.5, 0.5, 1)
-TextPropertiesManager.getGlobalPtr().setProperties('cinza', grey)
+TextPropertiesManager.getGlobalPtr().setProperties("cinza", grey)
 
 ActivateChat = """O recurso Amigos secretos só permite que um associado converse com outro mediante um código secreto que deve ser comunicado fora do jogo. O recurso Amigos secretos não é moderado nem supervisionado. 
 
@@ -214,7 +214,7 @@ em sua exclusiva e discrição absoleta, considere necessário. No entanto, porq
 
 O WDIG não usa o conteúdo do chat de Amigos secretos para nenhum fim que não seja a comunicação do conteúdo ao amigo secreto do membro, e não revela tal conteúdo a terceiros, exceto: (1) se exigido por lei; por exemplo, para cumprir uma ordem ou intimação judicial; (2) para fazer com que os Termos de Uso 
 """,""" 
-aplicáveis ao Serviço (que podem ser acessados na página principal do Serviço) sejam respeitados; ou (3) para proteger a segurança dos Membros do Serviço e o Serviço propriamente dito. Obedecendo à Children's Online Privacy Protection Act, uma lei americana de proteção à privacidade on-line para as crianças, estamos proibidos de condicionar a participação da criança em qualquer tipo de atividade (inclusive o recurso Abrir chat de Amigos secretos) ao fornecimento, por parte da criança, de mais informações pessoais do que o estritamente necessário para que ela participe de tais atividades.
+aplicáveis ao Serviço (que podem ser acessados na página principal do Serviço) sejam respeitados; ou (3) para proteger a segurança dos Membros do Serviço e o Serviço propriamente dito. Obedecendo à Children"s Online Privacy Protection Act, uma lei americana de proteção à privacidade on-line para as crianças, estamos proibidos de condicionar a participação da criança em qualquer tipo de atividade (inclusive o recurso Abrir chat de Amigos secretos) ao fornecimento, por parte da criança, de mais informações pessoais do que o estritamente necessário para que ela participe de tais atividades.
 
 Além disso, conforme observado acima, reconhecemos o direito do responsável pela criança de não permitir que continuemos a deixar que a criança use o recurso Amigos secretos. Ao ativar o recurso Abrir Chat de Amigos secretos, você reconhece que há alguns riscos inerentes ao chat, no qual os membros podem conversar uns com os outros usando o recurso Abrir Chat de Amigos secretos, sendo que você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los, se previsível ou de outra forma.
 """
@@ -233,18 +233,18 @@ LeaveToEnableChatUKYes = "Ativar chat"
 LeaveToEnableChatUKNo = lCancel
 
 ChatMoreInfoOK = lOK
-SecretChatDeactivated = 'O recurso "Amigos secretos" foi desativado.'
-RestrictedSecretChatActivated = 'O recurso "Amigos secretos restritos" foi ativado!'
-SecretChatActivated = 'O recurso "Amigos secretos inrestritos" foi ativado!'
+SecretChatDeactivated = "O recurso "Amigos secretos" foi desativado."
+RestrictedSecretChatActivated = "O recurso "Amigos secretos restritos" foi ativado!"
+SecretChatActivated = "O recurso "Amigos secretos inrestritos" foi ativado!"
 SecretChatActivatedOK = lOK
 SecretChatActivatedChange = "Alterar Opções"
-ProblemActivatingChat = 'Ops! Não foi possível ativar o recurso de chat "Amigos secretos".\n\n%s\n\nTente novamente mais tarde.'
+ProblemActivatingChat = "Ops! Não foi possível ativar o recurso de chat "Amigos secretos".\n\n%s\n\nTente novamente mais tarde."
 ProblemActivatingChatOK = lOK
 
 # MultiPageTextFrame.py
 MultiPageTextFrameNext = lNext
-MultiPageTextFramePrev = 'Anterior'
-MultiPageTextFramePage = 'Página %s/%s'
+MultiPageTextFramePrev = "Anterior"
+MultiPageTextFramePage = "Página %s/%s"
 
 # GuiScreen.py
 GuiScreenToontownUnavailable = "Toontown parece estar temporariamente indisponível, ainda tentando..."
@@ -275,7 +275,7 @@ CRMissingGameRootObject = "Há alguns objetos do jogo raiz ausentes. (A causa po
 CRNoDistrictsTryAgain = "Não há Regiões de Toontown disponíveis. Tentar novamente?"
 CRRejectRemoveAvatar = "O Toon não pôde ser excluído, tente novamente mais tarde."
 CRLostConnection = "A sua conexão de Internet à Toontown foi interrompida inesperadamente."
-TCRBootedReasons = {
+CRBootedReasons = {
     1: "Houve um problema inesperado. A conexão falhou, mas você ainda deve conseguir conectar-se novamente para voltar ao jogo.",
     100: "Você foi desconectado porque outra pessoa acabou de fazer login usando a sua conta em outro computador.",
     120: "Você foi desconectado porque houve um problema com sua autorização para usar o chat de teclado.",
@@ -285,7 +285,7 @@ TCRBootedReasons = {
     126: "Você não está autorizado a usar privilégios administrativos.",
     127: "Um problema está ocorrendo com seu Toon. Entre em contato com o Serviço de Associado via telefone, e-mail ou chat ao vivo e o erro de referência no código de erro 127. Obrigado.",
     151: "O administrador responsável pelos servidores de Toontown fez logout na sua conta.",
-    152: "Foi relatada uma violação dos nossos termos de uso, com relação a '%(name)s'. Por segurança, colocamos uma restrição temporária na conta. Para obter mais detalhes, leia a mensagem enviada ao endereço de e-mail associado a '%(name)s'.", 
+    152: "Foi relatada uma violação dos nossos termos de uso, com relação a "%(name)s". Por segurança, colocamos uma restrição temporária na conta. Para obter mais detalhes, leia a mensagem enviada ao endereço de e-mail associado a "%(name)s".", 
     153: "A região de Toontown em que você estava jogando foi reiniciada. Todas as pessoas que estavam jogando nesta região foram desconectadas. Entretanto, você poderá conectar-se novamente e voltar direto ao jogo.",
     154: "Toontown está fechado para manutenção. Todo mundo precisam descontectar",
     288: "Sinto muito, mas você usou todos os seus minutos disponíveis deste mês na Toontown.",
@@ -423,7 +423,7 @@ FriendSecretEnteredSecretUnknown = "Este código secreto não existe. Tem certez
 FriendSecretEnteredSecretFull = "Você não pode fazer amizade com %s porque um de vocês dois possui amigos demais na lista."
 FriendSecretEnteredSecretFullNoName = "Vocês não podem fazer amizade porque um de vocês dois possui amigos demais na lista."
 FriendSecretEnteredSecretSelf = "Você acabou de digitar seu próprio código secreto! Agora, ninguém mais poderá usar este código secreto."
-FriendSecretEnteredSecretWrongProduct = "Você digitou o tipo errado de código secreto.\nEste jogo utiliza códigos que começam com '%s'."
+FriendSecretEnteredSecretWrongProduct = "Você digitou o tipo errado de código secreto.\nEste jogo utiliza códigos que começam com "%s"."
 FriendSecretNowFriends = "Agora, você é Amigo secreto de %s!"
 FriendSecretNowFriendsNoName = "Agora, vocês são Amigos secretos!"
 FriendSecretDetermineSecret = "Que tipo de Amigo Verdadeiro você quer ter?"
@@ -436,7 +436,7 @@ FriendSecretDetermineSecretAccountRollover = "Um amigo em toda a rede Disney.com
 GuildMemberTitle = "Opções do membro"
 GuildMemberPromote = "Tornar Oficial"
 GuildMemberGM = "Tornar Mestre de Guilda"
-GuildMemberDemote = "Rebaixar"
+GuildMemberDemote = "Rebaixar para Membro"
 GuildMemberKick = "Ejeitar Membro"
 GuildMemberCancel = lCancel
 GuildMemberOnline = "entrou on-line."
@@ -444,7 +444,7 @@ GuildMemberOffline = "saiu e está off-line."
 GuildPrefix = "(G):"
 GuildNewMember = "Novo membro da guilda"
 GuildMemberUnkown = "Desconhecido"
-GuildMemberGMMessage = "Aviso! Você gostaria de desistir da liderança da sua guilda e tornar %s seu mestre da guilda?\n\nVocê se tornará um oficial"
+GuildMemberGMMessage = "Atenção! Você gostaria de desistir da liderança da sua guilda e tornar %s o seu mestre da guilda?\n\nVocê se tornará um oficial"
 
 # GuildInvitee.py
 GuildInviteeOK = lOK
@@ -473,28 +473,28 @@ GuildInviterYes = lYes
 GuildInviterTooFull = "A guilda atingiu o tamanho máximo."
 GuildInviterNo = lNo
 GuildInviterClickToon = "Clique no pirata que você gostaria de convidar."
-GuildInviterTooMany = 'Isto é um bug'
-GuildInviterNotAvailable = '%s está ocupado agora correto; tente novamente mais tarde.'
-GuildInviterGuildSaidNo = '%s não deseja para se juntar.'
-GuildInviterAlreadyInvited = '%s já foi convidado.'
-GuildInviterEndGuildship = 'Ejetar %s da guilda?'
-GuildInviterFriendsNoMore = '%s tenha saído da guilda.'
-GuildInviterSelf = 'Você já está na guilda!'
-GuildInviterIgnored = '%s está ignorando você.'
-GuildInviterAsking = 'Pedindo para %s entrar na guilda.'
-GuildInviterGuildSaidYes = '%s irá participar!'
-GuildInviterFriendKickedOut = '%s tenha expulsado %s da Guilda.'
-GuildInviterFriendKickedOutP = '%s tenham expulsado %s da Guilda.'
-GuildInviterFriendInvited = '%s tenha convidando %s para a Guilda.'
-GuildInviterFriendInvitedP = '%s tenham convidados %s para a Guilda.'
-GuildInviterFriendPromoted = '%s tenha promovido o %s  para o ranque de %s.'
-GuildInviterFriendPromotedP = '%s tenham promovidos o %s para o ranque de %s.'
-GuildInviterFriendDemoted = '%s tenha rebaixado o %s para o rank de %s.'
-GuildInviterFriendDemotedP = '%s tenham rebaixado o %s para o rank de %s.'
-GuildInviterFriendPromotedGM = '%s tenha nomeado o %s como o novo %s'
-GuildInviterFriendPromotedGMP = '%s tenham nomearam o %s como o novo %s'
-GuildInviterFriendDemotedGM = '%s foi nomeado por %s como o novo Mestre da Guilda que se tornou o ranque de %s'
-GuildInviterFriendDemotedGMP = '%s foram nomeados por %s como o novo Mestre da Guilda que alcançou o ranque de %s'
+GuildInviterTooMany = "Isto é um bug"
+GuildInviterNotAvailable = "%s está ocupado agora correto; tente novamente mais tarde."
+GuildInviterGuildSaidNo = "%s não deseja para se juntar."
+GuildInviterAlreadyInvited = "%s já foi convidado."
+GuildInviterEndGuildship = "Ejetar %s da guilda?"
+GuildInviterFriendsNoMore = "%s tenha saído da guilda."
+GuildInviterSelf = "Você já está na guilda!"
+GuildInviterIgnored = "%s está ignorando você."
+GuildInviterAsking = "Pedindo para %s entrar na guilda."
+GuildInviterGuildSaidYes = "%s irá participar!"
+GuildInviterFriendKickedOut = "%s tenha expulsado %s da Guilda."
+GuildInviterFriendKickedOutP = "%s tenham expulsado %s da Guilda."
+GuildInviterFriendInvited = "%s tenha convidando %s para a Guilda."
+GuildInviterFriendInvitedP = "%s tenham convidados %s para a Guilda."
+GuildInviterFriendPromoted = "%s tenha promovido o %s  para o ranque de %s."
+GuildInviterFriendPromotedP = "%s tenham promovidos o %s para o ranque de %s."
+GuildInviterFriendDemoted = "%s tenha rebaixado o %s para o rank de %s."
+GuildInviterFriendDemotedP = "%s tenham rebaixado o %s para o rank de %s."
+GuildInviterFriendPromotedGM = "%s tenha nomeado o %s como o novo %s"
+GuildInviterFriendPromotedGMP = "%s tenham nomearam o %s como o novo %s"
+GuildInviterFriendDemotedGM = "%s foi nomeado por %s como o novo Mestre da Guilda que se tornou o ranque de %s"
+GuildInviterFriendDemotedGMP = "%s foram nomeados por %s como o novo Mestre da Guilda que alcançou o ranque de %s"
 
 # FriendInviter.py
 FriendOnline = "entrou on-line."
@@ -612,9 +612,9 @@ EmoteWhispers = [
  "%s está muito triste.",
  "%s sorri.",
  "%s dá risada.",
- "%s diz '"+lYes+"'.",
- "%s diz '"+lNo+"'.",
- "%s diz '"+lOK+"'.",
+ "%s diz ""+lYes+"".",
+ "%s diz ""+lNo+"".",
+ "%s diz ""+lOK+"".",
  "%s se surpreende.",
  "%s está chorando.",
  "%s está alegre.",
@@ -663,11 +663,11 @@ EmoteFuncDict = {
 
 # SuitDialog.py
 SuitBrushOffs = {
-    'f':  ["Estou atrasado para uma reunião.",
+    "f":  ["Estou atrasado para uma reunião.",
            ],
-    'p':  ["Sai fora.",
+    "p":  ["Sai fora.",
            ],
-    'ym': ['As vaquinhas de presépio dizem NÃO.',
+    "ym": ["As vaquinhas de presépio dizem NÃO.",
            ],
     None: ["É o meu dia de folga.",
            "Acho que você está no escritório errado.",
@@ -677,11 +677,11 @@ SuitBrushOffs = {
     }
 
 SuitFaceoffTaunts = {
-   'b':  ["Você tem uma doação para mim?",
+   "b":  ["Você tem uma doação para mim?",
           "Você vai detestar perder a parada.",
           "Você não vai ter salvação.",
-          'Sou "A Positivo", portanto, vou ganhar.',
-          '"O"não seja tão "Negativo".',
+          "Sou "A Positivo", portanto, vou ganhar.",
+          ""O"não seja tão "Negativo".",
           "É uma surpresa você ter me achado; não tenho parada.",
           "Vou precisar fazer uma rápida contagem em você.",
           "Em breve, você vai precisar comer biscoito e tomar um suco.",
@@ -690,7 +690,7 @@ SuitFaceoffTaunts = {
           "Vou deixar você tonto.",
           "Na hora certa, só estou um pouquinho abaixo.",
           ],
-    'm':  ["Você não sabe com quem está se metendo.",
+    "m":  ["Você não sabe com quem está se metendo.",
            "Nunca se meteu com alguém da minha turma?",
            "Isso é bom, quando um não quer dois não se misturam.",
            "Vamos fazer amizade.",
@@ -700,7 +700,7 @@ SuitFaceoffTaunts = {
            "Vou me juntar a você no negócio.",
            "Tem certeza de que está pronto para a união?",
            ],
-    'ms': ["Prepare-se para uma sacudida.",
+    "ms": ["Prepare-se para uma sacudida.",
            "Melhor você sair do caminho.",
            "Olha a frente.",
            "Acho que é minha vez.",
@@ -712,7 +712,7 @@ SuitFaceoffTaunts = {
            "Sinto um impulso de derrotar você.",
            "Você ainda está tremendo?",
            ],
-    'hh': ["Estou na sua frente nesta caçada.",
+    "hh": ["Estou na sua frente nesta caçada.",
            "Você está caçando encrenca da grande.",
            "A sua cabeça está na mira do caçador de cabeças.",
            "Que bom, estava atrás de você.",
@@ -724,7 +724,7 @@ SuitFaceoffTaunts = {
            "Você vai ter uma dor de cabeça...",
            "Não perca o rumo comigo.",
            ],
-    'tbc': ["Cuidado, vou adoçar você.",
+    "tbc": ["Cuidado, vou adoçar você.",
             "Pode me chamar de Coquinho.",
             "Tem certeza? Às vezes ajo como um Cãocadão.",
             "Finalmente, estava achando que você ia me deixar aqui à mercê das formigas.",
@@ -736,7 +736,7 @@ SuitFaceoffTaunts = {
             "Cuidado, sou uma fera neste jogo.",
             "Bater você vai ser mole.",
             ],
-    'cr': ["ATAQUE!",
+    "cr": ["ATAQUE!",
            "Você não é adequado para a minha corporação.",
            "Prepare-se para ser atacado.",
            "Parece que você está preparado para assumir o comando da aventura.",
@@ -747,7 +747,7 @@ SuitFaceoffTaunts = {
            "Você fica sem defesa contra as minhas idéias.",
            "Relaxa, você vai ver que vai ser melhor assim.",
            ],
-    'mh': ["Está preparado para a minha tomada?",
+    "mh": ["Está preparado para a minha tomada?",
            "Luz, câmera, ação!",
            "Vai começar a rodar.",
            "Hoje o papel do Toon derrotado será feito por - VOCÊ!",
@@ -760,7 +760,7 @@ SuitFaceoffTaunts = {
            "Não tem negócio igual a este!",
            "Espero que você não se esqueça das suas falas.",
            ],
-    'nc': ["Parece que o seu número está em alta.",
+    "nc": ["Parece que o seu número está em alta.",
            "Prefere ser destruído com ou sem cobertura crocante?",
            "Agora, você está destruído.",
            "Já está na hora de dizimar todos estes números?",
@@ -771,7 +771,7 @@ SuitFaceoffTaunts = {
            "Vai em frente, pegue um número qualquer.",
            "Vou destruir você com os meus cálculos.",
            ],
-    'ls': ["É hora de recolher o seu empréstimo.",
+    "ls": ["É hora de recolher o seu empréstimo.",
            "Você tem estado na pior.",
            "O empréstimo agora tem que ser pago.",
            "Hora de liquidar a dívida.",
@@ -783,7 +783,7 @@ SuitFaceoffTaunts = {
            "Podemos fazer um lanchinho?",
            "Deixe-me dar um tasco.",
            ],
-    'mb': ["Está na hora de trazer os sacos.",
+    "mb": ["Está na hora de trazer os sacos.",
            "Posso ensacar isso.",
            "Papel ou plástico?",
            "Você tem o tíquete da bagagem?",
@@ -794,7 +794,7 @@ SuitFaceoffTaunts = {
            "Sou muito rico para o seu bico.",
            "Você nunca poderá ter tanto dinheiro!",
            ],
-    'rb': ["Você foi roubado.",
+    "rb": ["Você foi roubado.",
            "Vou roubar esta vitória de você.",
            "Sou um chato de galochas!",
            "Espero que você ainda possa sorrir para o barão.",
@@ -805,7 +805,7 @@ SuitFaceoffTaunts = {
            "Você pode chamar isto de roubo no bairro.",
            "Você já devia saber que não se fala com estranhos.",
            ],
-    'bs': ["Nunca vire as costas para mim.",
+    "bs": ["Nunca vire as costas para mim.",
            "Você não vai voltar mesmo.",
            "Retire o que disse, ou então...!",
            "Sou bom em cortar custos.",
@@ -817,7 +817,7 @@ SuitFaceoffTaunts = {
            "Você vai ter uma dor de cabeça infernal.",
            "Tenho um golpe perfeito.",
            ],
-    'bw': ["Quero sair bem na foto.",
+    "bw": ["Quero sair bem na foto.",
            "Você me arrepia os cabelos.",
            "Posso deixar assim para sempre, se quiser.",
            "Parece que você vai ficar com a cara boa.",
@@ -828,7 +828,7 @@ SuitFaceoffTaunts = {
            "Vou deixar você doidão.",
            "Sou um baita de um Toonzinho.",
            ],
-    'le': ["Cuidado, sou legal mas nem tanto.",
+    "le": ["Cuidado, sou legal mas nem tanto.",
            "Eu pulo de galho em galho, mas alguns quebram.",
            "Vou fazer a lei chegar até você.",
            "Você já devia saber que tenho instintos criminosos.",
@@ -839,7 +839,7 @@ SuitFaceoffTaunts = {
            "Não há limites para os meus botes.",
            "Chamo isso de prisão de cidadão.",
            ],
-    'sd': ["Você nunca saberá quando vou parar.",
+    "sd": ["Você nunca saberá quando vou parar.",
            "Deixe-me levar você para uma volta.",
            "Vida social é comigo mesmo.",
            "Vou colocar você em um agito.",
@@ -850,7 +850,7 @@ SuitFaceoffTaunts = {
            "Você se importa de dar umas voltinhas comigo?",
            "Tenho minha própria teoria sobre o assunto.",
            ],
-    'f': ["Vou falar sobre você com o chefe!",
+    "f": ["Vou falar sobre você com o chefe!",
           "Posso ser apenas um puxa-saco, mas sou demais.",
           "Estou usando você para subir os vários degraus dentro da empresa.",
           "Você não vai gostar do jeito como eu trabalho.",
@@ -862,7 +862,7 @@ SuitFaceoffTaunts = {
           "Você jamais conhecerá o meu chefe.",
           "Vou mandar você de volta para o Pátio.",
           ],
-    'p':  ["Eu vou apagar você!",
+    "p":  ["Eu vou apagar você!",
            "Ei, você não pode ficar mandando em mim.",
            "Sou o número 2!",
            "Vou cortar você.",
@@ -874,7 +874,7 @@ SuitFaceoffTaunts = {
            "Você me passou o lápis?",
            "Cuidado, posso deixar uma marca.",
            ],
-    'ym': ["Concordo com tudo.",
+    "ym": ["Concordo com tudo.",
            "Não sei o que significa não.",
            "Quer me conhecer? Eu digo sim sempre.",
            "Você precisa de uma força positiva.",
@@ -886,7 +886,7 @@ SuitFaceoffTaunts = {
            "Confirmando a hora da sua reunião.",
            "Não aceito não como resposta.",
            ],
-    'mm': ["Vou entrar neste negócio.",
+    "mm": ["Vou entrar neste negócio.",
            "Às vezes, os piores venenos vêm em pequenos frascos.",
            "Nenhum trabalho é insignificante para mim.",
            "Quero o trabalho feito direito, por isso eu mesmo o faço.",
@@ -901,7 +901,7 @@ SuitFaceoffTaunts = {
            "Vou estar na sua cola.",
            "Posso ser bem intimidador.",
            ],
-    'ds': ["Você está caindo no meu golpe!",
+    "ds": ["Você está caindo no meu golpe!",
            "Você vai encolher com meu ataque.",
            "Espere retornos minúsculos.",
            "Você vai deixar de existir.",
@@ -910,7 +910,7 @@ SuitFaceoffTaunts = {
            "As coisas parecem estar despedaçadas para você.",
            "Por que você parece tão machucado?",
            ],
-    'cc': ["Surpreso de saber de mim?",
+    "cc": ["Surpreso de saber de mim?",
            "Você ligou?",
            "Está pronto para aceitar as minhas tarifas?",
            "Este aqui sempre recolhe alguma coisa.",
@@ -924,7 +924,7 @@ SuitFaceoffTaunts = {
            "Esta ligação terá um custo para você.",
            "Você tem um pepino nesta linha.",
            ],
-    'tm': ["Meu plano é tornar isto inconveniente para você.",
+    "tm": ["Meu plano é tornar isto inconveniente para você.",
            "Posso incluir você em um seguro?",
            "Você não deveria ter me atendido.",
            "Você não vai conseguir se livrar de mim agora.",
@@ -936,7 +936,7 @@ SuitFaceoffTaunts = {
            "Estou preparado para fechar este negócio rapidinho.",
            "Vou usar um monte de recursos seus.",
            ],
-    'nd': ["Na minha opinião, seu nome está na lama.",
+    "nd": ["Na minha opinião, seu nome está na lama.",
            "Espero que não se importe se eu jogar o seu nome na boca das matildes.",
            "A gente já não se conhece?",
            "Depressa, vou almoçar com o Dr. Celebridade.",
@@ -947,7 +947,7 @@ SuitFaceoffTaunts = {
            "Estou a fim de detonar alguns Toons.",
            "Eu te disse, detonei.",
            ],
-    'gh': ["Diz aí, Toon.",
+    "gh": ["Diz aí, Toon.",
            "O bicho vai pegar.",
            "Vou gostar disso.",
            "Você vai acabar vendo as minhas garras.",
@@ -961,7 +961,7 @@ SuitFaceoffTaunts = {
            "Se ficar o bicho come, se correr o bicho pega.",
            "As marcas das minhas unhas afiadas estão na parede.",
            ],
-    'sc': ["Vamos logo acabar com esta farsa.",
+    "sc": ["Vamos logo acabar com esta farsa.",
            "Você está prestes a ficar no vermelho.",
            "Você está prestes a pagar taxas abusivas.",
            "O projeto vai ser de fachada.",
@@ -973,7 +973,7 @@ SuitFaceoffTaunts = {
            "Logo vou armar minha armadilha para você.",
            "Você está prestes a cair na minha lábia.",
            ],
-    'pp': ["Meu aperto de mão é forte.",
+    "pp": ["Meu aperto de mão é forte.",
            "Minha mão é de ferro.",
            "Você não quer que a vaca vá pro brejo, ou quer?",
            "Seu sorriso vai ficar pálido como leite.",
@@ -984,7 +984,7 @@ SuitFaceoffTaunts = {
            "Cabeças vão rolar, e eu vou ganhar.",
            "Dou uma moedinha pelas suas piadas.",
            ],
-    'tw': ["Vamos ter que dar duro.",
+    "tw": ["Vamos ter que dar duro.",
            "É o Pão-duro.",
            "Vou ter que cortar a sua verba.",
            "É a melhor oferta que você pode fazer?",
@@ -996,7 +996,7 @@ SuitFaceoffTaunts = {
            "Vou ter que apertar o cinto.",
            "Vou fazer um rombo no seu orçamento.",
            ],
-    'bc': ["Adoro subtrair Toons.",
+    "bc": ["Adoro subtrair Toons.",
            "Pode contar comigo para fazer você pagar.",
            "O negócio é contar as moedinhas.",
            "Contar é comigo mesmo.",
@@ -1008,7 +1008,7 @@ SuitFaceoffTaunts = {
            "Estou esperando por você há um milhão de horas.",
            "Você não vale um níquel.",
            ],
-    'bf': ["Parece que você chegou na hora do lanche.",
+    "bf": ["Parece que você chegou na hora do lanche.",
            "Estou pronto para o banquete.",
            "Sou um comedor de Toons.",
            "Êba, hora do almoço.",
@@ -1019,7 +1019,7 @@ SuitFaceoffTaunts = {
            "Bom, preciso de um pequeno estímulo.",
            "Adoraria se você almoçasse comigo.",
            ],
-    'tf': ["Está na hora de nosso duelo!",
+    "tf": ["Está na hora de nosso duelo!",
            "Melhor encarar a derrota.",
            "Prepare-se para enfrentar o seu pior pesadelo!",
            "Encare os fatos: eu sou melhor que você.",
@@ -1031,7 +1031,7 @@ SuitFaceoffTaunts = {
            "Você não sabe com quem está se metendo.",
            "Você está preparado para encarar sua derrota?",
            ],
-    'dt': ["Você terá trabalho em dobro comigo.",
+    "dt": ["Você terá trabalho em dobro comigo.",
            "Veja se você consegue enfrentar meu golpe duplo.",
            "Trabalho para um ARMÁRIO 4x4 muito mau.",
            "Está na hora de um golpe duplo.",
@@ -1042,7 +1042,7 @@ SuitFaceoffTaunts = {
            "Talvez queira aplicar uma dose dupla contra mim.",
            "Duplas, alguém??",
            ],
-    'ac': ["Eu vou botar você prá correr desta cidade!",
+    "ac": ["Eu vou botar você prá correr desta cidade!",
            "Está ouvindo uma sirene?",
            "Vou gostar disso.",
            "Adoro a emoção da perseguição.",
@@ -1576,9 +1576,9 @@ SpeedChatStaticText = {
     4002 : "Quer jogar golfe?",
 
     # Courses
-    4100 : "Vamos jogar no 'Tacada e Caminhada'.",
-    4101 : "Vamos jogar no 'Tacadas Divertidas'.",
-    4102 : "Vamos jogar no 'Todas as Tacadas'.",
+    4100 : "Vamos jogar no "Tacada e Caminhada".",
+    4101 : "Vamos jogar no "Tacadas Divertidas".",
+    4102 : "Vamos jogar no "Todas as Tacadas".",
     4103 : "Esse percurso é fácil demais.",
     4104 : "Esse percurso é difícil demais.",
     4105 : "Esse percurso está ótimo.",
@@ -1615,7 +1615,7 @@ SpeedChatStaticText = {
     5008 : "Vamos!",
     5009 : "Não saia dessa área ou sairá do Grupo de Abordagem.",
 
-    # Let's Go to...
+    # Let"s Go to...
     5100 : "Vamos para o Três da Frente.",
     5101 : "Vamos para o Seis do Meio.",
     5102 : "Vamos para o Nove dos Fundos.",
@@ -1633,7 +1633,7 @@ SpeedChatStaticText = {
     5114 : "Vamos para o Escritório da Lei C.",
     5115 : "Vamos para o Escritório da Lei D.",
 
-    # We're going to...
+    # We"re going to...
     5200 : "Estamos indo para o Três da Frente.",
     5201 : "Estamos indo para o Seis do Meio.",
     5202 : "Estamos indo para o Nove dos Fundos.",
@@ -1699,372 +1699,372 @@ SpeedChatStaticText = {
     20004 : SuitBrushOffs[None][4],
 
     # specific cog phrases
-    20005: SuitFaceoffTaunts['bf'][0],
-    20006: SuitFaceoffTaunts['bf'][1],
-    20007: SuitFaceoffTaunts['bf'][2],
-    20008: SuitFaceoffTaunts['bf'][3],
-    20009: SuitFaceoffTaunts['bf'][4],
-    20010: SuitFaceoffTaunts['bf'][5],
-    20011: SuitFaceoffTaunts['bf'][6],
-    20012: SuitFaceoffTaunts['bf'][7],
-    20013: SuitFaceoffTaunts['bf'][8],
-    20014: SuitFaceoffTaunts['bf'][9],
-    20015: SuitFaceoffTaunts['nc'][0],
-    20016: SuitFaceoffTaunts['nc'][1],
-    20017: SuitFaceoffTaunts['nc'][2],
-    20018: SuitFaceoffTaunts['nc'][3],
-    20019: SuitFaceoffTaunts['nc'][4],
-    20020: SuitFaceoffTaunts['nc'][5],
-    20021: SuitFaceoffTaunts['nc'][6],
-    20022: SuitFaceoffTaunts['nc'][7],
-    20023: SuitFaceoffTaunts['nc'][8],
-    20024: SuitFaceoffTaunts['nc'][9],
-    20025: SuitFaceoffTaunts['ym'][0],
-    20026: SuitFaceoffTaunts['ym'][1],
-    20027: SuitFaceoffTaunts['ym'][2],
-    20028: SuitFaceoffTaunts['ym'][3],
-    20029: SuitFaceoffTaunts['ym'][4],
-    20030: SuitFaceoffTaunts['ym'][5],
-    20031: SuitFaceoffTaunts['ym'][6],
-    20032: SuitFaceoffTaunts['ym'][7],
-    20033: SuitFaceoffTaunts['ym'][8],
-    20034: SuitFaceoffTaunts['ym'][9],
-    20035: SuitFaceoffTaunts['ym'][10],
-    20036: SuitFaceoffTaunts['ms'][0],
-    20037: SuitFaceoffTaunts['ms'][1],
-    20038: SuitFaceoffTaunts['ms'][2],
-    20039: SuitFaceoffTaunts['ms'][3],
-    20040: SuitFaceoffTaunts['ms'][4],
-    20041: SuitFaceoffTaunts['ms'][5],
-    20042: SuitFaceoffTaunts['ms'][6],
-    20043: SuitFaceoffTaunts['ms'][7],
-    20044: SuitFaceoffTaunts['ms'][8],
-    20045: SuitFaceoffTaunts['ms'][9],
-    20046: SuitFaceoffTaunts['ms'][10],
-    20047: SuitFaceoffTaunts['bc'][0],
-    20048: SuitFaceoffTaunts['bc'][1],
-    20049: SuitFaceoffTaunts['bc'][2],
-    20050: SuitFaceoffTaunts['bc'][3],
-    20051: SuitFaceoffTaunts['bc'][4],
-    20052: SuitFaceoffTaunts['bc'][5],
-    20053: SuitFaceoffTaunts['bc'][6],
-    20054: SuitFaceoffTaunts['bc'][7],
-    20055: SuitFaceoffTaunts['bc'][8],
-    20056: SuitFaceoffTaunts['bc'][9],
-    20057: SuitFaceoffTaunts['bc'][10],
-    20058: SuitFaceoffTaunts['cc'][0],
-    20059: SuitFaceoffTaunts['cc'][1],
-    20060: SuitFaceoffTaunts['cc'][2],
-    20061: SuitFaceoffTaunts['cc'][3],
-    20062: SuitFaceoffTaunts['cc'][4],
-    20063: SuitFaceoffTaunts['cc'][5],
-    20064: SuitFaceoffTaunts['cc'][6],
-    20065: SuitFaceoffTaunts['cc'][7],
-    20066: SuitFaceoffTaunts['cc'][8],
-    20067: SuitFaceoffTaunts['cc'][9],
-    20068: SuitFaceoffTaunts['cc'][10],
-    20069: SuitFaceoffTaunts['cc'][11],
-    20070: SuitFaceoffTaunts['cc'][12],
-    20071: SuitFaceoffTaunts['nd'][0],
-    20072: SuitFaceoffTaunts['nd'][1],
-    20073: SuitFaceoffTaunts['nd'][2],
-    20074: SuitFaceoffTaunts['nd'][3],
-    20075: SuitFaceoffTaunts['nd'][4],
-    20076: SuitFaceoffTaunts['nd'][5],
-    20077: SuitFaceoffTaunts['nd'][6],
-    20078: SuitFaceoffTaunts['nd'][7],
-    20079: SuitFaceoffTaunts['nd'][8],
-    20080: SuitFaceoffTaunts['nd'][9],
-    20081: SuitFaceoffTaunts['ac'][0],
-    20082: SuitFaceoffTaunts['ac'][1],
-    20083: SuitFaceoffTaunts['ac'][2],
-    20084: SuitFaceoffTaunts['ac'][3],
-    20085: SuitFaceoffTaunts['ac'][4],
-    20086: SuitFaceoffTaunts['ac'][5],
-    20087: SuitFaceoffTaunts['ac'][6],
-    20088: SuitFaceoffTaunts['ac'][7],
-    20089: SuitFaceoffTaunts['ac'][8],
-    20090: SuitFaceoffTaunts['ac'][9],
-    20091: SuitFaceoffTaunts['ac'][10],
-    20092: SuitFaceoffTaunts['ac'][11],
-    20093: SuitFaceoffTaunts['tf'][0],
-    20094: SuitFaceoffTaunts['tf'][1],
-    20095: SuitFaceoffTaunts['tf'][2],
-    20096: SuitFaceoffTaunts['tf'][3],
-    20097: SuitFaceoffTaunts['tf'][4],
-    20098: SuitFaceoffTaunts['tf'][5],
-    20099: SuitFaceoffTaunts['tf'][6],
-    20100: SuitFaceoffTaunts['tf'][7],
-    20101: SuitFaceoffTaunts['tf'][8],
-    20102: SuitFaceoffTaunts['tf'][9],
-    20103: SuitFaceoffTaunts['tf'][10],
-    20104: SuitFaceoffTaunts['hh'][0],
-    20105: SuitFaceoffTaunts['hh'][1],
-    20106: SuitFaceoffTaunts['hh'][2],
-    20107: SuitFaceoffTaunts['hh'][3],
-    20108: SuitFaceoffTaunts['hh'][4],
-    20109: SuitFaceoffTaunts['hh'][5],
-    20110: SuitFaceoffTaunts['hh'][6],
-    20111: SuitFaceoffTaunts['hh'][7],
-    20112: SuitFaceoffTaunts['hh'][8],
-    20113: SuitFaceoffTaunts['hh'][9],
-    20114: SuitFaceoffTaunts['hh'][10],
-    20115: SuitFaceoffTaunts['le'][0],
-    20116: SuitFaceoffTaunts['le'][1],
-    20117: SuitFaceoffTaunts['le'][2],
-    20118: SuitFaceoffTaunts['le'][3],
-    20119: SuitFaceoffTaunts['le'][4],
-    20120: SuitFaceoffTaunts['le'][5],
-    20121: SuitFaceoffTaunts['le'][6],
-    20122: SuitFaceoffTaunts['le'][7],
-    20123: SuitFaceoffTaunts['le'][8],
-    20124: SuitFaceoffTaunts['le'][9],
-    20125: SuitFaceoffTaunts['bs'][0],
-    20126: SuitFaceoffTaunts['bs'][1],
-    20127: SuitFaceoffTaunts['bs'][2],
-    20128: SuitFaceoffTaunts['bs'][3],
-    20129: SuitFaceoffTaunts['bs'][4],
-    20130: SuitFaceoffTaunts['bs'][5],
-    20131: SuitFaceoffTaunts['bs'][6],
-    20132: SuitFaceoffTaunts['bs'][7],
-    20133: SuitFaceoffTaunts['bs'][8],
-    20134: SuitFaceoffTaunts['bs'][9],
-    20135: SuitFaceoffTaunts['bs'][10],
-    20136: SuitFaceoffTaunts['cr'][0],
-    20137: SuitFaceoffTaunts['cr'][1],
-    20138: SuitFaceoffTaunts['cr'][2],
-    20139: SuitFaceoffTaunts['cr'][3],
-    20140: SuitFaceoffTaunts['cr'][4],
-    20141: SuitFaceoffTaunts['cr'][5],
-    20142: SuitFaceoffTaunts['cr'][6],
-    20143: SuitFaceoffTaunts['cr'][7],
-    20144: SuitFaceoffTaunts['cr'][8],
-    20145: SuitFaceoffTaunts['cr'][9],
-    20146: SuitFaceoffTaunts['tbc'][0],
-    20147: SuitFaceoffTaunts['tbc'][1],
-    20148: SuitFaceoffTaunts['tbc'][2],
-    20149: SuitFaceoffTaunts['tbc'][3],
-    20150: SuitFaceoffTaunts['tbc'][4],
-    20151: SuitFaceoffTaunts['tbc'][5],
-    20152: SuitFaceoffTaunts['tbc'][6],
-    20153: SuitFaceoffTaunts['tbc'][7],
-    20154: SuitFaceoffTaunts['tbc'][8],
-    20155: SuitFaceoffTaunts['tbc'][9],
-    20156: SuitFaceoffTaunts['tbc'][10],
-    20157: SuitFaceoffTaunts['ds'][0],
-    20158: SuitFaceoffTaunts['ds'][1],
-    20159: SuitFaceoffTaunts['ds'][2],
-    20160: SuitFaceoffTaunts['ds'][3],
-    20161: SuitFaceoffTaunts['ds'][4],
-    20162: SuitFaceoffTaunts['ds'][5],
-    20163: SuitFaceoffTaunts['ds'][6],
-    20164: SuitFaceoffTaunts['ds'][7],
-    20165: SuitFaceoffTaunts['gh'][0],
-    20166: SuitFaceoffTaunts['gh'][1],
-    20167: SuitFaceoffTaunts['gh'][2],
-    20168: SuitFaceoffTaunts['gh'][3],
-    20169: SuitFaceoffTaunts['gh'][4],
-    20170: SuitFaceoffTaunts['gh'][5],
-    20171: SuitFaceoffTaunts['gh'][6],
-    20172: SuitFaceoffTaunts['gh'][7],
-    20173: SuitFaceoffTaunts['gh'][8],
-    20174: SuitFaceoffTaunts['gh'][9],
-    20175: SuitFaceoffTaunts['gh'][10],
-    20176: SuitFaceoffTaunts['gh'][11],
-    20177: SuitFaceoffTaunts['gh'][12],
-    20178: SuitFaceoffTaunts['pp'][0],
-    20179: SuitFaceoffTaunts['pp'][1],
-    20180: SuitFaceoffTaunts['pp'][2],
-    20181: SuitFaceoffTaunts['pp'][3],
-    20182: SuitFaceoffTaunts['pp'][4],
-    20183: SuitFaceoffTaunts['pp'][5],
-    20184: SuitFaceoffTaunts['pp'][6],
-    20185: SuitFaceoffTaunts['pp'][7],
-    20186: SuitFaceoffTaunts['pp'][8],
-    20187: SuitFaceoffTaunts['pp'][9],
-    20188: SuitFaceoffTaunts['b'][0],
-    20189: SuitFaceoffTaunts['b'][1],
-    20190: SuitFaceoffTaunts['b'][2],
-    20191: SuitFaceoffTaunts['b'][3],
-    20192: SuitFaceoffTaunts['b'][4],
-    20193: SuitFaceoffTaunts['b'][5],
-    20194: SuitFaceoffTaunts['b'][6],
-    20195: SuitFaceoffTaunts['b'][7],
-    20196: SuitFaceoffTaunts['b'][8],
-    20197: SuitFaceoffTaunts['b'][9],
-    20198: SuitFaceoffTaunts['b'][10],
-    20199: SuitFaceoffTaunts['b'][11],
-    20200: SuitFaceoffTaunts['f'][0],
-    20201: SuitFaceoffTaunts['f'][1],
-    20202: SuitFaceoffTaunts['f'][2],
-    20203: SuitFaceoffTaunts['f'][3],
-    20204: SuitFaceoffTaunts['f'][4],
-    20205: SuitFaceoffTaunts['f'][5],
-    20206: SuitFaceoffTaunts['f'][6],
-    20207: SuitFaceoffTaunts['f'][7],
-    20208: SuitFaceoffTaunts['f'][8],
-    20209: SuitFaceoffTaunts['f'][9],
-    20210: SuitFaceoffTaunts['f'][10],
-    20211: SuitFaceoffTaunts['mm'][0],
-    20212: SuitFaceoffTaunts['mm'][1],
-    20213: SuitFaceoffTaunts['mm'][2],
-    20214: SuitFaceoffTaunts['mm'][3],
-    20215: SuitFaceoffTaunts['mm'][4],
-    20216: SuitFaceoffTaunts['mm'][5],
-    20217: SuitFaceoffTaunts['mm'][6],
-    20218: SuitFaceoffTaunts['mm'][7],
-    20219: SuitFaceoffTaunts['mm'][8],
-    20220: SuitFaceoffTaunts['mm'][9],
-    20221: SuitFaceoffTaunts['mm'][10],
-    20222: SuitFaceoffTaunts['mm'][11],
-    20223: SuitFaceoffTaunts['mm'][12],
-    20224: SuitFaceoffTaunts['mm'][13],
-    20225: SuitFaceoffTaunts['tw'][0],
-    20226: SuitFaceoffTaunts['tw'][1],
-    20227: SuitFaceoffTaunts['tw'][2],
-    20228: SuitFaceoffTaunts['tw'][3],
-    20229: SuitFaceoffTaunts['tw'][4],
-    20230: SuitFaceoffTaunts['tw'][5],
-    20231: SuitFaceoffTaunts['tw'][6],
-    20232: SuitFaceoffTaunts['tw'][7],
-    20233: SuitFaceoffTaunts['tw'][8],
-    20234: SuitFaceoffTaunts['tw'][9],
-    20235: SuitFaceoffTaunts['tw'][10],
-    20236: SuitFaceoffTaunts['mb'][0],
-    20237: SuitFaceoffTaunts['mb'][1],
-    20238: SuitFaceoffTaunts['mb'][2],
-    20239: SuitFaceoffTaunts['mb'][3],
-    20240: SuitFaceoffTaunts['mb'][4],
-    20241: SuitFaceoffTaunts['mb'][5],
-    20242: SuitFaceoffTaunts['mb'][6],
-    20243: SuitFaceoffTaunts['mb'][7],
-    20244: SuitFaceoffTaunts['mb'][8],
-    20245: SuitFaceoffTaunts['mb'][9],
-    20246: SuitFaceoffTaunts['m'][0],
-    20247: SuitFaceoffTaunts['m'][1],
-    20248: SuitFaceoffTaunts['m'][2],
-    20249: SuitFaceoffTaunts['m'][3],
-    20250: SuitFaceoffTaunts['m'][4],
-    20251: SuitFaceoffTaunts['m'][5],
-    20252: SuitFaceoffTaunts['m'][6],
-    20253: SuitFaceoffTaunts['m'][7],
-    20254: SuitFaceoffTaunts['m'][8],
-    20255: SuitFaceoffTaunts['mh'][0],
-    20256: SuitFaceoffTaunts['mh'][1],
-    20257: SuitFaceoffTaunts['mh'][2],
-    20258: SuitFaceoffTaunts['mh'][3],
-    20259: SuitFaceoffTaunts['mh'][4],
-    20260: SuitFaceoffTaunts['mh'][5],
-    20261: SuitFaceoffTaunts['mh'][6],
-    20262: SuitFaceoffTaunts['mh'][7],
-    20263: SuitFaceoffTaunts['mh'][8],
-    20264: SuitFaceoffTaunts['mh'][9],
-    20265: SuitFaceoffTaunts['mh'][10],
-    20266: SuitFaceoffTaunts['mh'][11],
-    20267: SuitFaceoffTaunts['dt'][0],
-    20268: SuitFaceoffTaunts['dt'][1],
-    20269: SuitFaceoffTaunts['dt'][2],
-    20270: SuitFaceoffTaunts['dt'][3],
-    20271: SuitFaceoffTaunts['dt'][4],
-    20272: SuitFaceoffTaunts['dt'][5],
-    20273: SuitFaceoffTaunts['dt'][6],
-    20274: SuitFaceoffTaunts['dt'][7],
-    20275: SuitFaceoffTaunts['dt'][8],
-    20276: SuitFaceoffTaunts['dt'][9],
-    20277: SuitFaceoffTaunts['p'][0],
-    20278: SuitFaceoffTaunts['p'][1],
-    20279: SuitFaceoffTaunts['p'][2],
-    20280: SuitFaceoffTaunts['p'][3],
-    20281: SuitFaceoffTaunts['p'][4],
-    20282: SuitFaceoffTaunts['p'][5],
-    20283: SuitFaceoffTaunts['p'][6],
-    20284: SuitFaceoffTaunts['p'][7],
-    20285: SuitFaceoffTaunts['p'][8],
-    20286: SuitFaceoffTaunts['p'][9],
-    20287: SuitFaceoffTaunts['p'][10],
-    20288: SuitFaceoffTaunts['tm'][0],
-    20289: SuitFaceoffTaunts['tm'][1],
-    20290: SuitFaceoffTaunts['tm'][2],
-    20291: SuitFaceoffTaunts['tm'][3],
-    20292: SuitFaceoffTaunts['tm'][4],
-    20293: SuitFaceoffTaunts['tm'][5],
-    20294: SuitFaceoffTaunts['tm'][6],
-    20295: SuitFaceoffTaunts['tm'][7],
-    20296: SuitFaceoffTaunts['tm'][8],
-    20297: SuitFaceoffTaunts['tm'][9],
-    20298: SuitFaceoffTaunts['tm'][10],
-    20299: SuitFaceoffTaunts['bw'][0],
-    20300: SuitFaceoffTaunts['bw'][1],
-    20301: SuitFaceoffTaunts['bw'][2],
-    20302: SuitFaceoffTaunts['bw'][3],
-    20303: SuitFaceoffTaunts['bw'][4],
-    20304: SuitFaceoffTaunts['bw'][5],
-    20305: SuitFaceoffTaunts['bw'][6],
-    20306: SuitFaceoffTaunts['bw'][7],
-    20307: SuitFaceoffTaunts['bw'][8],
-    20308: SuitFaceoffTaunts['bw'][9],
-    20309: SuitFaceoffTaunts['ls'][0],
-    20310: SuitFaceoffTaunts['ls'][1],
-    20311: SuitFaceoffTaunts['ls'][2],
-    20312: SuitFaceoffTaunts['ls'][3],
-    20313: SuitFaceoffTaunts['ls'][4],
-    20314: SuitFaceoffTaunts['ls'][5],
-    20315: SuitFaceoffTaunts['ls'][6],
-    20316: SuitFaceoffTaunts['ls'][7],
-    20317: SuitFaceoffTaunts['ls'][8],
-    20318: SuitFaceoffTaunts['ls'][9],
-    20319: SuitFaceoffTaunts['ls'][10],
-    20320: SuitFaceoffTaunts['rb'][0],
-    20321: SuitFaceoffTaunts['rb'][1],
-    20322: SuitFaceoffTaunts['rb'][2],
-    20323: SuitFaceoffTaunts['rb'][3],
-    20324: SuitFaceoffTaunts['rb'][4],
-    20325: SuitFaceoffTaunts['rb'][5],
-    20326: SuitFaceoffTaunts['rb'][6],
-    20327: SuitFaceoffTaunts['rb'][7],
-    20328: SuitFaceoffTaunts['rb'][8],
-    20329: SuitFaceoffTaunts['rb'][9],
-    20330: SuitFaceoffTaunts['sc'][0],
-    20331: SuitFaceoffTaunts['sc'][1],
-    20332: SuitFaceoffTaunts['sc'][2],
-    20333: SuitFaceoffTaunts['sc'][3],
-    20334: SuitFaceoffTaunts['sc'][4],
-    20335: SuitFaceoffTaunts['sc'][5],
-    20336: SuitFaceoffTaunts['sc'][6],
-    20337: SuitFaceoffTaunts['sc'][7],
-    20338: SuitFaceoffTaunts['sc'][8],
-    20339: SuitFaceoffTaunts['sc'][9],
-    20340: SuitFaceoffTaunts['sc'][10],
-    20341: SuitFaceoffTaunts['sd'][0],
-    20342: SuitFaceoffTaunts['sd'][1],
-    20343: SuitFaceoffTaunts['sd'][2],
-    20344: SuitFaceoffTaunts['sd'][3],
-    20345: SuitFaceoffTaunts['sd'][4],
-    20346: SuitFaceoffTaunts['sd'][5],
-    20347: SuitFaceoffTaunts['sd'][6],
-    20348: SuitFaceoffTaunts['sd'][7],
-    20349: SuitFaceoffTaunts['sd'][8],
-    20350: SuitFaceoffTaunts['sd'][9],
+    20005: SuitFaceoffTaunts["bf"][0],
+    20006: SuitFaceoffTaunts["bf"][1],
+    20007: SuitFaceoffTaunts["bf"][2],
+    20008: SuitFaceoffTaunts["bf"][3],
+    20009: SuitFaceoffTaunts["bf"][4],
+    20010: SuitFaceoffTaunts["bf"][5],
+    20011: SuitFaceoffTaunts["bf"][6],
+    20012: SuitFaceoffTaunts["bf"][7],
+    20013: SuitFaceoffTaunts["bf"][8],
+    20014: SuitFaceoffTaunts["bf"][9],
+    20015: SuitFaceoffTaunts["nc"][0],
+    20016: SuitFaceoffTaunts["nc"][1],
+    20017: SuitFaceoffTaunts["nc"][2],
+    20018: SuitFaceoffTaunts["nc"][3],
+    20019: SuitFaceoffTaunts["nc"][4],
+    20020: SuitFaceoffTaunts["nc"][5],
+    20021: SuitFaceoffTaunts["nc"][6],
+    20022: SuitFaceoffTaunts["nc"][7],
+    20023: SuitFaceoffTaunts["nc"][8],
+    20024: SuitFaceoffTaunts["nc"][9],
+    20025: SuitFaceoffTaunts["ym"][0],
+    20026: SuitFaceoffTaunts["ym"][1],
+    20027: SuitFaceoffTaunts["ym"][2],
+    20028: SuitFaceoffTaunts["ym"][3],
+    20029: SuitFaceoffTaunts["ym"][4],
+    20030: SuitFaceoffTaunts["ym"][5],
+    20031: SuitFaceoffTaunts["ym"][6],
+    20032: SuitFaceoffTaunts["ym"][7],
+    20033: SuitFaceoffTaunts["ym"][8],
+    20034: SuitFaceoffTaunts["ym"][9],
+    20035: SuitFaceoffTaunts["ym"][10],
+    20036: SuitFaceoffTaunts["ms"][0],
+    20037: SuitFaceoffTaunts["ms"][1],
+    20038: SuitFaceoffTaunts["ms"][2],
+    20039: SuitFaceoffTaunts["ms"][3],
+    20040: SuitFaceoffTaunts["ms"][4],
+    20041: SuitFaceoffTaunts["ms"][5],
+    20042: SuitFaceoffTaunts["ms"][6],
+    20043: SuitFaceoffTaunts["ms"][7],
+    20044: SuitFaceoffTaunts["ms"][8],
+    20045: SuitFaceoffTaunts["ms"][9],
+    20046: SuitFaceoffTaunts["ms"][10],
+    20047: SuitFaceoffTaunts["bc"][0],
+    20048: SuitFaceoffTaunts["bc"][1],
+    20049: SuitFaceoffTaunts["bc"][2],
+    20050: SuitFaceoffTaunts["bc"][3],
+    20051: SuitFaceoffTaunts["bc"][4],
+    20052: SuitFaceoffTaunts["bc"][5],
+    20053: SuitFaceoffTaunts["bc"][6],
+    20054: SuitFaceoffTaunts["bc"][7],
+    20055: SuitFaceoffTaunts["bc"][8],
+    20056: SuitFaceoffTaunts["bc"][9],
+    20057: SuitFaceoffTaunts["bc"][10],
+    20058: SuitFaceoffTaunts["cc"][0],
+    20059: SuitFaceoffTaunts["cc"][1],
+    20060: SuitFaceoffTaunts["cc"][2],
+    20061: SuitFaceoffTaunts["cc"][3],
+    20062: SuitFaceoffTaunts["cc"][4],
+    20063: SuitFaceoffTaunts["cc"][5],
+    20064: SuitFaceoffTaunts["cc"][6],
+    20065: SuitFaceoffTaunts["cc"][7],
+    20066: SuitFaceoffTaunts["cc"][8],
+    20067: SuitFaceoffTaunts["cc"][9],
+    20068: SuitFaceoffTaunts["cc"][10],
+    20069: SuitFaceoffTaunts["cc"][11],
+    20070: SuitFaceoffTaunts["cc"][12],
+    20071: SuitFaceoffTaunts["nd"][0],
+    20072: SuitFaceoffTaunts["nd"][1],
+    20073: SuitFaceoffTaunts["nd"][2],
+    20074: SuitFaceoffTaunts["nd"][3],
+    20075: SuitFaceoffTaunts["nd"][4],
+    20076: SuitFaceoffTaunts["nd"][5],
+    20077: SuitFaceoffTaunts["nd"][6],
+    20078: SuitFaceoffTaunts["nd"][7],
+    20079: SuitFaceoffTaunts["nd"][8],
+    20080: SuitFaceoffTaunts["nd"][9],
+    20081: SuitFaceoffTaunts["ac"][0],
+    20082: SuitFaceoffTaunts["ac"][1],
+    20083: SuitFaceoffTaunts["ac"][2],
+    20084: SuitFaceoffTaunts["ac"][3],
+    20085: SuitFaceoffTaunts["ac"][4],
+    20086: SuitFaceoffTaunts["ac"][5],
+    20087: SuitFaceoffTaunts["ac"][6],
+    20088: SuitFaceoffTaunts["ac"][7],
+    20089: SuitFaceoffTaunts["ac"][8],
+    20090: SuitFaceoffTaunts["ac"][9],
+    20091: SuitFaceoffTaunts["ac"][10],
+    20092: SuitFaceoffTaunts["ac"][11],
+    20093: SuitFaceoffTaunts["tf"][0],
+    20094: SuitFaceoffTaunts["tf"][1],
+    20095: SuitFaceoffTaunts["tf"][2],
+    20096: SuitFaceoffTaunts["tf"][3],
+    20097: SuitFaceoffTaunts["tf"][4],
+    20098: SuitFaceoffTaunts["tf"][5],
+    20099: SuitFaceoffTaunts["tf"][6],
+    20100: SuitFaceoffTaunts["tf"][7],
+    20101: SuitFaceoffTaunts["tf"][8],
+    20102: SuitFaceoffTaunts["tf"][9],
+    20103: SuitFaceoffTaunts["tf"][10],
+    20104: SuitFaceoffTaunts["hh"][0],
+    20105: SuitFaceoffTaunts["hh"][1],
+    20106: SuitFaceoffTaunts["hh"][2],
+    20107: SuitFaceoffTaunts["hh"][3],
+    20108: SuitFaceoffTaunts["hh"][4],
+    20109: SuitFaceoffTaunts["hh"][5],
+    20110: SuitFaceoffTaunts["hh"][6],
+    20111: SuitFaceoffTaunts["hh"][7],
+    20112: SuitFaceoffTaunts["hh"][8],
+    20113: SuitFaceoffTaunts["hh"][9],
+    20114: SuitFaceoffTaunts["hh"][10],
+    20115: SuitFaceoffTaunts["le"][0],
+    20116: SuitFaceoffTaunts["le"][1],
+    20117: SuitFaceoffTaunts["le"][2],
+    20118: SuitFaceoffTaunts["le"][3],
+    20119: SuitFaceoffTaunts["le"][4],
+    20120: SuitFaceoffTaunts["le"][5],
+    20121: SuitFaceoffTaunts["le"][6],
+    20122: SuitFaceoffTaunts["le"][7],
+    20123: SuitFaceoffTaunts["le"][8],
+    20124: SuitFaceoffTaunts["le"][9],
+    20125: SuitFaceoffTaunts["bs"][0],
+    20126: SuitFaceoffTaunts["bs"][1],
+    20127: SuitFaceoffTaunts["bs"][2],
+    20128: SuitFaceoffTaunts["bs"][3],
+    20129: SuitFaceoffTaunts["bs"][4],
+    20130: SuitFaceoffTaunts["bs"][5],
+    20131: SuitFaceoffTaunts["bs"][6],
+    20132: SuitFaceoffTaunts["bs"][7],
+    20133: SuitFaceoffTaunts["bs"][8],
+    20134: SuitFaceoffTaunts["bs"][9],
+    20135: SuitFaceoffTaunts["bs"][10],
+    20136: SuitFaceoffTaunts["cr"][0],
+    20137: SuitFaceoffTaunts["cr"][1],
+    20138: SuitFaceoffTaunts["cr"][2],
+    20139: SuitFaceoffTaunts["cr"][3],
+    20140: SuitFaceoffTaunts["cr"][4],
+    20141: SuitFaceoffTaunts["cr"][5],
+    20142: SuitFaceoffTaunts["cr"][6],
+    20143: SuitFaceoffTaunts["cr"][7],
+    20144: SuitFaceoffTaunts["cr"][8],
+    20145: SuitFaceoffTaunts["cr"][9],
+    20146: SuitFaceoffTaunts["tbc"][0],
+    20147: SuitFaceoffTaunts["tbc"][1],
+    20148: SuitFaceoffTaunts["tbc"][2],
+    20149: SuitFaceoffTaunts["tbc"][3],
+    20150: SuitFaceoffTaunts["tbc"][4],
+    20151: SuitFaceoffTaunts["tbc"][5],
+    20152: SuitFaceoffTaunts["tbc"][6],
+    20153: SuitFaceoffTaunts["tbc"][7],
+    20154: SuitFaceoffTaunts["tbc"][8],
+    20155: SuitFaceoffTaunts["tbc"][9],
+    20156: SuitFaceoffTaunts["tbc"][10],
+    20157: SuitFaceoffTaunts["ds"][0],
+    20158: SuitFaceoffTaunts["ds"][1],
+    20159: SuitFaceoffTaunts["ds"][2],
+    20160: SuitFaceoffTaunts["ds"][3],
+    20161: SuitFaceoffTaunts["ds"][4],
+    20162: SuitFaceoffTaunts["ds"][5],
+    20163: SuitFaceoffTaunts["ds"][6],
+    20164: SuitFaceoffTaunts["ds"][7],
+    20165: SuitFaceoffTaunts["gh"][0],
+    20166: SuitFaceoffTaunts["gh"][1],
+    20167: SuitFaceoffTaunts["gh"][2],
+    20168: SuitFaceoffTaunts["gh"][3],
+    20169: SuitFaceoffTaunts["gh"][4],
+    20170: SuitFaceoffTaunts["gh"][5],
+    20171: SuitFaceoffTaunts["gh"][6],
+    20172: SuitFaceoffTaunts["gh"][7],
+    20173: SuitFaceoffTaunts["gh"][8],
+    20174: SuitFaceoffTaunts["gh"][9],
+    20175: SuitFaceoffTaunts["gh"][10],
+    20176: SuitFaceoffTaunts["gh"][11],
+    20177: SuitFaceoffTaunts["gh"][12],
+    20178: SuitFaceoffTaunts["pp"][0],
+    20179: SuitFaceoffTaunts["pp"][1],
+    20180: SuitFaceoffTaunts["pp"][2],
+    20181: SuitFaceoffTaunts["pp"][3],
+    20182: SuitFaceoffTaunts["pp"][4],
+    20183: SuitFaceoffTaunts["pp"][5],
+    20184: SuitFaceoffTaunts["pp"][6],
+    20185: SuitFaceoffTaunts["pp"][7],
+    20186: SuitFaceoffTaunts["pp"][8],
+    20187: SuitFaceoffTaunts["pp"][9],
+    20188: SuitFaceoffTaunts["b"][0],
+    20189: SuitFaceoffTaunts["b"][1],
+    20190: SuitFaceoffTaunts["b"][2],
+    20191: SuitFaceoffTaunts["b"][3],
+    20192: SuitFaceoffTaunts["b"][4],
+    20193: SuitFaceoffTaunts["b"][5],
+    20194: SuitFaceoffTaunts["b"][6],
+    20195: SuitFaceoffTaunts["b"][7],
+    20196: SuitFaceoffTaunts["b"][8],
+    20197: SuitFaceoffTaunts["b"][9],
+    20198: SuitFaceoffTaunts["b"][10],
+    20199: SuitFaceoffTaunts["b"][11],
+    20200: SuitFaceoffTaunts["f"][0],
+    20201: SuitFaceoffTaunts["f"][1],
+    20202: SuitFaceoffTaunts["f"][2],
+    20203: SuitFaceoffTaunts["f"][3],
+    20204: SuitFaceoffTaunts["f"][4],
+    20205: SuitFaceoffTaunts["f"][5],
+    20206: SuitFaceoffTaunts["f"][6],
+    20207: SuitFaceoffTaunts["f"][7],
+    20208: SuitFaceoffTaunts["f"][8],
+    20209: SuitFaceoffTaunts["f"][9],
+    20210: SuitFaceoffTaunts["f"][10],
+    20211: SuitFaceoffTaunts["mm"][0],
+    20212: SuitFaceoffTaunts["mm"][1],
+    20213: SuitFaceoffTaunts["mm"][2],
+    20214: SuitFaceoffTaunts["mm"][3],
+    20215: SuitFaceoffTaunts["mm"][4],
+    20216: SuitFaceoffTaunts["mm"][5],
+    20217: SuitFaceoffTaunts["mm"][6],
+    20218: SuitFaceoffTaunts["mm"][7],
+    20219: SuitFaceoffTaunts["mm"][8],
+    20220: SuitFaceoffTaunts["mm"][9],
+    20221: SuitFaceoffTaunts["mm"][10],
+    20222: SuitFaceoffTaunts["mm"][11],
+    20223: SuitFaceoffTaunts["mm"][12],
+    20224: SuitFaceoffTaunts["mm"][13],
+    20225: SuitFaceoffTaunts["tw"][0],
+    20226: SuitFaceoffTaunts["tw"][1],
+    20227: SuitFaceoffTaunts["tw"][2],
+    20228: SuitFaceoffTaunts["tw"][3],
+    20229: SuitFaceoffTaunts["tw"][4],
+    20230: SuitFaceoffTaunts["tw"][5],
+    20231: SuitFaceoffTaunts["tw"][6],
+    20232: SuitFaceoffTaunts["tw"][7],
+    20233: SuitFaceoffTaunts["tw"][8],
+    20234: SuitFaceoffTaunts["tw"][9],
+    20235: SuitFaceoffTaunts["tw"][10],
+    20236: SuitFaceoffTaunts["mb"][0],
+    20237: SuitFaceoffTaunts["mb"][1],
+    20238: SuitFaceoffTaunts["mb"][2],
+    20239: SuitFaceoffTaunts["mb"][3],
+    20240: SuitFaceoffTaunts["mb"][4],
+    20241: SuitFaceoffTaunts["mb"][5],
+    20242: SuitFaceoffTaunts["mb"][6],
+    20243: SuitFaceoffTaunts["mb"][7],
+    20244: SuitFaceoffTaunts["mb"][8],
+    20245: SuitFaceoffTaunts["mb"][9],
+    20246: SuitFaceoffTaunts["m"][0],
+    20247: SuitFaceoffTaunts["m"][1],
+    20248: SuitFaceoffTaunts["m"][2],
+    20249: SuitFaceoffTaunts["m"][3],
+    20250: SuitFaceoffTaunts["m"][4],
+    20251: SuitFaceoffTaunts["m"][5],
+    20252: SuitFaceoffTaunts["m"][6],
+    20253: SuitFaceoffTaunts["m"][7],
+    20254: SuitFaceoffTaunts["m"][8],
+    20255: SuitFaceoffTaunts["mh"][0],
+    20256: SuitFaceoffTaunts["mh"][1],
+    20257: SuitFaceoffTaunts["mh"][2],
+    20258: SuitFaceoffTaunts["mh"][3],
+    20259: SuitFaceoffTaunts["mh"][4],
+    20260: SuitFaceoffTaunts["mh"][5],
+    20261: SuitFaceoffTaunts["mh"][6],
+    20262: SuitFaceoffTaunts["mh"][7],
+    20263: SuitFaceoffTaunts["mh"][8],
+    20264: SuitFaceoffTaunts["mh"][9],
+    20265: SuitFaceoffTaunts["mh"][10],
+    20266: SuitFaceoffTaunts["mh"][11],
+    20267: SuitFaceoffTaunts["dt"][0],
+    20268: SuitFaceoffTaunts["dt"][1],
+    20269: SuitFaceoffTaunts["dt"][2],
+    20270: SuitFaceoffTaunts["dt"][3],
+    20271: SuitFaceoffTaunts["dt"][4],
+    20272: SuitFaceoffTaunts["dt"][5],
+    20273: SuitFaceoffTaunts["dt"][6],
+    20274: SuitFaceoffTaunts["dt"][7],
+    20275: SuitFaceoffTaunts["dt"][8],
+    20276: SuitFaceoffTaunts["dt"][9],
+    20277: SuitFaceoffTaunts["p"][0],
+    20278: SuitFaceoffTaunts["p"][1],
+    20279: SuitFaceoffTaunts["p"][2],
+    20280: SuitFaceoffTaunts["p"][3],
+    20281: SuitFaceoffTaunts["p"][4],
+    20282: SuitFaceoffTaunts["p"][5],
+    20283: SuitFaceoffTaunts["p"][6],
+    20284: SuitFaceoffTaunts["p"][7],
+    20285: SuitFaceoffTaunts["p"][8],
+    20286: SuitFaceoffTaunts["p"][9],
+    20287: SuitFaceoffTaunts["p"][10],
+    20288: SuitFaceoffTaunts["tm"][0],
+    20289: SuitFaceoffTaunts["tm"][1],
+    20290: SuitFaceoffTaunts["tm"][2],
+    20291: SuitFaceoffTaunts["tm"][3],
+    20292: SuitFaceoffTaunts["tm"][4],
+    20293: SuitFaceoffTaunts["tm"][5],
+    20294: SuitFaceoffTaunts["tm"][6],
+    20295: SuitFaceoffTaunts["tm"][7],
+    20296: SuitFaceoffTaunts["tm"][8],
+    20297: SuitFaceoffTaunts["tm"][9],
+    20298: SuitFaceoffTaunts["tm"][10],
+    20299: SuitFaceoffTaunts["bw"][0],
+    20300: SuitFaceoffTaunts["bw"][1],
+    20301: SuitFaceoffTaunts["bw"][2],
+    20302: SuitFaceoffTaunts["bw"][3],
+    20303: SuitFaceoffTaunts["bw"][4],
+    20304: SuitFaceoffTaunts["bw"][5],
+    20305: SuitFaceoffTaunts["bw"][6],
+    20306: SuitFaceoffTaunts["bw"][7],
+    20307: SuitFaceoffTaunts["bw"][8],
+    20308: SuitFaceoffTaunts["bw"][9],
+    20309: SuitFaceoffTaunts["ls"][0],
+    20310: SuitFaceoffTaunts["ls"][1],
+    20311: SuitFaceoffTaunts["ls"][2],
+    20312: SuitFaceoffTaunts["ls"][3],
+    20313: SuitFaceoffTaunts["ls"][4],
+    20314: SuitFaceoffTaunts["ls"][5],
+    20315: SuitFaceoffTaunts["ls"][6],
+    20316: SuitFaceoffTaunts["ls"][7],
+    20317: SuitFaceoffTaunts["ls"][8],
+    20318: SuitFaceoffTaunts["ls"][9],
+    20319: SuitFaceoffTaunts["ls"][10],
+    20320: SuitFaceoffTaunts["rb"][0],
+    20321: SuitFaceoffTaunts["rb"][1],
+    20322: SuitFaceoffTaunts["rb"][2],
+    20323: SuitFaceoffTaunts["rb"][3],
+    20324: SuitFaceoffTaunts["rb"][4],
+    20325: SuitFaceoffTaunts["rb"][5],
+    20326: SuitFaceoffTaunts["rb"][6],
+    20327: SuitFaceoffTaunts["rb"][7],
+    20328: SuitFaceoffTaunts["rb"][8],
+    20329: SuitFaceoffTaunts["rb"][9],
+    20330: SuitFaceoffTaunts["sc"][0],
+    20331: SuitFaceoffTaunts["sc"][1],
+    20332: SuitFaceoffTaunts["sc"][2],
+    20333: SuitFaceoffTaunts["sc"][3],
+    20334: SuitFaceoffTaunts["sc"][4],
+    20335: SuitFaceoffTaunts["sc"][5],
+    20336: SuitFaceoffTaunts["sc"][6],
+    20337: SuitFaceoffTaunts["sc"][7],
+    20338: SuitFaceoffTaunts["sc"][8],
+    20339: SuitFaceoffTaunts["sc"][9],
+    20340: SuitFaceoffTaunts["sc"][10],
+    20341: SuitFaceoffTaunts["sd"][0],
+    20342: SuitFaceoffTaunts["sd"][1],
+    20343: SuitFaceoffTaunts["sd"][2],
+    20344: SuitFaceoffTaunts["sd"][3],
+    20345: SuitFaceoffTaunts["sd"][4],
+    20346: SuitFaceoffTaunts["sd"][5],
+    20347: SuitFaceoffTaunts["sd"][6],
+    20348: SuitFaceoffTaunts["sd"][7],
+    20349: SuitFaceoffTaunts["sd"][8],
+    20350: SuitFaceoffTaunts["sd"][9],
 
     # Pets/Doodles
-    21000: 'Aqui, amigão!',
-    21001: 'Aqui, amigona!',
-    21002: 'Parado.',
-    21003: 'Bom garoto!',
-    21004: 'Boa menina!',
-    21005: 'Rabisco bonzinho.',
-    21006: 'Por favor, não me chateie.',
+    21000: "Aqui, amigão!",
+    21001: "Aqui, amigona!",
+    21002: "Parado.",
+    21003: "Bom garoto!",
+    21004: "Boa menina!",
+    21005: "Rabisco bonzinho.",
+    21006: "Por favor, não me chateie.",
 
     # Pet/Doodle Tricks
-    21200: 'Pula!',
-    21201: 'Dá a pata!',
-    21202: 'Finge de morto!',
-    21203: 'Rola!',
-    21204: 'Faz cambalhota!',
-    21205: 'Dança!',
-    21206: 'Fala!',
+    21200: "Pula!",
+    21201: "Dá a pata!",
+    21202: "Finge de morto!",
+    21203: "Rola!",
+    21204: "Faz cambalhota!",
+    21205: "Dança!",
+    21206: "Fala!",
 
-    # Phrases for April Toon's week
+    # Phrases for April Toon"s week
     30100: "Feliz Dia da Semana dos Toons de Abril!",
     30101: "Bem-vindo à minha festa da Semana dos Toons de Abril!",
     30102: "O Medidor de Bobagem está de volta ao Prefeitoona!",
@@ -2235,11 +2235,11 @@ SpeedChatStaticText = {
     }
 
 SpeedChatStaticTextPirates = {
-    50001 : 'Sim',
-    50002 : 'Não',
-    50003 : 'Arrr!',
+    50001 : "Sim",
+    50002 : "Não",
+    50003 : "Arrr!",
     50004 : "Sim, sim, Capitão!",
-    50005 : 'Ok',
+    50005 : "Ok",
 
     # EXPRESSIONS
     50100 : "Todos a bordo!",
@@ -2252,7 +2252,7 @@ SpeedChatStaticTextPirates = {
     50107 : "Claro, claro, Capitão!",
     50108 : "Ande na prancha!",
     50109 : "Ah, bem, alguns dias você vence, alguns dias você nada.",
-    50110 : 'Não vai sobrar ninguém para contar a história....',
+    50110 : "Não vai sobrar ninguém para contar a história....",
     50111 : "Seus olhos nunca viram um bando de canalhas melhor!",
     50112 : "Se me enganar uma vez, a vergonha é minha. Se me enganar duas vezes, boa sorte no armário de Davy Jones.",
     50113 : "Prepare sua bravura, içe as velas, um pirata do caribe nunca falha!",
@@ -2331,7 +2331,7 @@ SpeedChatStaticTextPirates = {
     51500 : "Vamos navegar para Port Royal.",
     51501 : "Vamos navegar para Tortuga.",
     51502 : "Vamos navegar para Padres Del Fuego.",
-    51503 : "Vamos navegar para Devil's Anvil.",
+    51503 : "Vamos navegar para Devil"s Anvil.",
     51504 : "Vamos navegar para Kingshead.",
     51505 : "Vamos navegar para Isla Perdida.",
     51506 : "Vamos navegar para Cuba.",
@@ -2339,7 +2339,7 @@ SpeedChatStaticTextPirates = {
     51508 : "Vamos navegar para Outcast Isle.",
     51509 : "Vamos navegar para Driftwood.",
     51510 : "Vamos navegar para Cutthroat.",
-    51511 : "Vamos navegar para Rumrunner's Isle.",
+    51511 : "Vamos navegar para Rumrunner"s Isle.",
     51512 : "Vamos navegar para Isla Cangrejos.",
       
     # PLACES - LETS HEAD TO...
@@ -2657,7 +2657,7 @@ CustomSCStrings = {
     180 : "Vejo você amanhã.",
     190 : "Até a próxima.",
     200 : "Tchau-tchau, pica-pau.",
-    210 : "Até outra hora, galinha d'angola.",
+    210 : "Até outra hora, galinha d"angola.",
     220 : "Vou precisar ir daqui a pouco.",
     230 : "Não conheço isso!",
     240 : "Você está fora daqui!",
@@ -3028,8 +3028,8 @@ CustomSCStrings = {
     11018 : "Até o Natal, tudo bem!",
     11019 : "Você vai se \"arrenapender\"!",
     11020 : "Tenha um inverno maravilhoso!",
-    11021 : 'As decorações da Festa de Natal estão Toontásticas!',
-    11022 : 'Tropas de Toons estão promovendo as Festas de Natal!',
+    11021 : "As decorações da Festa de Natal estão Toontásticas!",
+    11022 : "Tropas de Toons estão promovendo as Festas de Natal!",
 
     # Valentines
     12000 : "Fica comigo!",
@@ -3086,38 +3086,38 @@ CustomSCStrings = {
 # indices into cog phrase arrays
 SCMenuCommonCogIndices = (20000, 20004)
 SCMenuCustomCogIndices = {
-    'bf' : (20005, 20014),
-    'nc' : (20015, 20024),
-    'ym' : (20025, 20035),
-    'ms' : (20036, 20046),
-    'bc' : (20047, 20057),
-    'cc' : (20058, 20070),
-    'nd' : (20071, 20080),
-    'ac' : (20081, 20092),
-    'tf' : (20093, 20103),
-    'hh' : (20104, 20114),
-    'le' : (20115, 20124),
-    'bs' : (20125, 20135),
-    'cr' : (20136, 20145),
-    'tbc' : (20146, 20156),
-    'ds' : (20157, 20164),
-    'gh' : (20165, 20177),
-    'pp' : (20178, 20187),
-    'b' : (20188, 20199),
-    'f' : (20200, 20210),
-    'mm' : (20211, 20224),
-    'tw' : (20225, 20235),
-    'mb' : (20236, 20245),
-    'm' : (20246, 20254),
-    'mh' : (20255, 20266),
-    'dt' : (20267, 20276),
-    'p' : (20277, 20287),
-    'tm' : (20288, 20298),
-    'bw' : (20299, 20308),
-    'ls' : (20309, 20319),
-    'rb' : (20320, 20329),
-    'sc' : (20330, 20331),
-    'sd' : (20341, 20350),
+    "bf" : (20005, 20014),
+    "nc" : (20015, 20024),
+    "ym" : (20025, 20035),
+    "ms" : (20036, 20046),
+    "bc" : (20047, 20057),
+    "cc" : (20058, 20070),
+    "nd" : (20071, 20080),
+    "ac" : (20081, 20092),
+    "tf" : (20093, 20103),
+    "hh" : (20104, 20114),
+    "le" : (20115, 20124),
+    "bs" : (20125, 20135),
+    "cr" : (20136, 20145),
+    "tbc" : (20146, 20156),
+    "ds" : (20157, 20164),
+    "gh" : (20165, 20177),
+    "pp" : (20178, 20187),
+    "b" : (20188, 20199),
+    "f" : (20200, 20210),
+    "mm" : (20211, 20224),
+    "tw" : (20225, 20235),
+    "mb" : (20236, 20245),
+    "m" : (20246, 20254),
+    "mh" : (20255, 20266),
+    "dt" : (20267, 20276),
+    "p" : (20277, 20287),
+    "tm" : (20288, 20298),
+    "bw" : (20299, 20308),
+    "ls" : (20309, 20319),
+    "rb" : (20320, 20329),
+    "sc" : (20330, 20331),
+    "sd" : (20341, 20350),
     }
 
 
@@ -3212,26 +3212,26 @@ CopyrightedNames = (
     )
 
 # NameCheck.py
-NCTooShort = 'Este nome é muito curto.'
-NCNoDigits = 'O nome não pode conter números.'
-NCNeedLetters = 'Cada palavra do nome deve conter algumas letras.'
-NCNeedVowels = 'Cada palavra do nome deve conter algumas vogais.'
-NCAllCaps = 'O seu nome não pode estar todo em maiúscula.'
-NCMixedCase = 'Este nome tem muitas letras em minúscula.'
-NCBadCharacter = "O seu nome não pode conter o caractere '%s'"
-NCRepeatedChar = "Your name has too many of the character '%s'"
-NCGeneric = 'Sinto muito, este nome não vai funcionar.'
-NCTooManyWords = 'O seu nome não pode ter mais de quatro palavras.'
+NCTooShort = "Este nome é muito curto."
+NCNoDigits = "O nome não pode conter números."
+NCNeedLetters = "Cada palavra do nome deve conter algumas letras."
+NCNeedVowels = "Cada palavra do nome deve conter algumas vogais."
+NCAllCaps = "O seu nome não pode estar todo em maiúscula."
+NCMixedCase = "Este nome tem muitas letras em minúscula."
+NCBadCharacter = "O seu nome não pode conter o caractere "%s""
+NCRepeatedChar = "Your name has too many of the character "%s""
+NCGeneric = "Sinto muito, este nome não vai funcionar."
+NCTooManyWords = "O seu nome não pode ter mais de quatro palavras."
 NCDashUsage = ("Hífens podem ser usados apenas para ligar duas palavras" 
-               "(como em 'Bu-Bu').")
+               "(como em "Bu-Bu").")
 NCCommaEdge = "O seu nome não pode começar ou terminar com vírgula."
 NCCommaAfterWord = "Você não pode começar uma palavra com vírgula."
-NCCommaUsage = ('Este nome não usa vírgulas corretamente. As vírgulas devem' 
-                'juntar duas palavras, como no nome "Dr. Quack, MD".' 
-                'As vírgulas devem também ser seguidas por um espaço.')
-NCPeriodUsage = ('Este nome não usa pontos corretamente. Os pontos são permitidos' 
-                 'somente em palavras como "Sr.", "Sra.", "J.P." etc.')
-NCApostrophes = 'Este nome tem muitos apóstrofos.'
+NCCommaUsage = ("Este nome não usa vírgulas corretamente. As vírgulas devem" 
+                "juntar duas palavras, como no nome "Dr. Quack, MD"." 
+                "As vírgulas devem também ser seguidas por um espaço.")
+NCPeriodUsage = ("Este nome não usa pontos corretamente. Os pontos são permitidos" 
+                 "somente em palavras como "Sr.", "Sra.", "J.P." etc.")
+NCApostrophes = "Este nome tem muitos apóstrofos."
 
 # AvatarDetailPanel.py
 AvatarDetailPanelOK = lOK
@@ -3320,23 +3320,23 @@ BoardingMenuSections = [
 
 SellbotNerfMenuSections = [
  -1,
- 'REUNINDO',
- 'TORRES/VP Robô Vendedor',
+ "REUNINDO",
+ "TORRES/VP Robô Vendedor",
 ]
 
 LawbotNerfMenuSections = [
  -1,
- 'REUNINDO',
- 'COURTHOUSE/CJ',
+ "REUNINDO",
+ "COURTHOUSE/CJ",
 ]
 
 JellybeanJamMenuSections = [
- 'OBTER BALINHAS',
- 'GASTAR BALINHAS',
+ "OBTER BALINHAS",
+ "GASTAR BALINHAS",
 ]
 
 WinterMenuSections = [
- 'CANÇÕES NATALINAS',
+ "CANÇÕES NATALINAS",
  -1,
 ]
 
@@ -3359,7 +3359,7 @@ SellbotInvasionMenuSections = [
 
 SellbotFieldOfficeMenuSections = [
  -1,
- 'ESTRATÉGIA',
+ "ESTRATÉGIA",
 ]
 
 IdesOfMarchMenuSections = [
