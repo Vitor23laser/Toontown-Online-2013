@@ -11,9 +11,6 @@ for key in OL.SpeedChatStaticTextCommon.iterkeys():
 # DO NOT TRANSLATE THIS
 ExtraKeySanityCheck = "Ignore-me"
 
-commitmanString = "bugfix! I changed this"
-commitmanSting2 = "another string!"
-
 commitmantst = "kptmptest - removable"
 
 InterfaceFont = 'phase_3/models/fonts/ImpressBT.ttf'
@@ -11782,6 +11779,7 @@ HolidayNamesInCalendar = {
    24: ("Idos de Março", "Cuidado com os Idos de Março! Impeça que os Cogs Golpe Sujo invadam Toontown!"),
    26: ("Decoração de Halloween", "Comemore o Halloween deixando as árvores e  postes de iluminação de Toontown assustadores!"),
    28: ("Invasão de Inverno", "Os robôs vendedores estão à solta espalhando suas táticas de vendas frias!"),
+   29: ("Semana dos Toons de Abril", "Comemore a Semana dos Toons de Abril - um feriado construido por Toon para Toons!"),
    33: ("Surpresa de Robô Vendedor 1", "Surpresa de Robô Vendedor! Impeça que os Cogs Reis da Incerta invadam Toontown!"),
    34: ("Surpresa de Robô Vendedor 2", "Surpresa de Robô Vendedor! Impeça que os Cogs Sabe-com-quem-está-falando invadam Toontown!"),
    35: ("Surpresa de Robô Vendedor 3", "Surpresa de Robô Vendedor! Impeça que os Cogs Amigos da Onça invadam Toontown!"),
