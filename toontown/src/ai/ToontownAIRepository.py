@@ -969,7 +969,7 @@ class ToontownAIRepository(AIDistrict):
             callback(estateId, estateVal, numHouses, houseId, houseVal,
                      petIds, estateVal)
         else:
-            print "ret code != 0, something went wrong with estate creation"
+            print("ret code != 0, something went wrong with estate creation")
 
     def getFirstBattle(self):
         # Return the first battle in the repository (for testing purposes)
